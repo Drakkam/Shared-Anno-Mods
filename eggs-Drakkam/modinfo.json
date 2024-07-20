@@ -1,0 +1,45 @@
+{
+  "Version": "1.0.0",
+  "ModID": "eggs-Drakkam",
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Eggs (Drakkam)",
+    "Chinese": "Eggs (Drakkam)",
+    "French": "Eggs (Drakkam)",
+    "German": "Eggs (Drakkam)",
+    "Italian": "Eggs (Drakkam)",
+    "Japanese": "Eggs (Drakkam)",
+    "Korean": "Eggs (Drakkam)",
+    "Polish": "Eggs (Drakkam)",
+    "Russian": "Eggs (Drakkam)",
+    "Spanish": "Eggs (Drakkam)",
+    "Taiwanese": "Eggs (Drakkam)"
+  },
+  "CreatorName": "Drakkam",
+  "CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+  "Description": {
+    "English": "README.md",
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

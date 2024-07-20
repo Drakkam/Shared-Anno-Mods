@@ -1,0 +1,227 @@
+<ModOps>
+  <!-- # Includes -->
+  <Include File="./productlists.include.xml" />
+
+<!-- # Assets -->
+  <!-- Chicken Farm 1555000102-->
+  <ModOp Type="addNextSibling" GUID="1010267">
+    <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000102</GUID>
+                <Name>Chicken Farm</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_Eggs.png</IconFilename>
+            </Standard>
+            <Building>
+                <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                <AssociatedRegions>Moderate</AssociatedRegions>
+                <TerrainType>Terrain</TerrainType>
+            </Building>
+            <Cost>
+                <Costs>
+                    <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>200</Amount>
+                    </Item>
+                    <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>2</Amount>
+                    </Item>
+                </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Farm.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Selection>
+                <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+            </Selection>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Chicken Farm</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+            <SoundEmitter>
+                <ActiveSounds>
+                    <Item>
+                        <Sound>216883</Sound>
+                    </Item>
+                    <Item>
+                        <Sound>203632</Sound>
+                    </Item>
+                </ActiveSounds>
+            </SoundEmitter>
+            <Factory7>
+              <IsAgriculture>0</IsAgriculture>
+            </Factory7>
+            <FactoryBase>
+          <IsMainFactory>1</IsMainFactory>
+            <FactoryOutputs>
+              <Item>
+                <Product>1555000100</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+            </FactoryBase>
+            <ModuleOwner>
+              <!-- Silo -->
+              <!-- Goose Pen -->
+              <FarmType>AnimalFarm</FarmType>
+              <ModuleBuildRadius>7</ModuleBuildRadius>
+              <ModuleLimits>
+                <Main>
+                  <Limit>5</Limit>
+                </Main>
+              </ModuleLimits>
+              <ConstructionOptions>
+                <Item>
+                  <ModuleGUID>1555000103</ModuleGUID>
+                </Item>
+              </ConstructionOptions>
+              <AdditionalModule>269957</AdditionalModule>
+              <EnableIrrigationFertilizer/>
+            </ModuleOwner>
+            <Maintenance>
+                <Maintenances>
+                    <Item>
+                        <Product>1010017</Product> <!-- Amount of coins upkeep -->
+                        <Amount>30</Amount>
+                        <InactiveAmount>15</InactiveAmount>
+                    </Item>
+                    <Item>
+                        <Product>1010052</Product> <!-- Amount of Workforce - Farmers -->
+                        <Amount>10</Amount>
+                    </Item>
+                </Maintenances>
+            </Maintenance>
+            <Industrializable>
+                <BoostedByIndustrialization>1</BoostedByIndustrialization>
+            </Industrializable>
+          <Motorizable>
+            <MotorizableType>Silo</MotorizableType>
+          </Motorizable>
+        </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Chicken Farm Field 1555000103-->
+  <ModOp Type="addNextSibling" GUID="1010271">
+    <Asset>
+      <Template>Farmfield</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000103</GUID> 
+          <Name>Chicken Farm Field</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+          <InfoDescription>15222</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <TerrainType>Terrain</TerrainType>
+      </Building>
+        <Blocking>
+          <GroundDecalAsset>102508</GroundDecalAsset>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop2.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Chicken Farm Field</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>35089</LineID>
+        </Text>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter/>
+        <FeedbackController/>
+        <Infolayer/>
+        <BuildingModule/>
+        <AmbientMoodProvider/>
+        <ModuleIrrigation/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Feedback -->
+  <ModOp Type="add" GUID="142309" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000102</Building>
+    </Item>
+  </ModOp>
+
+  <!-- # Targets -->
+  <!-- general production targets -->
+  <ModOp Type="add" GUID="368,6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000102</GUID>
+    </Item>
+  </ModOp>
+  <!-- Farms -->
+  <ModOp Type="add" GUID="190011,190872,1965,269564" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000102</GUID>
+    </Item>
+  </ModOp>
+  <!-- Farms -->
+  <ModOp Type="add" GUID="269564" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000102</GUID>
+    </Item>
+  </ModOp>
+  <!-- boostable buildings -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1555000102</Factory>
+    </Item>
+  </ModOp>
+</ModOps>

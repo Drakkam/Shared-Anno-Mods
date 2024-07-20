@@ -1,0 +1,13 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010822</GUID>
+      <Text>Cordaio</Text>
+    </Text>
+    <Text>
+      <GUID>1500011520</GUID>
+      <!-- Mod origin/name -->
+      <Text>Shared Mod (Jakob)</Text>
+    </Text>
+  </ModOp>
+</ModOps>

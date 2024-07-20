@@ -1,0 +1,82 @@
+<ModOps>
+  <!-- # Product -->
+<!-- Eggs (1555000100)-->
+<ModOp Type="addNextSibling" GUID="1010200">
+  <Asset>
+    <Template>Product</Template>
+    <Values>
+      <Standard>
+        <GUID>1555000100</GUID>
+        <Name>Eggs</Name>
+        <IconFilename>data/ui/Drakkam/icons/icon_Eggs.png</IconFilename>
+        <InfoDescription>1555000101</InfoDescription>
+      </Standard>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Eggs</Text>
+            <Status>Exported</Status>
+            <ExportCount>1</ExportCount>
+          </English>
+        </LocaText>
+      </Text>
+      <Product>
+        <ProductCategory>11704</ProductCategory> <!-- Supply -->
+        <BasePrice>10</BasePrice>
+        <CivLevel>1</CivLevel>
+        <AssociatedRegion>Moderate</AssociatedRegion>
+        <StorageLevel>Building</StorageLevel>
+        <ProductionRegions>
+          <Item>
+            <RegionType>Moderate</RegionType>
+          </Item>
+        </ProductionRegions>
+      </Product>
+      <ExpeditionAttribute>
+        <BaseMorale>0</BaseMorale>
+        <ExpeditionAttributes>
+        </ExpeditionAttributes>
+      </ExpeditionAttribute>
+    </Values>
+  </Asset>
+</ModOp>
+
+  <!-- Eggs: after Work Cloths -->
+  <ModOp Type="addNextSibling" GUID="120055"
+    Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000100']"
+    Path="/Values/ProductStorageList/ProductList/Item[Product='1010237']">
+    <Item>
+      <Product>1555000100</Product>
+    </Item>
+  </ModOp>
+
+<!-- Eggs -->
+  <!-- Eggs: After Work Cloths -->
+  <ModOp Type="addNextSibling" GUID="502004,502037"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000100']"
+    Path="/Values/ProductList/List/Item[Product='1010198']">
+    <Item>
+      <Product>1555000100</Product>
+    </Item>
+  </ModOp>
+
+  <!-- # Docklands -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1555000100']">
+    <ModOp Type="addPrevSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010199']">
+      <Item>
+        <Good>1555000100</Good>
+      </Item>
+    </ModOp>
+  </Group>
+  <ModOp Type="add" GUID="502233"
+  Condition="!/Values/ProductList/List/Item[Product='1555000100']"
+  Path="/Values/ProductList">
+    <Item>
+      <Product>1555000100</Product>
+    </Item>
+  </ModOp>
+
+  <!-- # Expeditions -->
+  <!-- nope -->
+</ModOps>
