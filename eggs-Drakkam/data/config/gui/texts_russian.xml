@@ -1,8 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>1500010825</GUID>
-      <Text>Верёвки</Text>
+      <GUID>1555000100</GUID>
+      <Text>Яйца</Text>
+    </Text>
+    <Text>
+      <GUID>1555000101</GUID>
+      <Text>Куриные яйца</Text>
     </Text>
   </ModOp>
 </ModOps>

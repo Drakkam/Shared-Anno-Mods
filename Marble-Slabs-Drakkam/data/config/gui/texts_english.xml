@@ -1,0 +1,56 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+          <Text>
+            <GUID>1555000065</GUID> 
+            <Text>Marble Deposit</Text>
+          </Text>
+          <Text>
+            <GUID>1555000066</GUID> 
+            <Text>Marble Deposit</Text>
+          </Text>
+          <Text>
+            <GUID>1555000067</GUID> 
+            <Text>Marble Deposit</Text>
+          </Text>
+          <Text>
+            <GUID>1555000091</GUID> 
+            <Text>Marble Stone</Text>
+          </Text>
+          <Text>
+            <GUID>1555000092</GUID> 
+            <Text>Raw marble stones</Text>
+          </Text>
+          <Text>
+            <GUID>1555000093</GUID> 
+            <Text>Marble Slabs</Text>
+          </Text>
+          <Text>
+            <GUID>1555000094</GUID> 
+            <Text>Polished Slabs of marble.</Text>
+          </Text>
+          <Text>
+            <GUID>1555000095</GUID> 
+            <Text>Marble Quarry</Text>
+          </Text>
+          <Text>
+            <GUID>1555000096</GUID> 
+            <Text>Marble Store</Text>
+          </Text>
+          <Text>
+            <GUID>1555000097</GUID> 
+            <Text>Marble Workshop</Text>
+          </Text>
+          <Text>
+            <GUID>1555000098</GUID> 
+            <Text>Marble Workshop</Text>
+          </Text>
+          <Text>
+            <GUID>1555000099</GUID> 
+            <Text>Marble Slabs</Text>
+          </Text>
+          <Text>
+            <GUID>1555000068</GUID> 
+            <Text>Workshop</Text>
+          </Text>
+    </ModOp>
+  </ModOps>

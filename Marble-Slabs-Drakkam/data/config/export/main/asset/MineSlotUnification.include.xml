@@ -1,0 +1,62 @@
+<ModOps>
+
+  <!-- Taludas MineSlotUnifaction compatibility -->
+  <Group Condition="#Taludas_MineSlotUnification">
+    <ModOp Type="replace" GUID="1555000095" Path="/Values/Slot/SlotType">
+      <SlotType>Iron</SlotType>
+    </ModOp>
+
+    <!-- Trigger to convert all marble slots to iron -->
+    <ModOp Type="addNextSibling" GUID="130248">
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000072</GUID>
+            <Name>Trigger: Change Marble slots to Iron</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionSetObjectGUID</Template>
+                  <Values>
+                    <Action />
+                    <ActionSetObjectGUID>
+                      <NewGUID>1010501</NewGUID>
+                    </ActionSetObjectGUID>
+                    <ObjectFilter>
+                      <ObjectGUID>1555000065</ObjectGUID>
+                    </ObjectFilter>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionResetTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionResetTrigger />
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <AutoRegisterTrigger>1</AutoRegisterTrigger>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>

@@ -1,0 +1,17 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" Path="//Template[Name='Region']/Properties/Region/ConstructionMaterialList/Item[Asset='1010207']">
+				<Item>
+					<Asset>1555000093</Asset>
+					<!--Marble Slabs-->
+				</Item>
+    </ModOp>
+
+	<!--Adding Cost to palace modules-->
+	<ModOp Type="addNextSibling" Path="//Template[Name='PalaceModule']/Properties/Cost/Costs/Item[Ingredient='1010207']">
+		<Item>
+			<Ingredient>1555000093</Ingredient>
+			<Amount>20</Amount>
+		</Item>
+	</ModOp>
+</ModOps>

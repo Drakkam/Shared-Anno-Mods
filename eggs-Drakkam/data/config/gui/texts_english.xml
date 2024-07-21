@@ -4,5 +4,9 @@
       <GUID>1555000100</GUID>
       <Text>Eggs</Text>
     </Text>
+    <Text>
+      <GUID>1555000101</GUID>
+      <Text>Chicken eggs</Text>
+      </Text>
   </ModOp>
 </ModOps>

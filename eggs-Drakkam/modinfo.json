@@ -1,45 +1,45 @@
 {
-  "Version": "1.0.0",
-  "ModID": "eggs-Drakkam",
-  "Category": {
-    "English": "Product",
-    "Chinese": "Product",
-    "French": "Product",
-    "German": "Product",
-    "Italian": "Product",
-    "Japanese": "Product",
-    "Korean": "Product",
-    "Polish": "Product",
-    "Russian": "Product",
-    "Spanish": "Product",
-    "Taiwanese": "Product"
-  },
-  "ModName": {
-    "English": "Eggs (Drakkam)",
-    "Chinese": "Eggs (Drakkam)",
-    "French": "Eggs (Drakkam)",
-    "German": "Eggs (Drakkam)",
-    "Italian": "Eggs (Drakkam)",
-    "Japanese": "Eggs (Drakkam)",
-    "Korean": "Eggs (Drakkam)",
-    "Polish": "Eggs (Drakkam)",
-    "Russian": "Eggs (Drakkam)",
-    "Spanish": "Eggs (Drakkam)",
-    "Taiwanese": "Eggs (Drakkam)"
-  },
-  "CreatorName": "Drakkam",
-  "CreatorContact": "https://github.com/Drakkam/Anno-Mods",
-  "Description": {
-    "English": "README.md",
-    "Chinese": null,
-    "French": null,
-    "German": null,
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
-    "Polish": null,
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
-  }
+	"Version": "1.0.0",
+	"ModID": "eggs-Drakkam",
+	"Category": {
+		"English": "Product",
+		"Chinese": "产品",
+		"French": "Produit",
+		"German": "Produkt",
+		"Italian": "Prodotto",
+		"Japanese": "積",
+		"Korean": "제품",
+		"Polish": "Produkt",
+		"Russian": "Продукт",
+		"Spanish": "Producto",
+		"Taiwanese": "產品"
+	},
+	"ModName": {
+		"English": "Eggs (Drakkam)",
+		"Chinese": "鸡蛋（Drakkam）",
+		"French": "Œufs (Drakkam)",
+		"German": "Eier (Drakkam)",
+		"Italian": "Uova (Drakkam)",
+		"Japanese": "卵(ドラッカム)",
+		"Korean": "달걀 (드라캄)",
+		"Polish": "Jajka (Drakkam)",
+		"Russian": "Яйца (Драккам)",
+		"Spanish": "Huevos (Drakkam)",
+		"Taiwanese": "雞蛋（Drakkam）"
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	}
 }

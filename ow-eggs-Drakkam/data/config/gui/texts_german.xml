@@ -1,13 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>1500010822</GUID>
-      <Text>Seilerei</Text>
+      <GUID>1555000102</GUID>
+      <Text>Hühnerfarm</Text>
     </Text>
     <Text>
-      <GUID>1500011520</GUID>
-      <!-- Mod origin/name -->
-      <Text>Shared Mod (Jakob)</Text>
+      <GUID>1555000103</GUID>
+      <Text>Feld auf der Hühnerfarm</Text>
     </Text>
   </ModOp>
 </ModOps>

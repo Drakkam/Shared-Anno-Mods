@@ -1,0 +1,1483 @@
+<ModOps>
+  <!-- Marble Stone (1555000091) -->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000091</GUID>
+          <Name>Marble Stone</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_marble_stone.png</IconFilename>
+          <InfoDescription>1555000092</InfoDescription>
+          <!--Product Description Marble Stone-->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Marble Stone</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked/>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <!--Product Category Resource-->
+          <BasePrice>125</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <FluffText>12823</FluffText>
+          <!--Cement-->
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Marble Slab (1555000093) -->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000093</GUID>
+          <Name>Marble Slabs</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_marble_slabs.png</IconFilename>
+          <InfoDescription>1555000094</InfoDescription>
+          <!--Product Description Marble Slabs-->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Marble Slabs</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked/>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11707</ProductCategory>
+          <!--Product Category Construction Material-->
+          <BasePrice>660</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Storage Lists -->
+  <!-- Marble Stones and Slabs: before Cement -->
+  <ModOp Type="addPrevSibling" GUID="120055"
+    Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000091']"
+    Path="/Values/ProductStorageList/ProductList/Item[Product='1010231']">
+    <Item>
+      <Product>1555000091</Product>
+    </Item>
+    <Item>
+      <Product>1555000093</Product>
+    </Item>
+  </ModOp>
+
+  <!-- # Tier Goods Lists -->
+  <!-- Marble Stone: before Cement -->
+  <ModOp Type="addPrevSibling" GUID="502005,502049"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000091']"
+    Path="/Values/ProductList/List/Item[Product='1010231']">
+    <Item>
+      <Product>1555000091</Product>
+    </Item>
+  </ModOp>
+  <!-- Marble Slabs: before Cement -->
+  <ModOp Type="addPrevSibling" GUID="501957"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000093']"
+    Path="/Values/ProductList/List/Item[Product='1010202']">
+    <Item>
+      <Product>1555000093</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Creating Mine Slots -->
+  <!-- Marble Mine Slot -->
+  <ModOp Type="addPrevSibling" GUID="1010505">
+    <Asset>
+      <Template>Slot</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000065</GUID>
+          <Name>Marble Mine Slot</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_marble_stone.png</IconFilename>
+        </Standard>
+        <Blocking/>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/landscape/terrain/mining_blockers/mining_blocker_moderate_01/mining_blocker_moderate_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/landscape/terrain/mining_blockers/mining_blocker_moderate_01/mining_blocker_moderate_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/landscape/terrain/mining_blockers/mining_blocker_moderate_01/mining_blocker_moderate_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Slot>
+          <SlotType>GoldOre</SlotType>
+          <AutoChangeVariation>1</AutoChangeVariation>
+          <WorkAreaPathSnapDummy>workareapath</WorkAreaPathSnapDummy>
+        </Slot>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Marble Quarry</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <MinimapToken>
+          <TokenAsset>2002226</TokenAsset>
+          <!--Mountain Slots (vacant)-->
+        </MinimapToken>
+        <RandomMapObject/>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <SoundEmitter>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Slot</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Sound>202368</Sound>
+                <!--wwe_sfx_aui_bld_place_stone-->
+              </Item>
+            </BuildSuccessful>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Infolayer>
+          <DefaultInfoLayer>1555000067</DefaultInfoLayer>
+          <!--MarbleMineSlot-->
+        </Infolayer>
+        <QuestObject/>
+        <Constructable/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Mine Slot Infolayer-->
+  <ModOp Type="addPrevSibling" GUID="1010505">
+    <Asset>
+      <Template>InfoLayerIcon</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000067</GUID>
+          <Name>MarbleMineSlot</Name>
+        </Standard>
+        <InfoLayerIcon>
+          <Config>data/graphics/ui/infolayer3d/infolayer_a7_marker_mine_general.cfg</Config>
+          <PopupDelay>0</PopupDelay>
+          <ShowInCreativeMode>1</ShowInCreativeMode>
+        </InfoLayerIcon>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Marble Deposit</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>14148</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Adding New Slot to Region-->
+  <ModOp Type="add" GUID="5000000" Path="/Values/Region/AllowedMineSlots">
+    <Item>
+      <MineSlot>1555000065</MineSlot>
+    </Item>
+  </ModOp>
+
+  <!-- Adding New Slot to mine sets (Replacing second Iron Entrance)-->
+  <ModOp Type="replace" GUID="142545,142539" Path="/Values/MineSlotResourceSet/MineSlots/Item[MineSlot='1010501'][2]">
+    <Item>
+      <MineSlot>1555000065</MineSlot>
+    </Item>
+  </ModOp>
+  <!-- Adding New Slot to mine sets (Replacing second Copper Entrance)-->
+  <ModOp Type="replace" GUID="142546,141563,142336" Path="/Values/MineSlotResourceSet/MineSlots/Item[MineSlot='1010504'][2]">
+    <Item>
+      <MineSlot>1555000065</MineSlot>
+    </Item>
+  </ModOp>
+  <!-- Adding New Slot to mine sets (Replacing second Coal Entrance)-->
+  <ModOp Type="replace" GUID="142547,141564,142337" Path="/Values/MineSlotResourceSet/MineSlots/Item[MineSlot='1010500'][2]">
+    <Item>
+      <MineSlot>1555000065</MineSlot>
+    </Item>
+  </ModOp>
+  <!-- Adding New Slot to mine sets (Replacing second Cement Entrance)-->
+  <ModOp Type="replace" GUID="142549,142543,141566,142335" Path="/Values/MineSlotResourceSet/MineSlots/Item[MineSlot='1010505'][2]">
+    <Item>
+      <MineSlot>1555000065</MineSlot>
+    </Item>
+  </ModOp>
+  <!-- Adding New Slot to mine sets (Replacing second Zinc Entrance)-->
+  <ModOp Type="replace" GUID="142542,141567,142338" Path="/Values/MineSlotResourceSet/MineSlots/Item[MineSlot='1010503'][2]">
+    <Item>
+      <MineSlot>1555000065</MineSlot>
+    </Item>
+  </ModOp>
+  <!-- Adding New Slot to random mine slot-->
+  <ModOp Type="add" GUID="1000029" Path="/Values/RandomMapObject/Replacements">
+    <Item>
+      <NewAsset>1555000065</NewAsset>
+    </Item>
+  </ModOp>
+
+  <!-- Adding to all Mines and mines pools-->
+  <ModOp Type="add" GUID="700047" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>1555000065</Asset>
+    </Item>
+    <Item>
+      <Asset>1555000095</Asset>
+    </Item>
+  </ModOp>
+  <!-- Adding New mine slot to region-->
+  <ModOp Type="add" GUID="5000000" Path="/Values/Region/AllowedMineSlots">
+    <Item>
+      <MineSlot>1555000065</MineSlot>
+    </Item>
+  </ModOp>
+  <!-- Setting Marble Quarry to Build Mine Button-->
+  <ModOp Type="add" GUID="5000000" Path="Values/Region">
+    <SlotBuildings>
+      <GoldOre>
+        <Building>1555000095</Building>
+        <!--Marble Quarry-->
+      </GoldOre>
+    </SlotBuildings>
+  </ModOp>
+
+  <!-- Creating Working Area Marble -->
+  <ModOp Type="addPrevSibling" GUID="1010547">
+    <Asset>
+      <Template>WorkArea</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000066</GUID>
+          <Name>Marble Quarry Work Area</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_marble_stone.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Marble_Quarry_Slot.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Slot>
+          <SnapsToSlot>1</SnapsToSlot>
+          <SlotType>WorkAreaCave</SlotType>
+        </Slot>
+        <SoundEmitter />
+        <FeedbackController />
+        <WorkAreaPath>
+          <AreaPathConfig />
+        </WorkAreaPath>
+        <Selection />
+        <Blocking />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Production Buildings -->
+  <!-- Marble Quarry -->
+  <ModOp Type="addPrevSibling" GUID="1010309">
+    <Asset>
+      <Template>SlotFactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000095</GUID>
+          <Name>Marble Quarry</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_marble_stone.png</IconFilename>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking/>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <!--Money-->
+              <Amount>6000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <!--timber-->
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <!--bricks-->
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <!--beams-->
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <!--window-->
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Marble_Quarry_middle.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Marble_Quarry_left.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Marble_Quarry_right.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Marble Quarry</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>5272</LineID>
+        </Text>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+                <!--wwe_sfx_bld_inc_burn-->
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+              <!--wwe_sfx_aui_bld_3d_renovate-->
+            </Item>
+          </BuildingRepaired>
+          <MaterialType>Wood</MaterialType>
+        </SoundEmitter>
+        <FeedbackController/>
+        <Infolayer/>
+        <UpgradeList/>
+        <Factory7/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1591</Product>
+              <!--FakeInputMineralResource-->
+              <StorageAmount>12</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1555000091</Product>
+              <!--cement-->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode/>
+        <Slot>
+          <SlotType>GoldOre</SlotType>
+          <WorkArea>1555000066</WorkArea>
+        </Slot>
+        <AmbientMoodProvider>
+          <Murmur>Mine</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <!--Money-->
+              <Amount>250</Amount>
+              <InactiveAmount>125</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <!--moderate workforce 2-->
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>1500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable/>
+        <IncidentInfectable>
+          <Infectable>
+            <Illness>
+              <Escalated>0</Escalated>
+            </Illness>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+            <Illness>
+              <BaseChance>1</BaseChance>
+            </Illness>
+            <Explosion>
+              <BaseChance>4</BaseChance>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <Industrializable/>
+        <Electrifiable/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Marble Store -->
+  <ModOp Type="addPrevSibling" GUID="1010315">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000096</GUID>
+                <Name>Marble Store</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_marble_slabs.png</IconFilename>
+            </Standard>
+            <Building>
+                <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                <AssociatedRegions>Moderate</AssociatedRegions>
+                <TerrainType>Terrain</TerrainType>
+            </Building>
+            <Cost>
+                <Costs>
+                    <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>3500</Amount>
+                    </Item>
+                    <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>15</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>9</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010218</Ingredient>
+                      <Amount>9</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010207</Ingredient>
+                      <Amount>8</Amount>
+                    </Item>
+                </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/ui/Drakkam/buildings/production/Marble_Store.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Selection>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList/>
+                </Values>
+              </OnSelection>
+              <Colors>
+                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+              </Colors>
+              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+            </Selection>
+            <Constructable/>
+            <Locked/>
+            <FeedbackController/>
+            <Infolayer/>
+            <UpgradeList/>
+            <Factory7/>
+            <FactoryBase>
+              <IsMainFactory>1</IsMainFactory>
+              <FactoryOutputs>
+                <Item>
+                  <Product>1555000093</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>3</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>180</CycleTime>
+              <FactoryInputs>
+                <Item>
+                  <Product>1555000091</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>1010228</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>5398</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </FactoryInputs>
+            </FactoryBase>
+            <AmbientMoodProvider>
+              <Murmur>Factory</Murmur>
+              <DynamicEnvironmentType>None</DynamicEnvironmentType>
+            </AmbientMoodProvider>
+            <Attackable>
+              <MaximumHitPoints>1500</MaximumHitPoints>
+              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+            </Attackable>
+            <Pausable/>
+            <Industrializable>
+              <MandatoryIndustrialization>0</MandatoryIndustrialization>
+              <BoostedByIndustrialization>1</BoostedByIndustrialization>
+            </Industrializable>
+            <QuestObject/>
+            <EcoSystemProvider/>
+            <Blocking/>
+            <LogisticNode/>
+            <ModuleOwner>
+              <ModuleLimits>
+                <Main>
+                  <Limit>0</Limit>
+                </Main>
+              </ModuleLimits>
+              <ConstructionOptions>
+                <Item>
+                  <ModuleGUID>0</ModuleGUID>
+                </Item>
+              </ConstructionOptions>
+              <AdjustModuleOrientationOnceSpecialModuleWasPlaced>1</AdjustModuleOrientationOnceSpecialModuleWasPlaced>
+              <FertilizerModuleData>
+                <Module>1555000097</Module>
+              </FertilizerModuleData>
+              <ModuleBuildRadius>0</ModuleBuildRadius>
+              <FarmType>NoFarm</FarmType>
+            </ModuleOwner>
+            <Motorizable>
+              <MotorizableType>Silo</MotorizableType>
+            </Motorizable>
+            <MonoCulture />
+            <Electrifiable>
+              <ShowPowerInObjectMenu>1</ShowPowerInObjectMenu>
+            </Electrifiable>
+            <SoundEmitter>
+                <ActiveSounds>
+                    <Item>
+                        <Sound>216883</Sound>
+                    </Item>
+                    <Item>
+                        <Sound>203632</Sound>
+                    </Item>
+                </ActiveSounds>
+                <IncidentSounds>
+                  <InfectedFire>
+                    <Item>
+                      <Sound>214659</Sound>
+                    </Item>
+                  </InfectedFire>
+                </IncidentSounds>
+            </SoundEmitter>
+            <Maintenance>
+                <Maintenances>
+                    <Item>
+                        <Product>1010017</Product>
+                        <Amount>150</Amount>
+                        <InactiveAmount>75</InactiveAmount>
+                    </Item>
+                    <Item>
+                        <Product>1010116</Product>
+                        <Amount>125</Amount>
+                    </Item>
+                </Maintenances>
+            </Maintenance>
+            <IncidentInfectable>
+              <IncidentInfectionChanceFactors>
+                <Fire>
+                  <DensityDistance>20</DensityDistance>
+                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                </Fire>
+                <Riot>
+                  <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                  <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                  <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                  <HappinessThreshold>20</HappinessThreshold>
+                </Riot>
+                <Illness/>
+              </IncidentInfectionChanceFactors>
+            </IncidentInfectable>
+        </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Marble Store Merchants-->
+  <Group Condition="#Drakkam-new-population-Merchants">
+    <ModOp Type="addPrevSibling" GUID="1010315">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+          <Values>
+              <Standard>
+                  <GUID>1555000096</GUID>
+                  <Name>Marble Store</Name>
+                  <IconFilename>data/ui/Drakkam/icons/icon_marble_slabs.png</IconFilename>
+              </Standard>
+              <Building>
+                  <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                  <AssociatedRegions>Moderate</AssociatedRegions>
+                  <TerrainType>Terrain</TerrainType>
+              </Building>
+              <Cost>
+                  <Costs>
+                      <Item>
+                          <Ingredient>1010017</Ingredient>
+                          <Amount>3500</Amount>
+                      </Item>
+                      <Item>
+                          <Ingredient>1010196</Ingredient>
+                          <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010205</Ingredient>
+                        <Amount>9</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010218</Ingredient>
+                        <Amount>9</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010207</Ingredient>
+                        <Amount>8</Amount>
+                      </Item>
+                  </Costs>
+              </Cost>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/ui/Drakkam/buildings/production/Marble_Store.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <Selection>
+                <OnSelection>
+                  <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                  <Values>
+                    <ActionList/>
+                  </Values>
+                </OnSelection>
+                <Colors>
+                  <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                </Colors>
+                <ParticipantMessageArcheType>Advisor_01_Hannah</ParticipantMessageArcheType>
+              </Selection>
+              <Constructable/>
+              <Locked/>
+              <FeedbackController/>
+              <Infolayer/>
+              <UpgradeList/>
+              <Factory7/>
+              <FactoryBase>
+                <IsMainFactory>1</IsMainFactory>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1555000093</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>3</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>150</CycleTime>
+                <FactoryInputs>
+                  <Item>
+                    <Product>1555000091</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010228</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>5398</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+              </FactoryBase>
+              <AmbientMoodProvider>
+                <Murmur>Factory</Murmur>
+                <DynamicEnvironmentType>None</DynamicEnvironmentType>
+              </AmbientMoodProvider>
+              <Attackable>
+                <MaximumHitPoints>1500</MaximumHitPoints>
+                <SelfHealPerHealTick>4</SelfHealPerHealTick>
+              </Attackable>
+              <Pausable/>
+              <Industrializable>
+                <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                <BoostedByIndustrialization>1</BoostedByIndustrialization>
+              </Industrializable>
+              <QuestObject/>
+              <EcoSystemProvider/>
+              <Blocking/>
+              <LogisticNode/>
+              <ModuleOwner>
+                <ModuleLimits>
+                  <Main>
+                    <Limit>0</Limit>
+                  </Main>
+                </ModuleLimits>
+                <ConstructionOptions>
+                  <Item>
+                    <ModuleGUID>0</ModuleGUID>
+                  </Item>
+                </ConstructionOptions>
+                <AdjustModuleOrientationOnceSpecialModuleWasPlaced>1</AdjustModuleOrientationOnceSpecialModuleWasPlaced>
+                <FertilizerModuleData>
+                  <Module>1555000097</Module>
+                </FertilizerModuleData>
+                <ModuleBuildRadius>0</ModuleBuildRadius>
+                <FarmType>NoFarm</FarmType>
+              </ModuleOwner>
+              <Motorizable>
+                <MotorizableType>Silo</MotorizableType>
+              </Motorizable>
+              <MonoCulture />
+              <Electrifiable>
+                <ShowPowerInObjectMenu>1</ShowPowerInObjectMenu>
+              </Electrifiable>
+              <SoundEmitter>
+                  <ActiveSounds>
+                      <Item>
+                          <Sound>216883</Sound>
+                      </Item>
+                      <Item>
+                          <Sound>203632</Sound>
+                      </Item>
+                  </ActiveSounds>
+                  <IncidentSounds>
+                    <InfectedFire>
+                      <Item>
+                        <Sound>214659</Sound>
+                      </Item>
+                    </InfectedFire>
+                  </IncidentSounds>
+              </SoundEmitter>
+              <Maintenance>
+                  <Maintenances>
+                      <Item>
+                          <Product>1010017</Product>
+                          <Amount>150</Amount>
+                          <InactiveAmount>75</InactiveAmount>
+                      </Item>
+                      <Item>
+                          <Product>1555000001</Product>
+                          <Amount>125</Amount>
+                      </Item>
+                  </Maintenances>
+              </Maintenance>
+              <IncidentInfectable>
+                <IncidentInfectionChanceFactors>
+                  <Fire>
+                    <DensityDistance>20</DensityDistance>
+                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                  </Fire>
+                  <Riot>
+                    <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                    <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                    <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                    <HappinessThreshold>20</HappinessThreshold>
+                  </Riot>
+                  <Illness/>
+                </IncidentInfectionChanceFactors>
+              </IncidentInfectable>
+          </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+  <!--Marble Workshop-->
+  <ModOp Type="addNextSibling" GUID="1010315">
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000097</GUID>
+          <Name>Marble Workshop</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/scenario/icon_victory.png</IconFilename>
+          <InfoDescription>1555000068</InfoDescription>
+          <!--Marble Workshop Description-->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Marble Workshop</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Building>
+          <BuildingType>BuildingModule</BuildingType>
+          <BuildingCategoryName>1555000068</BuildingCategoryName>
+          <!--Tractor and Silo Building Category-->
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking/>
+        <Mesh/>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>1555000098</ProductivityBuff>
+              <!--Marble_Workshop_Buff-->
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010237</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1500010825</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1500010153</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>120</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <FeedbackController/>
+        <Pausable/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <Maintenance>
+            <Maintenances>
+                <Item>
+                    <Product>1010017</Product>
+                    <Amount>150</Amount>
+                    <InactiveAmount>75</InactiveAmount>
+                </Item>
+                <Item>
+                    <Product>1010115</Product>
+                    <Amount>100</Amount>
+                </Item>
+            </Maintenances>
+        </Maintenance>
+        <AmbientMoodProvider/>
+        <LogisticNode/>
+        <Constructable/>
+        <Locked>
+          <DLCDependency>24961</DLCDependency>
+          <!--Anno 1800 DLC - Seeds of Change-->
+        </Locked>
+        <IncidentInfectable/>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Marble_Workshop.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270121</Sound>
+              <!--wwe_sfx_bld_agriculture_production_module_03_blp-->
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+              <!--wwe_sfx_aui_delete-->
+            </Item>
+          </DestroySounds>
+        </SoundEmitter>
+        <Cost>
+          <Costs>
+              <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>3500</Amount>
+              </Item>
+              <Item>
+                  <Ingredient>1010196</Ingredient>
+                  <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>9</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>9</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>8</Amount>
+              </Item>
+          </Costs>
+        </Cost>
+        <BuildingModule>
+          <ModuleType>FertilizerModule</ModuleType>
+        </BuildingModule>
+        <Infolayer/>
+        <UpgradeList/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- START ADD BUFF  -->
+  <!-- Marble Workshop Buff -->
+  <ModOp Type="addNextSibling" GUID="269979">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000098</GUID>
+          <Name>Marble Workshop</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/scenario/icon_victory.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Marble Workshop</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>36690</LineID>
+        </Text>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>200</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>2</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <Buff/>
+        <CultureUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <PowerplantUpgrade/>
+        <IndustrializableUpgrade/>
+        <ItemContainerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+        <ResourceUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+<!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1555000095</Factory>
+    </Item>
+    <Item>
+      <Factory>1555000096</Factory>
+    </Item>
+  </ModOp>
+
+<!-- All Productions -->
+  <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000095</GUID>
+    </Item>
+    <Item>
+      <GUID>1555000096</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Productions Boosted by electricity -->
+  <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000095</GUID>
+    </Item>
+    <Item>
+      <GUID>1555000096</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Mines and Quarries -->
+  <ModOp Type="add" GUID="190786" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000095</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Buildings with maintenance -->
+<ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <Item>
+    <GUID>1555000095</GUID>
+  </Item>
+  <Item>
+    <GUID>1555000096</GUID>
+  </Item>
+  <Item>
+    <GUID>1555000098</GUID>
+  </Item>
+</ModOp>
+
+<!-- All EU Mines -->
+<ModOp Type="add" GUID="1949" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <Item>
+    <GUID>1555000095</GUID>
+  </Item>
+</ModOp>
+
+<!-- All Quarries -->
+  <ModOp Type="add" GUID="190886" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000095</GUID>
+    </Item>
+  </ModOp>
+
+<!-- Specific Itens -->
+<!-- Marble Quarry -->
+  <ModOp Type="add" GUID="191586,191588,191589,191590,191591,190879,190880,190881" Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>1555000095</GUID>
+    </Item>
+  </ModOp>
+
+<!-- Asset Pool Marble  -->
+  <ModOp Type="addNextSibling" GUID='500002'>
+    <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000099</GUID>
+                <Name>Marble Slabs</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_marble_slabs.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1555000096</Building>
+                <Tier1>
+                  <Item>
+                    <Building>1555000095</Building>
+                  </Item>
+                  <Item>
+                    <Building>1010560</Building>
+                  </Item>
+                  <Item>
+                    <Building>1390</Building>
+                  </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked />
+        </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Add to construction menu  -->
+    <!-- Artisan construction menu - After Harbor Menu -->
+    <Group Condition="!#Drakkam-new-population-Merchants">
+      <ModOp Type="addNextSibling" GUID='25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Worker or Artisan&lt;=250][last()]">
+        <Item>
+          <Building>1555000099</Building>
+        </Item>    
+      </ModOp>
+    </Group>
+    <!-- Moderate Materials construction menu - After Windows -->
+    <ModOp Type="addNextSibling" GUID='500943' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500010']">
+      <Item>
+        <Building>1555000099</Building>
+      </Item>    
+    </ModOp>
+
+<!-- Asset Pool Marble  -->
+  <ModOp Type="addNextSibling" GUID="130060">
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000064</GUID>
+          <Name>Asset Pool Marble</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>1555000091</Asset>
+            </Item>
+            <Item>
+              <Asset>1555000093</Asset>
+            </Item>
+            <Item>
+              <Asset>1555000095</Asset>
+            </Item>
+            <Item>
+              <Asset>1555000096</Asset>
+            </Item>
+            <Item>
+              <Asset>1555000097</Asset>
+            </Item>
+            <Item>
+              <Asset>1555000098</Asset>
+            </Item>
+            <Item>
+              <Asset>1555000099</Asset>
+            </Item>
+            <Item>
+              <Asset>1390</Asset>
+            </Item>
+            <Item>
+              <Asset>5398</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <Group Condition="!#Drakkam-new-population-Merchants">
+    <ModOp Type="addNextSibling" GUID="130248">
+    <!-- Artisans 250 -->
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000070</GUID>
+            <Name>Trigger 900 Artisans</Name>
+            <IconFilename>data/ui/Drakkam/icons/icon_marble_slabs.png</IconFilename>
+          </Standard>
+          <Trigger>
+        <TriggerCondition>
+          <Template>ConditionPlayerCounter</Template>
+          <Values>
+            <Condition />
+            <ConditionPlayerCounter>
+              <PlayerCounter>PopulationByLevel</PlayerCounter>
+              <Context>15000002</Context>
+              <CounterAmount>250</CounterAmount>
+            </ConditionPlayerCounter>
+          </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnhideAssets>
+                        <Item>
+                          <Asset>1555000064</Asset>
+                        </Item>
+                      </UnhideAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <ResetTrigger>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <EmptyAutoCreateValue />
+              </Values>
+            </ResetTrigger>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+    <!-- Artisans 500 -->
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000071</GUID>
+            <Name>Trigger 1500 Artisans</Name>
+            <IconFilename>data/ui/Drakkam/icons/icon_marble_slabs.png</IconFilename>
+          </Standard>
+          <Trigger>
+        <TriggerCondition>
+          <Template>ConditionPlayerCounter</Template>
+          <Values>
+            <Condition />
+            <ConditionPlayerCounter>
+              <PlayerCounter>PopulationByLevel</PlayerCounter>
+              <Context>15000002</Context>
+              <CounterAmount>500</CounterAmount>
+            </ConditionPlayerCounter>
+          </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1555000064</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+            <ResetTrigger>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <EmptyAutoCreateValue />
+              </Values>
+            </ResetTrigger>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- (START) Trigger for Build Menu -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <!-- Creative Mode Trigger -->
+    <Asset>
+      <Template>FeatureUnlock</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000069</GUID>
+          <Name>Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1555000064</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  
+<!-- Add to ai construction material -->
+  <ModOp Type="add" GUID="168,169,170" Path="Values/ConstructionAI/EconomyRules/ConstructionMaterials/MainMaterialInfos"> 
+    <Item>
+      <Product>1555000099</Product>
+      <PerProgressLevelInfos>
+        <MidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>    
+  </ModOp>
+
+  <!-- Adding marble Stone to Eli Bleakworth -->
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/EarlyMidGame/GoodsProduction/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+      <ProductionPerMinute>3</ProductionPerMinute>
+    </Item>    
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/EarlyMidGame/OfferingGoods/Item/GoodSets/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+    </Item>    
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/MidGame/GoodsProduction/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+      <ProductionPerMinute>4</ProductionPerMinute>
+    </Item>    
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/MidGame/OfferingGoods/Item/GoodSets/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+    </Item>    
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/LateMidGame/GoodsProduction/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+      <ProductionPerMinute>5</ProductionPerMinute>
+    </Item>    
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/LateMidGame/OfferingGoods/Item/GoodSets/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+    </Item>    
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/LateGame/GoodsProduction/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+      <ProductionPerMinute>6</ProductionPerMinute>
+    </Item>    
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/LateGame/OfferingGoods/Item/GoodSets/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+    </Item>    
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/EndGame/GoodsProduction/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+      <ProductionPerMinute>7</ProductionPerMinute>
+    </Item>    
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='46' Path="/Values/Trader/Progression/EndGame/OfferingGoods/Item/GoodSets/Item[Good='1010226']">
+    <Item>
+      <Good>1555000091</Good>
+    </Item>    
+  </ModOp>
+
+  <Include File="./construction.cost.include.xml" />
+  <Include File="./MineSlotUnification.include.xml" />
+</ModOps>

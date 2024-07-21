@@ -1,0 +1,56 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000065</GUID>
+      <Text>Deposito di marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000066</GUID>
+      <Text>Deposito di marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000067</GUID>
+      <Text>Deposito di marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000091</GUID>
+      <Text>Marmo Pietra</Text>
+    </Text>
+    <Text>
+      <GUID>1555000092</GUID>
+      <Text>Pietre di marmo grezzo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000093</GUID>
+      <Text>Lastre di marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000094</GUID>
+      <Text>Lastre di marmo levigate.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000095</GUID>
+      <Text>Cava di marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000096</GUID>
+      <Text>Negozio di marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000097</GUID>
+      <Text>Laboratorio del marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000098</GUID>
+      <Text>Laboratorio del marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000099</GUID>
+      <Text>Lastre di marmo</Text>
+    </Text>
+    <Text>
+      <GUID>1555000068</GUID>
+      <Text>Officina</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,7 +1,4 @@
 <ModOps>
-  <!-- # Includes -->
-  <Include File="./productlists.include.xml" />
-
 <!-- # Assets -->
   <!-- Chicken Farm 1555000102-->
   <ModOp Type="addNextSibling" GUID="1010267">
@@ -207,13 +204,7 @@
     </Item>
   </ModOp>
   <!-- Farms -->
-  <ModOp Type="add" GUID="190011,190872,1965,269564" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-    <Item>
-      <GUID>1555000102</GUID>
-    </Item>
-  </ModOp>
-  <!-- Farms -->
-  <ModOp Type="add" GUID="269564" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <ModOp Type="add" GUID="190011,190872,1965" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
     <Item>
       <GUID>1555000102</GUID>
     </Item>

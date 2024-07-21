@@ -1,0 +1,59 @@
+{
+	"Version": "1.2.1",
+	"ModID": "Marble-Slabs-Drakkam",
+	"ModDependencies": [
+		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.4/shared-ground-textures-industry-jakob.zip",
+		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v4.1/ow-tools-jakob.zip",
+		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v4.3/tools-jakob.zip",
+		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v4.1/ow-ropes-jakob.zip",
+		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v4.3/ropes-jakob.zip",
+		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v4.5/ow-hemp-jakob.zip",
+		"https://github.com/Qurila/shared-mods/releases/download/v7/shared_general_modules_kurila.zip",
+		"https://github.com/anno-mods/shared-resources/releases/download/v10.3/shared-pools-and-definitions.zip",
+		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v4.5/hemp-jakob.zip"
+	],
+	"LoadAfterIds": [
+		"Drakkam-new-population-Merchants",
+    "shared-pools-and-definitions"
+	],
+	"Category": {
+		"English": "Production",
+		"Chinese": "生产",
+		"French": "Production",
+		"German": "Produktion",
+		"Italian": "Produzione",
+		"Japanese": "生産",
+		"Korean": "생산",
+		"Polish": "Produkcja",
+		"Russian": "Производство",
+		"Spanish": "Producción",
+		"Taiwanese": "生產"
+	},
+	"ModName": {
+		"English": "Marble Slabs (Drakkam)",
+		"Chinese": "大理石板（Drakkam）",
+		"French": "Dalles de marbre (Drakkam)",
+		"German": "Marmorplatten (Drakkam)",
+		"Italian": "Lastre di marmo (Drakkam)",
+		"Japanese": "大理石のスラブ(Drakkam)",
+		"Korean": "대리석 석판 (Drakkam)",
+		"Polish": "Płyty marmurowe (Drakkam)",
+		"Russian": "Мраморные плиты (Драккам)",
+		"Spanish": "Losas de mármol (Drakkam)",
+		"Taiwanese": "大理石板（Drakkam）"
+	},
+	"CreatorName": "Drakkam",
+	"Description": {
+		"English": "README.md",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	}
+}

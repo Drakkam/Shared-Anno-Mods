@@ -1,0 +1,56 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000065</GUID>
+      <Text>Dépôt de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000066</GUID>
+      <Text>Dépôt de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000067</GUID>
+      <Text>Dépôt de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000091</GUID>
+      <Text>Pierre de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000092</GUID>
+      <Text>Pierres de marbre brut</Text>
+    </Text>
+    <Text>
+      <GUID>1555000093</GUID>
+      <Text>Dalles de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000094</GUID>
+      <Text>Dalles de marbre polies.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000095</GUID>
+      <Text>Carrière de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000096</GUID>
+      <Text>Magasin de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000097</GUID>
+      <Text>Atelier de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000098</GUID>
+      <Text>Atelier de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000099</GUID>
+      <Text>Dalles de marbre</Text>
+    </Text>
+    <Text>
+      <GUID>1555000068</GUID>
+      <Text>Atelier</Text>
+    </Text>
+  </ModOp>
+</ModOps>

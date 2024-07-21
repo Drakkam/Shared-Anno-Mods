@@ -1,0 +1,170 @@
+<ModOps>
+
+<!-- START ADD CHAIN/BUILDING TO BUILDING MENU -->
+
+<!-- Adding Marble to Upgrade Costs -->
+  <!--Engineer Residence Upgrade to investor-->
+  <ModOp Type="addNextSibling" GUID="1010346" Path="/Values/Upgradable/UpgradeCost/Item[Ingredient='1010207']">
+				<Item>
+					<Amount>3</Amount>
+					<Ingredient>1555000093</Ingredient>
+					<!--Marble slabs-->
+				</Item>
+  </ModOp>
+  <!--Engineer Residence Upgrade to skycrape -->
+  <ModOp Type="addNextSibling" GUID="1010346,601888,601889" Path="/Values/FloorStackOwner/AddFloorCost/Item[Ingredient='1010207']">
+				<Item>
+					<Ingredient>1555000093</Ingredient>
+					<!--Marble slabs-->
+					<Amount>5</Amount>
+				</Item>
+  </ModOp>
+  <!--Investor Residence Upgrade to skycrape -->
+  <ModOp Type="addNextSibling" GUID="1010347,601882,601883,601884,601886," Path="/Values/FloorStackOwner/AddFloorCost/Item[Ingredient='1010207']">
+				<Item>
+					<Ingredient>1555000093</Ingredient>
+					<!--Marble slabs-->
+					<Amount>10</Amount>
+				</Item>
+  </ModOp>
+
+<!-- Adding Marble to Construction Costs -->
+  <!--Mall-->
+  <ModOp Type="addNextSibling" GUID="135100,135103,135187,135188,135189,135190,135099,135105,135120,135121,135122,135123,134629,134631,135191,135192,135193,135194" Path="/Values/Cost/Costs/Item[VectorElement[InheritedIndex='4']]">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <Amount>50</Amount>
+    </Item>
+  </ModOp>
+
+  <!--Restaurant-->
+  <ModOp Type="addNextSibling" GUID="132780,132747,132750,133339,133340,133341,132753,133347,133348,133349,133350,132782,132781,132752,133342,133343,133345,133346" Path="/Values/Cost/Costs/Item[VectorElement[InheritedIndex='4']]">
+    <Item>
+      <Ingredient>1010218</Ingredient>
+      <Amount>30</Amount>
+    </Item>
+    <Item>
+      <Ingredient>1010207</Ingredient>
+      <Amount>30</Amount>
+    </Item>
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <Amount>25</Amount>
+    </Item>
+  </ModOp>
+
+  <!--Palace-->
+  <ModOp Type="addNextSibling" GUID="249947" Path="/Values/Cost/Costs/Item[VectorElement[InheritedIndex='4']]">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <Amount>150</Amount>
+    </Item>
+  </ModOp>
+
+  <!--Botanical Garden, Museum, Zoo-->
+  <ModOp Type="addNextSibling" GUID="110935" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>5</Amount>
+    </Item>
+  </ModOp>
+  <!--Shoes maker, Tailor Shop-->
+  <ModOp Type="addNextSibling" GUID="118733,118734" Path="/Values/Cost/Costs">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>8</Amount>
+    </Item>
+  </ModOp>
+  <!--Oil Harbor, Glasses Factory, Brass Factory, High Wheeler, Fuel Station, Pocket Watch Factory, Gold Workshop, Light Bulb Factory, Filament Factory, Scholar Residence-->
+  <ModOp Type="addNextSibling" GUID="101331,101250,1010282,1010323,118571,1010324,1010327,1010286,1010321,114445" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>10</Amount>
+    </Item>
+  </ModOp>
+  <!--Oil Harbor, Dynamite Factory, Champagne Cellar, Inlay Processing, Jelwery Workshop, Phonographs Workshop, Chassis Factory, Chemical (Blank), Chemical (Lemonade), Chemical (Shampoo), Chemical (Souvenier), Chemical (Laqcuer),-->
+  <ModOp Type="addNextSibling" GUID="100783,1010300,100659,1010320,1010328,1010326,1010289,132771,132777,132786,133533,135133" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>15</Amount>
+    </Item>
+  </ModOp>
+  <!--Concrete Factory, Heavy Motors Industry, Assembly (Blank), Assembly (Elevator), Assembly (Cookies) Assembly (Typewriter)-->
+  <ModOp Type="addNextSibling" GUID="1010280,1010302,134619,134622,135361,135148" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>20</Amount>
+    </Item>
+  </ModOp>
+  <!--Oil Power Plant,Multifactory (Blank),Multifactory (Cognac),Multifactory (Violin),Multifactory (Billiard).Multifactory (Toys)-->
+  <ModOp Type="addNextSibling" GUID="100780,135295,135418,135397,135407,135669" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>25</Amount>
+    </Item>
+  </ModOp>
+  <!--Heavy Weapons Factory, Steam Carriage industry, Monument (Iron Tower)-->
+  <ModOp Type="addNextSibling" GUID="1010301,1010303,132765" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>30</Amount>
+    </Item>
+  </ModOp>
+  <!--Comuter Pier-->
+  <ModOp Type="addNextSibling" GUID="101642" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>35</Amount>
+    </Item>
+  </ModOp>
+  <!--University-->
+  <Group Condition="!#Drakkam-new-population-Merchants">
+    <ModOp Type="addNextSibling" GUID="1010362" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+      <Item>
+        <Ingredient>1555000093</Ingredient>
+        <!--Marble slabs-->
+        <Amount>35</Amount>
+      </Item>
+    </ModOp>
+  </Group>
+  <!--Gas Power Plant, Monument (Highlife)-->
+  <ModOp Type="addNextSibling" GUID="117547" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>40</Amount>
+    </Item>
+  </ModOp>
+  <!--SteamShipyard, Bank, Hotel-->
+  <ModOp Type="addNextSibling" GUID="1010521,1010365,601445" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>60</Amount>
+    </Item>
+  </ModOp>
+  <!--Members Club, Research Centre-->
+  <ModOp Type="addNextSibling" GUID="1010364,118938" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>75</Amount>
+    </Item>
+  </ModOp>
+  <!--Monument (World Fair), Monument Skyline-->
+  <ModOp Type="addNextSibling" GUID="1010489,403" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+    <Item>
+      <Ingredient>1555000093</Ingredient>
+      <!--Marble slabs-->
+      <Amount>150</Amount>
+    </Item>
+  </ModOp>
+</ModOps>

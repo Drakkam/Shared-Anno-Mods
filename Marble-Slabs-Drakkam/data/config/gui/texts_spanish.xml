@@ -1,0 +1,56 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000065</GUID>
+      <Text>Depósito de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000066</GUID>
+      <Text>Depósito de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000067</GUID>
+      <Text>Depósito de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000091</GUID>
+      <Text>Piedra de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000092</GUID>
+      <Text>Piedras de mármol en bruto</Text>
+    </Text>
+    <Text>
+      <GUID>1555000093</GUID>
+      <Text>Losas de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000094</GUID>
+      <Text>Losas de mármol pulido.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000095</GUID>
+      <Text>Cantera de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000096</GUID>
+      <Text>Tienda de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000097</GUID>
+      <Text>Taller de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000098</GUID>
+      <Text>Taller de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000099</GUID>
+      <Text>Losas de mármol</Text>
+    </Text>
+    <Text>
+      <GUID>1555000068</GUID>
+      <Text>Taller</Text>
+    </Text>
+  </ModOp>
+</ModOps>

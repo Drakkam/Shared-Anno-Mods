@@ -1,0 +1,56 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000065</GUID>
+      <Text>대리석 예금</Text>
+    </Text>
+    <Text>
+      <GUID>1555000066</GUID>
+      <Text>대리석 예금</Text>
+    </Text>
+    <Text>
+      <GUID>1555000067</GUID>
+      <Text>대리석 예금</Text>
+    </Text>
+    <Text>
+      <GUID>1555000091</GUID>
+      <Text>대리석 돌</Text>
+    </Text>
+    <Text>
+      <GUID>1555000092</GUID>
+      <Text>익지않는 대리석 돌</Text>
+    </Text>
+    <Text>
+      <GUID>1555000093</GUID>
+      <Text>대리석 석판</Text>
+    </Text>
+    <Text>
+      <GUID>1555000094</GUID>
+      <Text>대리석의 광택 석판.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000095</GUID>
+      <Text>대리석 채석장</Text>
+    </Text>
+    <Text>
+      <GUID>1555000096</GUID>
+      <Text>대리석 상점</Text>
+    </Text>
+    <Text>
+      <GUID>1555000097</GUID>
+      <Text>대리석 작업장</Text>
+    </Text>
+    <Text>
+      <GUID>1555000098</GUID>
+      <Text>대리석 작업장</Text>
+    </Text>
+    <Text>
+      <GUID>1555000099</GUID>
+      <Text>대리석 석판</Text>
+    </Text>
+    <Text>
+      <GUID>1555000068</GUID>
+      <Text>작업장</Text>
+    </Text>
+  </ModOp>
+</ModOps>

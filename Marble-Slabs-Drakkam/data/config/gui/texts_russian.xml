@@ -1,0 +1,56 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000065</GUID>
+      <Text>Месторождение мрамора</Text>
+    </Text>
+    <Text>
+      <GUID>1555000066</GUID>
+      <Text>Месторождение мрамора</Text>
+    </Text>
+    <Text>
+      <GUID>1555000067</GUID>
+      <Text>Месторождение мрамора</Text>
+    </Text>
+    <Text>
+      <GUID>1555000091</GUID>
+      <Text>Мраморный камень</Text>
+    </Text>
+    <Text>
+      <GUID>1555000092</GUID>
+      <Text>Необработанные мраморные камни</Text>
+    </Text>
+    <Text>
+      <GUID>1555000093</GUID>
+      <Text>Мраморные плиты</Text>
+    </Text>
+    <Text>
+      <GUID>1555000094</GUID>
+      <Text>Полированные плиты из мрамора.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000095</GUID>
+      <Text>Мраморный карьер</Text>
+    </Text>
+    <Text>
+      <GUID>1555000096</GUID>
+      <Text>Магазин мрамора</Text>
+    </Text>
+    <Text>
+      <GUID>1555000097</GUID>
+      <Text>Мраморная мастерская</Text>
+    </Text>
+    <Text>
+      <GUID>1555000098</GUID>
+      <Text>Мраморная мастерская</Text>
+    </Text>
+    <Text>
+      <GUID>1555000099</GUID>
+      <Text>Мраморные плиты</Text>
+    </Text>
+    <Text>
+      <GUID>1555000068</GUID>
+      <Text>Мастерская</Text>
+    </Text>
+  </ModOp>
+</ModOps>

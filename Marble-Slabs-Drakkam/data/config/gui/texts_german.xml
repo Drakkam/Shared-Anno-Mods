@@ -1,0 +1,56 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000065</GUID>
+      <Text>Marmor-Lagerstätte</Text>
+    </Text>
+    <Text>
+      <GUID>1555000066</GUID>
+      <Text>Marmor-Lagerstätte</Text>
+    </Text>
+    <Text>
+      <GUID>1555000067</GUID>
+      <Text>Marmor-Lagerstätte</Text>
+    </Text>
+    <Text>
+      <GUID>1555000091</GUID>
+      <Text>Marmor Stein</Text>
+    </Text>
+    <Text>
+      <GUID>1555000092</GUID>
+      <Text>Rohe Marmorsteine</Text>
+    </Text>
+    <Text>
+      <GUID>1555000093</GUID>
+      <Text>Marmorplatten</Text>
+    </Text>
+    <Text>
+      <GUID>1555000094</GUID>
+      <Text>Polierte Marmorplatten.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000095</GUID>
+      <Text>Marmor-Steinbruch</Text>
+    </Text>
+    <Text>
+      <GUID>1555000096</GUID>
+      <Text>Marmor-Lager</Text>
+    </Text>
+    <Text>
+      <GUID>1555000097</GUID>
+      <Text>Marmor-Workshop</Text>
+    </Text>
+    <Text>
+      <GUID>1555000098</GUID>
+      <Text>Marmor-Workshop</Text>
+    </Text>
+    <Text>
+      <GUID>1555000099</GUID>
+      <Text>Marmorplatten</Text>
+    </Text>
+    <Text>
+      <GUID>1555000068</GUID>
+      <Text>Werkstatt</Text>
+    </Text>
+  </ModOp>
+</ModOps>

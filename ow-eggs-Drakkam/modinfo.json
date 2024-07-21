@@ -1,50 +1,49 @@
 {
-  "Version": "1.0.0",
-  "ModID": "ow-Eggs-Drakkam",
-  "ModDependencies": [
-    "eggs-Drakkam"
-  ],
-  "LoadAfterIds": [
-  ],
-  "Category": {
-    "English": "Production",
-    "Chinese": "Production",
-    "French": "Production",
-    "German": "Production",
-    "Italian": "Production",
-    "Japanese": "Production",
-    "Korean": "Production",
-    "Polish": "Production",
-    "Russian": "Production",
-    "Spanish": "Production",
-    "Taiwanese": "Production"
-  },
-  "ModName": {
-    "English": "OW Eggs (Drakkam)",
-    "Chinese": "OW Eggs (Drakkam)",
-    "French": "OW Eggs (Drakkam)",
-    "German": "OW Eggs (Drakkam)",
-    "Italian": "OW Eggs (Drakkam)",
-    "Japanese": "OW Eggs (Drakkam)",
-    "Korean": "OW Eggs (Drakkam)",
-    "Polish": "OW Eggs (Drakkam)",
-    "Russian": "OW Eggs (Drakkam)",
-    "Spanish": "OW Eggs (Drakkam)",
-    "Taiwanese": "OW Eggs (Drakkam)"
-  },
-  "CreatorName": "Drakkam",
-  "CreatorContact": "https://github.com/Drakkam/Anno-Mods",
-  "Description": {
-    "English": "README.md",
-    "Chinese": null,
-    "French": null,
-    "German": null,
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
-    "Polish": null,
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
-  }
+	"Version": "1.0.0",
+	"ModID": "ow-Eggs-Drakkam",
+	"ModDependencies": [
+		"eggs-Drakkam"
+	],
+	"LoadAfterIds": [],
+	"Category": {
+		"English": "Production",
+		"Chinese": "生产",
+		"French": "Production",
+		"German": "Produktion",
+		"Italian": "Produzione",
+		"Japanese": "生産",
+		"Korean": "생산",
+		"Polish": "Produkcja",
+		"Russian": "Производство",
+		"Spanish": "Producción",
+		"Taiwanese": "生產"
+	},
+	"ModName": {
+		"English": "OW Eggs (Drakkam)",
+		"Chinese": "OW鸡蛋（Drakkam）",
+		"French": "Œufs d’Aïo (Drakkam)",
+		"German": "OW-Eier (Drakkam)",
+		"Italian": "Uova OW (Drakkam)",
+		"Japanese": "OWエッグ(ドラッカム)",
+		"Korean": "OW 달걀 (Drakkam)",
+		"Polish": "Jaja OW (Drakkam)",
+		"Russian": "Яйца OW (Драккам)",
+		"Spanish": "Huevos OW (Drakkam)",
+		"Taiwanese": "OW雞蛋（Drakkam）"
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	}
 }
