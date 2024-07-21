@@ -1478,6 +1478,26 @@
     </Item>    
   </ModOp>
 
+  <!-- # Docklands -->
+  <!-- # Cider: Qinsa Mining -->
+
+
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1555000091']">
+    <ModOp Type="addPrevSibling" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131815']/TradeLevels/Item/Trades/Item[Good='1010231']">
+      <Item>
+        <Level>Uncommon</Level>
+        <Good>1555000091</Good>
+      </Item>
+    </ModOp>
+  <!-- # Product Lists -->
+    <ModOp Type="add" GUID="502236" Condition="!/Values/ProductList/List/Item[Product='1555000091']" Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000091</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+
   <Include File="./construction.cost.include.xml" />
   <Include File="./MineSlotUnification.include.xml" />
 </ModOps>
