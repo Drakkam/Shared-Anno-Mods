@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000109</GUID>
+      <Text>トマト</Text>
+    </Text>
+    <Text>
+      <GUID>1555000110</GUID>
+      <Text>酸味と甘みのバランスが期待でき、赤いトマトも楽しめます</Text>
+    </Text>
+  </ModOp>
+</ModOps>

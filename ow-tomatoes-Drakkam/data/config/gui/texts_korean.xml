@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>토마토 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>토마토 농장 밭</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>혼합 토마토 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>토마토 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>선택된 토마토 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>이 씨앗은 외계 토양에서 토마토 밭을 키우는 데 도움이 될 수 있습니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

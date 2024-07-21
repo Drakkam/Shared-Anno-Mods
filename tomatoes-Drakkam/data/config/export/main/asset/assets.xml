@@ -1,0 +1,94 @@
+<ModOps>
+  <!-- # Product -->
+<!-- Tomatoes (1555000109)-->
+  <ModOp Type="addNextSibling" GUID='11703'>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000109</GUID>
+          <Name>Tomatoes</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tomatoes.png</IconFilename>
+          <InfoDescription>1555000110</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Tomatoes</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory> <!-- Resource -->
+          <BasePrice>15</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>5</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Tomatoes: after Grain -->
+  <ModOp Type="addNextSibling" GUID="120055"
+  Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000109']"
+  Path="/Values/ProductStorageList/ProductList/Item[Product='1010192']">
+    <Item>
+      <Product>1555000109</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Tomatoes: After Paprika -->
+  <ModOp Type="addNextSibling" GUID="502004,502037,502019"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000109']"
+    Path="/Values/ProductList/List/Item[Product='1010198']">
+    <Item>
+      <Product>1555000109</Product>
+    </Item>
+  </ModOp>
+
+
+  <!-- # Docklands -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1555000109']">
+    <ModOp Type="addNextSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010198']">
+      <Item>
+        <Good>1555000109</Good>
+      </Item>
+    </ModOp>
+  </Group>
+  <ModOp Type="add" GUID="502233"
+  Condition="!/Values/ProductList/List/Item[Product='1555000109']"
+  Path="/Values/ProductList">
+    <Item>
+      <Product>1555000109</Product>
+    </Item>
+  </ModOp>
+
+  <!-- # Expeditions -->
+
+  <ModOp Type="add" GUID="800111" Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1555000100']" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+    <Item>
+    <MoraleFactor>0.4</MoraleFactor>
+    <Product>1555000109</Product>
+    </Item>
+  </ModOp>
+
+  <!-- nope -->
+</ModOps>

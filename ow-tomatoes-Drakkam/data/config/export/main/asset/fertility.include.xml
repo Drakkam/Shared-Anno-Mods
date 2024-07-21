@@ -1,0 +1,48 @@
+<ModOps>
+<!-- START FERTILITY -->
+  <!-- Tomatoes -->
+  <ModOp Type="addNextSibling" GUID='11703'>
+    <Asset>
+      <Template>Fertility</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000120</GUID>
+          <Name>Tomatoes</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tomatoes.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Tomatoes</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Fertility />
+      </Values>
+    </Asset>
+  </ModOp>
+  
+<!-- START LIST FERTILITY - OW -->
+<!-- Old World - Moderate -->
+  <ModOp GUID="5000000" Type="add" Path="/Values/Region/AllowedFertilities">
+    <Item>
+      <Fertility>1555000120</Fertility>
+    </Item>
+  </ModOp>
+
+<!-- START ADD FERTILITY - OW SETS -->
+  <ModOp Type="add" GUID="141508,141509,141511,141512,141513,142436,142438,141514,141516,141518,141524,142439,142442,142443,141515,141519,141521,141523,141525,142445,142447" Path="/Values/FertilitySet/Fertilities">
+    <Item>
+      <Fertility>1555000120</Fertility>
+    </Item>
+  </ModOp>
+
+<!-- START ADD FERTILITYORDER TO MINIMAP -->
+  <ModOp Type="add" GUID="500204" Path="/Values/MinimapScene/FertilityOrder">
+    <Item>
+      <GUID>1555000120</GUID>
+    </Item>
+  </ModOp>
+</ModOps>

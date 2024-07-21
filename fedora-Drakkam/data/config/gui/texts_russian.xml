@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000124</GUID>
+      <Text>Мягкая фетровая шляпа</Text>
+    </Text>
+    <Text>
+      <GUID>1555000125</GUID>
+      <Text>Симпатичная шляпа из кожаных полосок и фетра</Text>
+    </Text>
+  </ModOp>
+</ModOps>

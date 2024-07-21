@@ -1,6 +1,10 @@
 {
 	"Version": "1.0.0",
 	"ModID": "ow-cameras-Drakkam",
+	"ModDependencies": [
+		"cameras-Drakkam",
+		"lenses-Drakkam"
+	],
 	"Category": {
 		"English": "Production",
 		"Chinese": "生产",

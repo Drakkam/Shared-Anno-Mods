@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000127</GUID>
+      <Text>페도라 제조업체</Text>
+    </Text>
+    <Text>
+      <GUID>1555000128</GUID>
+      <Text>페도라</Text>
+    </Text>
+  </ModOp>
+</ModOps>

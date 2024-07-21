@@ -1,0 +1,49 @@
+{
+	"Version": "1.0.0",
+	"ModID": "ow-fedora-Drakkam",
+	"ModDependencies": [
+		"fedora-Drakkam"
+	],
+	"LoadAfterIds": [],
+	"Category": {
+		"English": "Production",
+		"Chinese": "生产",
+		"French": "Production",
+		"German": "Produktion",
+		"Italian": "Produzione",
+		"Japanese": "生産",
+		"Korean": "생산",
+		"Polish": "Produkcja",
+		"Russian": "Производство",
+		"Spanish": "Producción",
+		"Taiwanese": "生產"
+	},
+	"ModName": {
+		"English": "OW Fedora (Drakkam)",
+		"Chinese": "OW Fedora （Drakkam）",
+		"French": "OW Fedora (Drakkam)",
+		"German": "OW Fedora (Drakkam)",
+		"Italian": "OW Fedora (Drakkam)",
+		"Japanese": "OW Fedora(ドラッカム)",
+		"Korean": "OW 페도라 (Drakkam)",
+		"Polish": "OW Fedora (Drakkam)",
+		"Russian": "OW Fedora (Drakkam)",
+		"Spanish": "OW Fedora (Drakkam)",
+		"Taiwanese": "OW Fedora （Drakkam）"
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	}
+}

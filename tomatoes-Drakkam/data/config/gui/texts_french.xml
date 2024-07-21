@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000109</GUID>
+      <Text>Tomates</Text>
+    </Text>
+    <Text>
+      <GUID>1555000110</GUID>
+      <Text>Vous pouvez vous attendre à un équilibre entre l’acide et la douceur avec les tomates rouges</Text>
+    </Text>
+  </ModOp>
+</ModOps>

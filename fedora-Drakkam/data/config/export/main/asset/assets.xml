@@ -1,0 +1,61 @@
+<ModOps>
+  <!-- # Product -->
+<!-- Fedora (1555000124)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000124</GUID>
+          <Name>Fedora</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_fedora_hat.png</IconFilename>
+          <InfoDescription>1555000125</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Fedora</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Fedora: after Fur Coats -->
+  <ModOp Type="addNextSibling" GUID="120055,120057"
+  Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000124']"
+  Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+    <Item>
+      <Product>1555000124</Product>
+    </Item>
+  </ModOp>
+
+<!-- Fedora: After Fur Coats -->
+  <ModOp Type="addNextSibling" GUID="502019,502006"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000124']"
+    Path="/Values/ProductList/List/Item[Product='1010247']">
+    <Item>
+      <Product>1555000124</Product>
+    </Item>
+  </ModOp>
+
+</ModOps>

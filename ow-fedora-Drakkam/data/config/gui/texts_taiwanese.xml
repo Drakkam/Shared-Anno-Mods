@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000127</GUID>
+      <Text>Fedora 製造商</Text>
+    </Text>
+    <Text>
+      <GUID>1555000128</GUID>
+      <Text>Fedora 軟呢帽</Text>
+    </Text>
+  </ModOp>
+</ModOps>

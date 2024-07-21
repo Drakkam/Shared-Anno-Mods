@@ -1,0 +1,173 @@
+
+	<SplineData />
+	<IdCounter>2</IdCounter>
+	<DummyRoot>
+		<Name />
+		<Groups>
+			<i>
+				<Name>DummyGroup0</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>1</Id>
+			</i>
+		</Groups>
+		<hasValue>1</hasValue>
+		<Id>11</Id>
+		<Dummies>
+			<i>
+				<Name>Dummy1</Name>
+				<hasValue>1</hasValue>
+				<Id>2</Id>
+				<RotationY>4.835484</RotationY>
+				<HeightAdaptationMode>1</HeightAdaptationMode>
+				<Position>
+					<x>0.081914</x>
+					<y>0.000000</y>
+					<z>0.415690</z>
+				</Position>
+				<Orientation>
+					<w>0.749261</w>
+					<x>-0.000000</x>
+					<y>0.662275</y>
+					<z>0.000000</z>
+				</Orientation>
+				<Extents>
+					<x>0.100000</x>
+					<y>0.100000</y>
+					<z>0.100000</z>
+				</Extents>
+				<Transformer>
+					<Flags>8</Flags>
+					<BBoxCenter>
+						<xf>0.000000</xf>
+						<zf>0.000000</zf>
+					</BBoxCenter>
+					<BBoxXExtents>
+						<xf>0.000000</xf>
+						<zf>0.000000</zf>
+					</BBoxXExtents>
+					<BBoxZExtents>
+						<xf>0.000000</xf>
+						<zf>0.000000</zf>
+					</BBoxZExtents>
+				</Transformer>
+			</i>
+		</Dummies>
+	</DummyRoot>
+	<FeedbackDefinition>
+		<ValidSequenceIDs>CDATA[8 0 1]</ValidSequenceIDs>
+		<FeedbackConfigs>
+			<i>
+				<BoneLink>NoLink</BoneLink>
+				<MultiplyActorByDummyCount />
+				<Description />
+				<hasValue>1</hasValue>
+				<MainObject>0</MainObject>
+				<IgnoreRootObjectXZRotation>1</IgnoreRootObjectXZRotation>
+				<IsAlwaysVisibleActor>0</IsAlwaysVisibleActor>
+				<ApplyScaleToMovementSpeed>1</ApplyScaleToMovementSpeed>
+				<ActorCount>1</ActorCount>
+				<MaxActorCount>1</MaxActorCount>
+				<CreateChance>20</CreateChance>
+				<RenderFlags>0</RenderFlags>
+				<IgnoreForceActorVariation>0</IgnoreForceActorVariation>
+				<IgnoreDistanceScale>0</IgnoreDistanceScale>
+				<AssetVariationList>
+					<GuidVariationList>CDATA[8 102447 -1]</GuidVariationList>
+					<AssetGroupNames />
+				</AssetVariationList>
+				<FeedbackLoops>
+					<k>0</k>
+					<v>0</v>
+					<k>1</k>
+					<v>1</v>
+				</FeedbackLoops>
+				<SequenceDefinitions>
+					<i>
+						<hasValue>1</hasValue>
+						<Loop0>
+							<hasValue>1</hasValue>
+							<DefaultState>
+								<SequenceID>-1</SequenceID>
+								<DummyName />
+								<StartDummyGroup />
+								<DummyId>0</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>1</Visible>
+								<FadeVisibility>1</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
+									<i>
+										<hasValue>1</hasValue>
+										<elementType>6</elementType>
+										<ShowObject>0</ShowObject>
+										<FadingMode>1</FadingMode>
+										<TimeOffset>0</TimeOffset>
+									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop0>
+					</i>
+					<i>
+						<hasValue>1</hasValue>
+						<Loop0>
+							<hasValue>1</hasValue>
+							<DefaultState>
+								<SequenceID>-1</SequenceID>
+								<DummyName />
+								<StartDummyGroup />
+								<DummyId>0</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>1</Visible>
+								<FadeVisibility>1</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
+									<i>
+										<hasValue>1</hasValue>
+										<elementType>9</elementType>
+										<m_MinScaleFactor>0.500000</m_MinScaleFactor>
+										<m_MaxScaleFactor>0.500000</m_MaxScaleFactor>
+									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop0>
+						<Loop1>
+							<hasValue>1</hasValue>
+							<DefaultState>
+								<SequenceID>-1</SequenceID>
+								<DummyName>Dummy1</DummyName>
+								<StartDummyGroup />
+								<DummyId>2</DummyId>
+								<ForceSequenceRestart>0</ForceSequenceRestart>
+								<Visible>1</Visible>
+								<FadeVisibility>1</FadeVisibility>
+								<ResetToDefaultEveryLoop>1</ResetToDefaultEveryLoop>
+							</DefaultState>
+							<ElementContainer>
+								<Elements>
+									<i>
+										<m_SequenceIds>CDATA[12 3000 1000 3001]</m_SequenceIds>
+										<hasValue>1</hasValue>
+										<elementType>12</elementType>
+										<MinPlayCount>1</MinPlayCount>
+										<MinPlayTime>0</MinPlayTime>
+										<MaxPlayCount>0</MaxPlayCount>
+										<MaxPlayTime>0</MaxPlayTime>
+									</i>
+								</Elements>
+							</ElementContainer>
+						</Loop1>
+					</i>
+				</SequenceDefinitions>
+			</i>
+		</FeedbackConfigs>
+	</FeedbackDefinition>
+	<ActorNames>
+		<i>[Root Object]</i>
+		<i>production_generic_worker_f (-1)</i>
+		<hasValue>1</hasValue>
+	</ActorNames>

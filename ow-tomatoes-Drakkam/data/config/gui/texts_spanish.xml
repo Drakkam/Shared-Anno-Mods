@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>Granja de tomates</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>Campos de cultivo de tomates</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>Semillas de tomates mixtos</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>Semillas de tomates</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>Semillas de tomates seleccionados</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>Estas semillas pueden ayudarte a cultivar campos de tomates en suelo alienígena.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,215 @@
+<ModOps>
+<!-- START FERTILITY -->
+  <!-- Tomatoes -->
+  <ModOp Type="addNextSibling" GUID='11703'>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000454</GUID>
+          <Name>Uncomon Tomatoes Seeds</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tomatoes_seeds.png</IconFilename>
+          <InfoDescription>1555000457</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Red Pepper Seeds</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>20272</LineID>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Uncommon</Rarity>
+          <TradePrice>24000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>-15</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>1555000120</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1555000115</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction/>
+        <ExpeditionAttribute>
+          <ItemDifficulties>Easy;Average</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade/>
+        <BuildingUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <ResidenceUpgrade/>
+        <PopulationUpgrade/>
+        <IndustrializableUpgrade/>
+        <Locked/>
+        <Buff/>
+        <CraftableItem/>
+        <HeaterUpgrade/>
+        <PowerplantUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000455</GUID>
+          <Name>Rare Tomatoes Seeds</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tomatoes_seeds.png</IconFilename>
+          <InfoDescription>1555000457</InfoDescription>
+          <!--item fluff Bell Pepper Seeds-->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Quality Tomatoe Seeds</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>20273</LineID>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Rare</Rarity>
+          <TradePrice>80000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <AddedFertility>1555000120</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1555000115</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction/>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ItemDifficulties>Easy;Average</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade/>
+        <BuildingUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <ResidenceUpgrade/>
+        <PopulationUpgrade/>
+        <IndustrializableUpgrade/>
+        <Locked/>
+        <Buff/>
+        <CraftableItem/>
+        <HeaterUpgrade/>
+        <PowerplantUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000456</GUID>
+          <Name>Epic Tomatoes Seeds</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tomatoes_seeds.png</IconFilename>
+          <InfoDescription>1555000457</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Hybrid Red Pepper Seeds</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>20274</LineID>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <TradePrice>235000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>1555000120</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1555000115</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction/>
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ItemDifficulties>Average;Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade/>
+        <BuildingUpgrade/>
+        <ModuleOwnerUpgrade/>
+        <IncidentInfluencerUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <ResidenceUpgrade/>
+        <PopulationUpgrade/>
+        <IndustrializableUpgrade/>
+        <Locked/>
+        <Buff/>
+        <CraftableItem/>
+        <HeaterUpgrade/>
+        <PowerplantUpgrade/>
+        <IrrigationUpgrade/>
+        <EcoSystemProviderUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Specific Items -->
+<!-- Rare -->
+<ModOp Type="add" GUID="192688,191233,191281" Path="/Values/RewardPool/ItemsPool">
+  <Item>
+    <ItemLink>1555000454</ItemLink>
+  </Item>
+</ModOp>
+
+<ModOp Type="add" GUID="192689,191240,191283" Path="/Values/RewardPool/ItemsPool">
+  <Item>
+    <ItemLink>1555000455</ItemLink>
+  </Item>
+</ModOp>
+
+<ModOp Type="add" GUID="192690,191247" Path="/Values/RewardPool/ItemsPool">
+  <Item>
+    <ItemLink>1555000456</ItemLink>
+  </Item>
+</ModOp>
+
+<ModOp Type="add" GUID="130170" Path="/Values/AssetPool/AssetList">
+  <Item>
+    <Asset>1555000454</Asset>
+  </Item>
+  <Item>
+    <Asset>1555000455</Asset>
+  </Item>
+</ModOp>
+
+<ModOp Type="add" GUID="130172" Path="/Values/AssetPool/AssetList">
+  <Item>
+    <Asset>1555000456</Asset>
+  </Item>
+</ModOp>
+
+</ModOps>

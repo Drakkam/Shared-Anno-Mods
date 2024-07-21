@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>Ferme de tomates</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>Tomates Champs de la ferme</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>Graines de tomates mélangées</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>Graines de tomates</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>Graines de tomates sélectionnées</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>Ces graines peuvent vous aider à faire pousser des champs de tomates dans un sol étranger.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

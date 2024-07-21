@@ -1,0 +1,282 @@
+<ModOps>
+<!-- Fedora Manufacturer -->
+  <ModOp Type="addPrevSibling" GUID="1010315">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000127</GUID>
+                <Name>Fedora Manufacturer</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_fedora_hat.png</IconFilename>
+            </Standard>
+            <Building>
+                <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                <AssociatedRegions>Moderate</AssociatedRegions>
+                <TerrainType>Terrain</TerrainType>
+            </Building>
+            <Cost>
+                <Costs>
+                    <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>18500</Amount>
+                    </Item>
+                    <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>15</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>9</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010218</Ingredient>
+                      <Amount>9</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010207</Ingredient>
+                      <Amount>8</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1555000093</Ingredient>
+                      <Amount>6</Amount>
+                    </Item>
+                </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/ui/Drakkam/buildings/production/Fedora_manufacturer/Fedora_manufacturer.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Selection>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList/>
+                </Values>
+              </OnSelection>
+              <Colors>
+                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+              </Colors>
+              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+            </Selection>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Fedora Manufacturer</Text>
+                        <Status>Exported</Status>
+                    </English>
+                </LocaText>
+            </Text>
+            <Constructable/>
+            <Locked/>
+            <FeedbackController/>
+            <Infolayer/>
+            <UpgradeList/>
+            <Factory7/>
+            <FactoryBase>
+              <IsMainFactory>1</IsMainFactory>
+              <FactoryOutputs>
+                <Item>
+                  <Product>1555000124</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>3</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>30</CycleTime>
+              <FactoryInputs>
+                <Item>
+                  <Product>5384</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>120044</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>1500020010</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </FactoryInputs>
+            </FactoryBase>
+            <AmbientMoodProvider>
+              <Murmur>Factory</Murmur>
+              <DynamicEnvironmentType>None</DynamicEnvironmentType>
+            </AmbientMoodProvider>
+            <Attackable>
+              <MaximumHitPoints>1500</MaximumHitPoints>
+              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+            </Attackable>
+            <Pausable/>
+            <Industrializable>
+              <MandatoryIndustrialization>0</MandatoryIndustrialization>
+              <BoostedByIndustrialization>1</BoostedByIndustrialization>
+            </Industrializable>
+            <Culture>
+              <Attractiveness>-10</Attractiveness>
+              <CultureType>Factory</CultureType>
+              <HasPollution>0</HasPollution>
+            </Culture>
+            <QuestObject/>
+            <Electrifiable/>
+            <EcoSystemProvider/>
+            <Blocking/>
+            <LogisticNode/>
+            <SoundEmitter>
+                <ActiveSounds>
+                    <Item>
+                        <Sound>216883</Sound>
+                    </Item>
+                    <Item>
+                        <Sound>203632</Sound>
+                    </Item>
+                </ActiveSounds>
+                <IncidentSounds>
+                  <InfectedFire>
+                    <Item>
+                      <Sound>214659</Sound>
+                    </Item>
+                  </InfectedFire>
+                </IncidentSounds>
+            </SoundEmitter>
+            <Maintenance>
+                <Maintenances>
+                    <Item>
+                        <Product>1010017</Product>
+                        <Amount>500</Amount>
+                        <InactiveAmount>250</InactiveAmount>
+                    </Item>
+                    <Item>
+                        <Product>1555000001</Product>
+                        <Amount>175</Amount>
+                    </Item>
+                </Maintenances>
+            </Maintenance>
+            <Heated>
+              <RequiresHeat>0</RequiresHeat>
+            </Heated>
+            <IncidentInfectable>
+              <IncidentInfectionChanceFactors>
+                <Fire>
+                  <DensityDistance>20</DensityDistance>
+                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                </Fire>
+                <Riot>
+                  <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                  <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                  <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                  <HappinessThreshold>20</HappinessThreshold>
+                </Riot>
+                <Illness/>
+              </IncidentInfectionChanceFactors>
+            </IncidentInfectable>
+        </Values>
+    </Asset>
+  </ModOp>
+
+<!-- # Feedback -->
+  <ModOp Type="add" GUID="142312" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000127</Building>
+    </Item>
+  </ModOp>
+
+<!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1555000127</Factory>
+    </Item>
+  </ModOp>
+
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING AND ITEMS TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- All Productions -->
+  <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000127</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Productions Boosted by electricity -->
+  <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000127</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Cloth Industry -->
+<ModOp Type="add" GUID="190890" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <Item>
+    <GUID>1555000127</GUID>
+  </Item>
+</ModOp>
+
+<!-- Specific Items -->
+<ModOp Type="add" GUID="191328,191329,191337,191336" Path="/Values/ItemEffect/EffectTargets">
+  <Item>
+    <GUID>1555000127</GUID>
+  </Item>
+</ModOp>
+
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+<!-- Fedora -->
+<ModOp Type="addNextSibling" GUID='500002'>
+  <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+          <Standard>
+              <GUID>1555000128</GUID>
+              <Name>Fedora</Name>
+              <IconFilename>data/ui/Drakkam/icons/icon_fedora_hat.png</IconFilename>
+          </Standard>
+          <ProductionChain>
+              <Building>1555000127</Building>
+              <Tier1>
+                <Item>
+                  <Building>5457</Building>
+                </Item>
+                <Item>
+                  <Building>101415</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>101272</Building>
+                      </Item>
+                    </Tier2>
+                </Item>
+                <Item>
+                  <Building>1555000056</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1010267</Building>
+                    </Item>
+                    <Item>
+                      <Building>1010266</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </Tier1>
+          </ProductionChain>
+          <Locked />
+          <Text>
+              <LocaText>
+                  <English>
+                      <Text>Fedora</Text>
+                      <Status>Exported</Status>
+                  </English>
+              </LocaText>
+          </Text>
+      </Values>
+  </Asset>
+</ModOp>
+<!-- END PRODUCTION CHAIN -->
+
+</ModOps>

@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>Томатная ферма</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>Томаты Фермерские поля</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>Смешанные семена томатов</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>Семена томатов</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>Отборные семена томатов</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>Эти семена могут помочь вам вырастить поля томатов на чужой почве.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

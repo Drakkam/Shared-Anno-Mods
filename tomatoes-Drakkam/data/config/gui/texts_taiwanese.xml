@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000109</GUID>
+      <Text>西紅柿</Text>
+    </Text>
+    <Text>
+      <GUID>1555000110</GUID>
+      <Text>你可以期待酸和甜味與紅西紅柿的平衡</Text>
+    </Text>
+  </ModOp>
+</ModOps>

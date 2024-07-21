@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>Tomatoes Farm</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>Tomatoes Farm Fields</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>Mixed Tomatoes Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>Tomatoes Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>Selected Tomatoes Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>These seeds can help you grow fields of Tomatoes in alien soil.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

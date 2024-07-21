@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>Farma pomidorów</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>Pomidory Pola uprawne</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>Mieszane nasiona pomidorów</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>Nasiona pomidorów</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>Wybrane nasiona pomidorów</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>Te nasiona mogą pomóc w uprawie pól pomidorów na obcej glebie.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

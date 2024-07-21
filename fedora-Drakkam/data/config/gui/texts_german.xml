@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000124</GUID>
+      <Text>Fedora</Text>
+    </Text>
+    <Text>
+      <GUID>1555000125</GUID>
+      <Text>Ein schöner Hut aus Lederleisten und Filz</Text>
+    </Text>
+  </ModOp>
+</ModOps>

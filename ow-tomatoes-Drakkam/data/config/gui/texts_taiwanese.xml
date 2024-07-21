@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>西紅柿農場</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>西紅柿農田</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>混合西紅柿種子</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>西紅柿種子</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>精選西紅柿種子</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>這些種子可以説明你在外來的土壤中種植西紅柿田。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

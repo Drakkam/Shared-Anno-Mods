@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>Tomaten-Farm</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>Tomaten Farm Felder</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>Gemischte Tomaten Samen</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>Tomaten Samen</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>Ausgewählte Tomaten Samen</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>Diese Samen können dir helfen, Tomatenfelder in fremder Erde anzubauen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

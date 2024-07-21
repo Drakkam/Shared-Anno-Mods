@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>トマト農園</Text>
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>トマトファームフィールズ</Text>
+    </Text>
+    <Text>
+      <GUID>1555000454</GUID>
+      <Text>ミックストマトの種</Text>
+    </Text>
+    <Text>
+      <GUID>1555000455</GUID>
+      <Text>トマトの種</Text>
+    </Text>
+    <Text>
+      <GUID>1555000456</GUID>
+      <Text>厳選されたトマトの種</Text>
+    </Text>
+    <Text>
+      <GUID>1555000457</GUID>
+      <Text>これらの種子は、エイリアンの土壌でトマトの畑を育てるのに役立ちます。</Text>
+    </Text>
+  </ModOp>
+</ModOps>
