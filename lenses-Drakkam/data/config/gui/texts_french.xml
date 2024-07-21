@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000171</GUID>
+      <Text>Lentilles</Text>
+    </Text>
+    <Text>
+      <GUID>1555000172</GUID>
+      <Text>Verrerie spéciale réalisée par des ingénieurs</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000171</GUID>
+      <Text>鏡頭</Text>
+    </Text>
+    <Text>
+      <GUID>1555000172</GUID>
+      <Text>由工程師製作的特殊玻璃製品</Text>
+    </Text>
+  </ModOp>
+</ModOps>

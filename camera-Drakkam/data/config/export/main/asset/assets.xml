@@ -1,0 +1,61 @@
+<ModOps>
+  <!-- # Product -->
+
+<!-- Camera (1555000169)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000169</GUID>
+          <Name>Camera</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_camera.png</IconFilename>
+          <InfoDescription>1555000170</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Camera</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Camera: after High Wheeler -->
+  <ModOp Type="addNextSibling" GUID="120055,120057"
+  Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000169']"
+  Path="/Values/ProductStorageList/ProductList/Item[Product='1010245']">
+    <Item>
+      <Product>1555000169</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Camera: add to Engineers Lists -->
+  <ModOp Type="addNextSibling" GUID="502006,501998,502020"
+  Condition="!~/Values/ProductList/List/Item[Product='1555000169']"
+  Path="/Values/ProductList/List">
+    <Item>
+      <Product>1555000169</Product>
+    </Item>
+  </ModOp>
+</ModOps>

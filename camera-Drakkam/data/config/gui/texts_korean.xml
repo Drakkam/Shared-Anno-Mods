@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000169</GUID>
+      <Text>사진기</Text>
+    </Text>
+    <Text>
+      <GUID>1555000170</GUID>
+      <Text>이제 누구나 사진을 찍을 수 있습니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

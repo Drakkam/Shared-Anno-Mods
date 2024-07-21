@@ -1,0 +1,45 @@
+{
+	"Version": "1.0.0",
+	"ModID": "ow-cameras-Drakkam",
+	"Category": {
+		"English": "Production",
+		"Chinese": "生产",
+		"French": "Production",
+		"German": "Produktion",
+		"Italian": "Produzione",
+		"Japanese": "生産",
+		"Korean": "생산",
+		"Polish": "Produkcja",
+		"Russian": "Производство",
+		"Spanish": "Producción",
+		"Taiwanese": "生產"
+	},
+	"ModName": {
+		"English": "OW Cameras (Drakkam)",
+		"Chinese": "OW相机（Drakkam）",
+		"French": "Caméras OW (Drakkam)",
+		"German": "OW-Kameras (Drakkam)",
+		"Italian": "Telecamere OW (Drakkam)",
+		"Japanese": "OWカメラ(Drakkam)",
+		"Korean": "OW 카메라(Drakkam)",
+		"Polish": "Kamery OW (Drakkam)",
+		"Russian": "Камеры OW (Drakkam)",
+		"Spanish": "Cámaras OW (Drakkam)",
+		"Taiwanese": "OW相機（Drakkam）"
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	}
+}

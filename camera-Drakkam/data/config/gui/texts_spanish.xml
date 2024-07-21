@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000169</GUID>
+      <Text>Cámara</Text>
+    </Text>
+    <Text>
+      <GUID>1555000170</GUID>
+      <Text>Ahora todo el mundo puede hacerse fotos</Text>
+    </Text>
+  </ModOp>
+</ModOps>

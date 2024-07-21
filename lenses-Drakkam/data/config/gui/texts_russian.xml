@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000171</GUID>
+      <Text>Линзы</Text>
+    </Text>
+    <Text>
+      <GUID>1555000172</GUID>
+      <Text>Специальные стекольные заводы, изготовленные инженерами</Text>
+    </Text>
+  </ModOp>
+</ModOps>

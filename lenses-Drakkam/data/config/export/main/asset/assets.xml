@@ -1,0 +1,82 @@
+<ModOps>
+  <!-- # Product -->
+
+<!-- Lenses (1555000171)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000171</GUID>
+          <Name>Lenses</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_photo_lense.png</IconFilename>
+          <InfoDescription>1555000172</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Lenses</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Lenses: after Brass -->
+  <ModOp Type="addNextSibling" GUID="120055"
+  Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000171']"
+  Path="/Values/ProductStorageList/ProductList/Item[Product='1010204']">
+    <Item>
+      <Product>1555000171</Product>
+    </Item>
+  </ModOp>
+
+  <Group>
+    <!-- Lenses: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000171']"
+      Path="/Values/ProductList/List/Item[Product='1010204']">
+      <Item>
+        <Product>1555000171</Product>
+      </Item>
+    </ModOp>
+    <!-- Lenses: add to Merchant Unlock Goods and Artisan workforce list-->
+    <ModOp Type="addNextSibling" GUID="502020"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000171']"
+      Path="/Values/ProductList/List/Item[Product='1010204']">
+      <Item>
+        <Product>1555000171</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502007"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000171']"
+    Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000171</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

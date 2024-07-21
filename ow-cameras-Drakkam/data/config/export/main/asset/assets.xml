@@ -1,0 +1,559 @@
+<ModOps>
+  <!-- # Product -->
+
+<!-- Lenses Manufacturer -->
+  <ModOp Type="addNextSibling" GUID="1010266">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000173</GUID>
+          <Name>Lenses Manufacturer</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_photo_lense.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking>
+          <BlockWater>1</BlockWater>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>17000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>12</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/workshop_07/workshop_07.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Lenses Manufacturer</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>239444</Sound>
+            </Item>
+            <Item>
+              <Sound>239348</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010241</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+            <Item>
+              <Product>836</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010232</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1555000171</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>3750</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable />
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Camera Workshop -->
+<ModOp Type="addNextSibling" GUID="1010266">
+  <Asset>
+    <Template>Multifactory</Template>
+    <Values>
+      <Standard>
+        <GUID>1555000174</GUID>
+        <Name>Artisan's Workshop: Camera</Name>
+        <IconFilename>data/ui/Drakkam/icons/icon_camera.png</IconFilename>
+        <InfoDescription>132783</InfoDescription>
+      </Standard>
+      <Building>
+        <BuildingCategoryName>132773</BuildingCategoryName>
+        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        <AssociatedRegions>Moderate</AssociatedRegions>
+      </Building>
+      <Blocking />
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/ui/Drakkam/buildings/production/Artisan_workshop_Cameras/Artisan_workshop_camera.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <Cost>
+        <Costs>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>35000</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>30</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>40</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010218</Ingredient>
+            <Amount>30</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010207</Ingredient>
+            <Amount>25</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010202</Ingredient>
+            <Amount>10</Amount>
+          </Item>
+        </Costs>
+      </Cost>
+      <Mesh />
+      <Selection>
+        <GUIType>Production</GUIType>
+        <StaticHelpEntryPoint>HighLifeArtisanWorkshops</StaticHelpEntryPoint>
+        <OnSelection>
+          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <Values>
+            <ActionList />
+          </Values>
+        </OnSelection>
+        <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+        <Colors>
+          <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+        </Colors>
+      </Selection>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Artisan's Workshop: Camera</Text>
+            <Status>Exported</Status>
+          </English>
+        </LocaText>
+      </Text>
+      <Constructable />
+      <Locked>
+        <DLCDependency>410085</DLCDependency>
+      </Locked>
+      <SoundEmitter>
+        <ActiveSounds>
+          <Item>
+            <Sound>280042</Sound>
+          </Item>
+          <Item>
+            <VectorElement>
+              <InheritedIndex>0</InheritedIndex>
+              <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>Multifactory</TemplateName>
+                  <Index>0</Index>
+                </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+          </Item>
+        </ActiveSounds>
+      </SoundEmitter>
+      <Factory7 />
+      <FactoryBase>
+        <FactoryInputs>
+          <Item>
+            <Product>1010242</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1555000171</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>135150</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+        </FactoryInputs>
+        <FactoryOutputs>
+          <Item>
+            <Product>1555000169</Product>
+            <Amount>1</Amount>
+            <StorageAmount>3</StorageAmount>
+          </Item>
+        </FactoryOutputs>
+        <CycleTime>90</CycleTime>
+        <IsMainFactory>1</IsMainFactory>
+      </FactoryBase>
+      <LogisticNode />
+      <Maintenance>
+        <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+            <Amount>600</Amount>
+            <InactiveAmount>300</InactiveAmount>
+          </Item>
+          <Item>
+            <Product>1010116</Product>
+            <Amount>350</Amount>
+          </Item>
+        </Maintenances>
+      </Maintenance>
+      <Industrializable />
+      <IncidentInfectable>
+        <Infectable>
+          <Explosion>
+            <Base>0</Base>
+            <Escalated>0</Escalated>
+          </Explosion>
+        </Infectable>
+        <Explosion>
+          <DamageExplosionChance>0</DamageExplosionChance>
+        </Explosion>
+        <IncidentInfectionChanceFactors>
+          <Explosion>
+            <BaseChance>4</BaseChance>
+          </Explosion>
+        </IncidentInfectionChanceFactors>
+      </IncidentInfectable>
+      <Electrifiable />
+      <AmbientMoodProvider>
+        <Murmur>Factory</Murmur>
+      </AmbientMoodProvider>
+      <Attackable>
+        <MaximumHitPoints>5000</MaximumHitPoints>
+      </Attackable>
+      <UpgradeList />
+      <Pausable />
+      <FeedbackController />
+      <Infolayer />
+      <RecipeBuilding>
+        <RecipeList>135415</RecipeList>
+      </RecipeBuilding>
+      <Culture>
+        <Attractiveness>0</Attractiveness>
+        <HasPollution>1</HasPollution>
+      </Culture>
+    </Values>
+  </Asset>
+</ModOp>
+<ModOp Type="addNextSibling" GUID="135419"> 
+<Asset>
+  <Template>Recipe</Template>
+    <Values>
+      <Standard>
+        <GUID>1555000175</GUID>
+        <Name>Recipe_Camera</Name>
+        <IconFilename>data/ui/Drakkam/icons/icon_camera.png</IconFilename>
+      </Standard>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Camera</Text>
+            <Status>Exported</Status>
+          </English>
+        </LocaText>
+        <LineID>52424</LineID>
+      </Text>
+      <Recipe>
+        <RecipeBuilding>1555000174</RecipeBuilding>
+        <RecipeDescriptionText>1555000176</RecipeDescriptionText>
+        <RecipeImage>data/ui/Drakkam/icons/Recipe_Image/icon_recipe_Camera.png</RecipeImage>
+        <RecipeIngredientUIData>
+          <Item>
+            <PosX>-15</PosX>
+            <PosY>275</PosY>
+            <UICirclePointer>East</UICirclePointer>
+          </Item>
+          <Item>
+            <PosX>375</PosX>
+            <PosY>385</PosY>
+            <UICirclePointer>NorthWest</UICirclePointer>
+          </Item>
+          <Item>
+            <PosX>230</PosX>
+            <PosY>10</PosY>
+            <UICirclePointer>SouthWest</UICirclePointer>
+          </Item>
+        </RecipeIngredientUIData>
+        <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+      </Recipe>
+      <Locked />
+    </Values>
+  </Asset>
+</ModOp> 
+<ModOp Type="add" GUID='135415' Path="/Values/RecipeList/Recipes">
+  <Item>
+    <Recipe>1555000175</Recipe>
+  </Item>
+</ModOp>
+
+  <!-- # Feedback -->
+  <ModOp Type="add" GUID="142312" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000174</Building>
+    </Item>
+  </ModOp>
+
+  <!-- # Feedback -->
+  <ModOp Type="add" GUID="142313" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000173</Building>
+    </Item>
+  </ModOp>
+
+<!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1555000173</Factory>
+    </Item>
+    <Item>
+      <Factory>1555000174</Factory>
+    </Item>
+  </ModOp>
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- All Productions -->
+  <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000173</GUID>
+    </Item>
+    <Item>
+      <GUID>1555000174</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Productions Boosted by electricity -->
+  <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000173</GUID>
+    </Item>
+    <Item>
+      <GUID>1555000174</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Artisan Workshops -->
+  <ModOp Type="add" GUID="194024" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000174</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Specific Itens -->
+<ModOp Type="add" GUID="190905,190906,190907,191426,191429,191431" Path="/Values/ItemEffect/EffectTargets">
+  <Item>
+    <GUID>1555000173</GUID>
+  </Item>
+  <Item>
+    <GUID>1555000174</GUID>
+  </Item>
+</ModOp>
+
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+<!-- Camera -->
+  <ModOp Type="addNextSibling" GUID='118738'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000177</GUID>
+          <Name>Camera</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_camera.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>1555000174</Building>
+          <Tier1>
+            <Item>
+              <Building>1555000173</Building>
+              <Tier2>
+                <Item>
+                  <Building>1308</Building>
+                </Item>
+                <Item>
+                  <Building>1010319</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1010560</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+                <Item>
+                  <Building>1010310</Building>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>135224</Building>
+              <Tier2>
+                <Item>
+                  <Building>1010331</Building>
+                </Item>
+                <Item>
+                  <Building>134614</Building>
+                </Item>
+                <Item>
+                  <Building>135134</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>101270</Building>
+                    </Item>
+                    <Item>
+                      <Building>1010266</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>1010320</Building>
+              <Tier2>
+                <Item>
+                  <Building>1010266</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Camera</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+<!-- END PRODUCTION CHAIN -->
+</ModOps>

@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000173</GUID>
+      <Text>Lenti Fornitore</Text>
+    </Text>
+    <Text>
+      <GUID>1555000174</GUID>
+      <Text>Bottega artigianale: Macchina fotografica</Text>
+    </Text>
+    <Text>
+      <GUID>1555000175</GUID>
+      <Text>Macchina fotografica</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>Una fotocamera è una scatola sigillata con un piccolo foro o apertura su un lato. Crea immagini lasciando passare la luce attraverso il foro stenopeico e proiettandola sulla carta fotografica.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>Macchina fotografica</Text>
+    </Text>
+  </ModOp>
+</ModOps>
