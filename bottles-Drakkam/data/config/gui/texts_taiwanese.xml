@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000142</GUID>
+      <Text>瓶</Text>
+    </Text>
+    <Text>
+      <GUID>1555000143</GUID>
+      <Text>用於不同用途的空瓶</Text>
+    </Text>
+  </ModOp>
+</ModOps>

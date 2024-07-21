@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000142</GUID>
+      <Text>병</Text>
+    </Text>
+    <Text>
+      <GUID>1555000143</GUID>
+      <Text>다른 용도를 위한 빈 병</Text>
+    </Text>
+  </ModOp>
+</ModOps>

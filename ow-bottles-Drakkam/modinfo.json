@@ -1,0 +1,49 @@
+{
+	"Version": "1.0.0",
+	"ModID": "ow-bottles-Drakkam",
+	"ModDependencies": [
+		"bottles-Drakkam"
+	],
+	"LoadAfterIds": [],
+	"Category": {
+		"English": "Production",
+		"Chinese": "生产",
+		"French": "Production",
+		"German": "Produktion",
+		"Italian": "Produzione",
+		"Japanese": "生産",
+		"Korean": "생산",
+		"Polish": "Produkcja",
+		"Russian": "Производство",
+		"Spanish": "Producción",
+		"Taiwanese": "生產"
+	},
+	"ModName": {
+		"English": "OW Bottles (Drakkam)",
+		"Chinese": "OW瓶（Drakkam）",
+		"French": "Bouteilles OW (Drakkam)",
+		"German": "OW-Flaschen (Drakkam)",
+		"Italian": "Bottiglie OW (Drakkam)",
+		"Japanese": "OWボトル(ドラッカム)",
+		"Korean": "OW 병 (Drakkam)",
+		"Polish": "Butelki OW (Drakkam)",
+		"Russian": "Бутылки OW (Драккам)",
+		"Spanish": "Botellas OW (Drakkam)",
+		"Taiwanese": "OW瓶（Drakkam）"
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	}
+}

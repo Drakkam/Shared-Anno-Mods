@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000142</GUID>
+      <Text>Bouteilles</Text>
+    </Text>
+    <Text>
+      <GUID>1555000143</GUID>
+      <Text>Bouteilles vides pour différentes utilisations</Text>
+    </Text>
+  </ModOp>
+</ModOps>

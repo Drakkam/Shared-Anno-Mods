@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000142</GUID>
+      <Text>ボトル</Text>
+    </Text>
+    <Text>
+      <GUID>1555000143</GUID>
+      <Text>さまざまな用途の空のボトル</Text>
+    </Text>
+  </ModOp>
+</ModOps>

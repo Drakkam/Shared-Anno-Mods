@@ -1,0 +1,45 @@
+{
+	"Version": "1.0.0",
+	"ModID": "bottles-Drakkam",
+	"Category": {
+		"English": "Product",
+		"Chinese": "产品",
+		"French": "Produit",
+		"German": "Produkt",
+		"Italian": "Prodotto",
+		"Japanese": "積",
+		"Korean": "제품",
+		"Polish": "Produkt",
+		"Russian": "Продукт",
+		"Spanish": "Producto",
+		"Taiwanese": "產品"
+	},
+	"ModName": {
+		"English": "Bottle (Drakkam)",
+		"Chinese": "瓶子 Drakkam",
+		"French": "Bouteille (Drakkam)",
+		"German": "Flasche (Drakkam)",
+		"Italian": "Bottiglia (Drakkam)",
+		"Japanese": "ボトル(ドラッカム)",
+		"Korean": "병 (Drakkam)",
+		"Polish": "Butelka (Drakkam)",
+		"Russian": "Бутылка (Драккам)",
+		"Spanish": "Botella (Drakkam)",
+		"Taiwanese": "瓶子 Drakkam"
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	}
+}
