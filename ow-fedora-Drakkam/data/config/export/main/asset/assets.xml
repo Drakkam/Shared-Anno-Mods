@@ -76,32 +76,32 @@
             <UpgradeList/>
             <Factory7/>
             <FactoryBase>
-              <IsMainFactory>1</IsMainFactory>
-              <FactoryOutputs>
-                <Item>
-                  <Product>1555000124</Product>
-                  <Amount>1</Amount>
-                  <StorageAmount>3</StorageAmount>
-                </Item>
-              </FactoryOutputs>
-              <CycleTime>30</CycleTime>
               <FactoryInputs>
                 <Item>
                   <Product>5384</Product>
-                  <Amount>1</Amount>
-                  <StorageAmount>4</StorageAmount>
+                  <Amount>2</Amount>
+                  <StorageAmount>10</StorageAmount>
                 </Item>
                 <Item>
                   <Product>120044</Product>
-                  <Amount>1</Amount>
-                  <StorageAmount>4</StorageAmount>
+                  <Amount>2</Amount>
+                  <StorageAmount>10</StorageAmount>
                 </Item>
                 <Item>
                   <Product>1500020010</Product>
                   <Amount>1</Amount>
-                  <StorageAmount>4</StorageAmount>
+                  <StorageAmount>5</StorageAmount>
                 </Item>
               </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                  <Product>1555000124</Product>
+                  <Amount>2</Amount>
+                  <StorageAmount>10</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>60</CycleTime>
+              <IsMainFactory>1</IsMainFactory>
             </FactoryBase>
             <AmbientMoodProvider>
               <Murmur>Factory</Murmur>
@@ -219,7 +219,7 @@
 </ModOp>
 
 <!-- Specific Items -->
-<ModOp Type="add" GUID="191328,191329,191337,191336" Path="/Values/ItemEffect/EffectTargets">
+<ModOp Type="add" GUID="191328,191329,191337" Path="/Values/ItemEffect/EffectTargets">
   <Item>
     <GUID>1555000127</GUID>
   </Item>
@@ -253,13 +253,10 @@
                     </Tier2>
                 </Item>
                 <Item>
-                  <Building>1555000056</Building>
+                  <Building>1500302153</Building>
                   <Tier2>
                     <Item>
-                      <Building>1010267</Building>
-                    </Item>
-                    <Item>
-                      <Building>1010266</Building>
+                      <Building>1500011458</Building>
                     </Item>
                   </Tier2>
                 </Item>

@@ -711,7 +711,7 @@
     </Asset>
   </ModOp>
 
-<!-- Marble Store Merchants-->
+<!-- Merchants Mod Modification-->
   <Group Condition="#Drakkam-new-population-Merchants">
     <ModOp Type="addPrevSibling" GUID="1010315">
       <Asset>
@@ -895,6 +895,29 @@
           </Values>
       </Asset>
     </ModOp>
+
+    <!-- Adding Module to OW Mines (Iron, Zync, Copper Mine, Coal Mine and Cement mine)-->
+    <ModOp Type="add" GUID="1555000095" Path="/Values">
+      <ModuleOwner>
+        <ModuleLimits>
+          <Main>
+            <Limit>0</Limit>
+          </Main>
+        </ModuleLimits>
+        <ConstructionOptions>
+          <Item>
+            <ModuleGUID>0</ModuleGUID>
+          </Item>
+        </ConstructionOptions>
+        <AdjustModuleOrientationOnceSpecialModuleWasPlaced>1</AdjustModuleOrientationOnceSpecialModuleWasPlaced>
+        <FertilizerModuleData>
+          <Module>1555000383</Module>
+        </FertilizerModuleData>
+        <ModuleBuildRadius>0</ModuleBuildRadius>
+        <FarmType>NoFarm</FarmType>
+      </ModuleOwner>
+    </ModOp>
+
   </Group>
   <!--Marble Workshop-->
   <ModOp Type="addNextSibling" GUID="1010315">

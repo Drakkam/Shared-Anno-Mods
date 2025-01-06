@@ -1,8 +1,10 @@
 {
-	"Version": "1.0.0",
+	"Version": "1.1.0",
 	"ModID": "ow-fedora-Drakkam",
 	"ModDependencies": [
-		"fedora-Drakkam"
+		"fedora-Drakkam",
+		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v4.5.6/ow-flax-jakob.zip"
+
 	],
 	"LoadAfterIds": [],
 	"Category": {
