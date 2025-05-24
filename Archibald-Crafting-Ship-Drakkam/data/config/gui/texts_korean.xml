@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>113880</GUID>
+      <Text>특별 아이템</Text>
+    </Text>
+  </ModOp>
+</ModOps>

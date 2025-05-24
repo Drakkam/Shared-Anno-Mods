@@ -1,0 +1,40 @@
+<ModOps>
+<!-- Changing Diving Bell Item Category icon to a generic one-->
+  <ModOp Type="merge" GUID="113880" Path="/Values/Standard">
+          <IconFilename>data/ui/2kimages/main/icons/icon_prestige.png</IconFilename>
+  </ModOp>
+
+<!-- Adding Crafting UI and properties to Archibalds Clipper-->
+  <ModOp Type="merge" GUID='101152' Path="/Values">
+    <Selection>
+			<GUIType>TraderOldNate</GUIType>
+			<OnSelection>
+				<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+				<Values>
+					<ActionList/>
+				</Values>
+			</OnSelection>
+			<InteractionDistance>20</InteractionDistance>
+			<Colors>
+				<SelectionColorType>PropertySelectionColor</SelectionColorType>
+				<SelectionColor>-337045</SelectionColor>
+				<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+			</Colors>
+		</Selection>
+  </ModOp>
+  <ModOp Type="merge" GUID='101152'>
+    <Template>ItemCrafterBuilding</Template>
+  </ModOp>
+
+<!-- Adding Craftable items to Archibalds Profile-->
+<ModOp Type="Merge" GUID='45' Path="/Values">
+  <ItemCrafter>
+			<CraftableItemsInRegion>
+				<Moderate>
+					<CraftableItems>
+					</CraftableItems>
+				</Moderate>
+			</CraftableItemsInRegion>
+		</ItemCrafter>
+  </ModOp>
+</ModOps>

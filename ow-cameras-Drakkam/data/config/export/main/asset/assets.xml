@@ -123,7 +123,7 @@
             </Item>
           </FactoryOutputs>
           <CycleTime>60</CycleTime>
-          <IsMainFactory>1</IsMainFactory>
+          <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode />
         <AmbientMoodProvider>
@@ -294,7 +294,7 @@
             <StorageAmount>4</StorageAmount>
           </Item>
           <Item>
-            <Product>135150</Product>
+            <Product>1500301162</Product>
             <Amount>1</Amount>
             <StorageAmount>4</StorageAmount>
           </Item>
@@ -307,7 +307,7 @@
           </Item>
         </FactoryOutputs>
         <CycleTime>90</CycleTime>
-        <IsMainFactory>1</IsMainFactory>
+        <IsMainFactory>0</IsMainFactory>
       </FactoryBase>
       <LogisticNode />
       <Maintenance>
@@ -512,22 +512,16 @@
               </Tier2>
             </Item>
             <Item>
-              <Building>135224</Building>
+              <Building>1500302357</Building>
               <Tier2>
                 <Item>
-                  <Building>1010331</Building>
+                  <Building>1010333</Building>
                 </Item>
                 <Item>
-                  <Building>134614</Building>
-                </Item>
-                <Item>
-                  <Building>135134</Building>
+                  <Building>2100115090</Building>
                   <Tier3>
                     <Item>
-                      <Building>101270</Building>
-                    </Item>
-                    <Item>
-                      <Building>1010266</Building>
+                      <Building>1010304</Building>
                     </Item>
                   </Tier3>
                 </Item>

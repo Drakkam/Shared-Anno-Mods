@@ -2,6 +2,7 @@
 <!-- START FERTILITY -->
   <!-- Tomatoes -->
   <ModOp Type="addNextSibling" GUID='11703'>
+  <!-- Uncommon -->
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
@@ -60,6 +61,7 @@
         <EcoSystemProviderUpgrade/>
       </Values>
     </Asset>
+  <!-- Rare -->
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
@@ -116,6 +118,7 @@
         <EcoSystemProviderUpgrade/>
       </Values>
     </Asset>
+  <!-- Epic -->
     <Asset>
       <Template>GuildhouseItem</Template>
       <Values>
@@ -178,19 +181,21 @@
   </ModOp>
 
 <!-- Specific Items -->
-<!-- Rare -->
+<!-- Uncommon -->
 <ModOp Type="add" GUID="192688,191233,191281" Path="/Values/RewardPool/ItemsPool">
   <Item>
     <ItemLink>1555000454</ItemLink>
   </Item>
 </ModOp>
 
+<!-- Rare -->
 <ModOp Type="add" GUID="192689,191240,191283" Path="/Values/RewardPool/ItemsPool">
   <Item>
     <ItemLink>1555000455</ItemLink>
   </Item>
 </ModOp>
 
+<!-- Epic -->
 <ModOp Type="add" GUID="192690,191247" Path="/Values/RewardPool/ItemsPool">
   <Item>
     <ItemLink>1555000456</ItemLink>

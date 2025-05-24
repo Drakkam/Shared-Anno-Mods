@@ -35,7 +35,11 @@
           <ExpeditionAttributes>
             <Item>
               <Attribute>Diplomacy</Attribute>
-              <Amount>10</Amount>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
             </Item>
           </ExpeditionAttributes>
         </ExpeditionAttribute>
@@ -51,26 +55,6 @@
       <Product>1555000161</Product>
     </Item>
   </ModOp>
-
-<Group> <!-- Ink-->
-  <!-- Ink: After Goulash -->
-  <ModOp Type="addNextSibling" GUID="502043"
-    Condition="!~/Values/ProductList/List/Item[Product='1555000161']"
-    Path="/Values/ProductList/List/Item[Product='1010215']">
-    <Item>
-      <Product>1555000161</Product>
-    </Item>
-  </ModOp>
-  <!-- Ink: Worker workforce list-->
-  <ModOp Type="add" GUID="502005,502019"
-    Condition="!~/Values/ProductList/List/Item[Product='1555000161']"
-    Path="/Values/ProductList/List">
-    <Item>
-      <Product>1555000161</Product>
-    </Item>
-  </ModOp>
-</Group>
-
 
   <!-- # Docklands -->
   <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1555000161']">

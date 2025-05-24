@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000274</GUID>
+      <Text>化妆品</Text>
+    </Text>
+    <Text>
+      <GUID>1555000275</GUID>
+      <Text>一盒乳液、面霜、粉末等。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

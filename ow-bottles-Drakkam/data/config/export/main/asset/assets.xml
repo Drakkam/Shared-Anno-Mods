@@ -107,7 +107,7 @@
               <StorageAmount>4</StorageAmount>
             </Item>
           </FactoryOutputs>
-          <IsMainFactory>1</IsMainFactory>
+          <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode />
         <AmbientMoodProvider>

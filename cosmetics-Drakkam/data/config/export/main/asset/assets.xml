@@ -1,0 +1,230 @@
+<ModOps>
+<!-- # Product -->
+<!-- Cosmetics (1555000274)-->
+  <ModOp Type="addNextSibling" GUID="1010216">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000274</GUID>
+          <Name>Cosmetics</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Cosmetics.png</IconFilename>
+          <InfoDescription>1555000275</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Cosmetics</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11705</ProductCategory> <!-- Luxury Need -->
+          <BasePrice>60</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Cosmetics: after Fur Coats -->
+  <ModOp Type="addNextSibling" GUID="120055,120057"
+    Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000274']"
+    Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+    <Item>
+      <Product>1555000274</Product>
+    </Item>
+  </ModOp>
+
+<!-- Fake Ismainfactory -->
+<ModOp Type="addNextSibling" GUID="100659">
+  <Asset>
+    <Template>FactoryBuilding7</Template>
+    <Values>
+      <Standard>
+        <GUID>1555000716</GUID>
+        <Name>Cosmetics Manufacturer</Name>
+        <IconFilename>data/ui/Drakkam/icons/icon_Cosmetics.png</IconFilename>
+      </Standard>
+      <Building>
+        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        <AssociatedRegions>Moderate</AssociatedRegions>
+      </Building>
+      <Blocking />
+      <Cost>
+        <Costs>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>21500</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>10</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>20</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010218</Ingredient>
+            <Amount>16</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010207</Ingredient>
+            <Amount>16</Amount>
+          </Item>
+        </Costs>
+      </Cost>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/dlc06/graphics/buildings/production/production_colony02_31/production_colony02_31.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <Mesh />
+      <Selection>
+        <OnSelection>
+          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <Values>
+            <ActionList />
+          </Values>
+        </OnSelection>
+        <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+        <Colors>
+          <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+        </Colors>
+      </Selection>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Cosmetics Manufacturer</Text>
+            <Status>Exported</Status>
+          </English>
+        </LocaText>
+        <LineID>5263</LineID>
+      </Text>
+      <Constructable />
+      <Locked />
+      <SoundEmitter>
+        <ActiveSounds>
+          <Item>
+            <Sound>216877</Sound>
+          </Item>
+          <Item>
+            <Sound>239844</Sound>
+          </Item>
+        </ActiveSounds>
+        <IncidentSounds>
+          <InfectedFire>
+            <Item>
+              <Sound>214659</Sound>
+            </Item>
+          </InfectedFire>
+        </IncidentSounds>
+      </SoundEmitter>
+      <FeedbackController />
+      <Infolayer />
+      <UpgradeList />
+      <Factory7 />
+      <FactoryBase>
+        <FactoryInputs>
+          <Item>
+            <Product>5398</Product>
+            <Amount>2</Amount>
+            <StorageAmount>12</StorageAmount>
+          </Item>
+          <Item>
+            <Product>5383</Product>
+            <Amount>2</Amount>
+            <StorageAmount>12</StorageAmount>
+          </Item>
+          <Item>
+            <Product>114368</Product>
+            <Amount>2</Amount>
+            <StorageAmount>12</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1010242</Product>
+            <Amount>1</Amount>
+            <StorageAmount>6</StorageAmount>
+          </Item>
+        </FactoryInputs>
+        <FactoryOutputs>
+          <Item>
+            <Product>1555000274</Product>
+            <Amount>2</Amount>
+            <StorageAmount>8</StorageAmount>
+          </Item>
+        </FactoryOutputs>
+        <CycleTime>90</CycleTime>
+        <IsMainFactory>1</IsMainFactory>
+      </FactoryBase>
+      <LogisticNode />
+      <AmbientMoodProvider>
+        <Murmur>Factory</Murmur>
+        <DynamicEnvironmentType>None</DynamicEnvironmentType>
+      </AmbientMoodProvider>
+      <Maintenance>
+        <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+            <Amount>250</Amount>
+            <InactiveAmount>125</InactiveAmount>
+          </Item>
+          <Item>
+            <Product>1010116</Product>
+            <Amount>125</Amount>
+          </Item>
+        </Maintenances>
+      </Maintenance>
+      <Pausable />
+      <IncidentInfectable>
+        <Infectable>
+          <Explosion>
+            <Base>0</Base>
+            <Escalated>0</Escalated>
+          </Explosion>
+        </Infectable>
+        <Explosion>
+          <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+        </Explosion>
+        <IncidentInfectionChanceFactors>
+          <Fire>
+            <DensityDistance>20</DensityDistance>
+            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+          </Fire>
+          <Riot>
+            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+            <HappinessThreshold>20</HappinessThreshold>
+          </Riot>
+        </IncidentInfectionChanceFactors>
+      </IncidentInfectable>
+      <Industrializable />
+      <Culture>
+        <CultureType>Culture</CultureType>
+      </Culture>
+      <Electrifiable />
+      <EcoSystemProvider />
+    </Values>
+  </Asset>
+</ModOp>
+
+</ModOps>

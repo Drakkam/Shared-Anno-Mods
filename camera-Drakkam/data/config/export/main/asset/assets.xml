@@ -35,6 +35,10 @@
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>30</Amount>
+            </Item>
           </ExpeditionAttributes>
         </ExpeditionAttribute>
       </Values>
@@ -42,7 +46,7 @@
   </ModOp>
 
   <!-- Camera: after High Wheeler -->
-  <ModOp Type="addNextSibling" GUID="120055,120057"
+  <ModOp Type="addNextSibling" GUID="120055"
   Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000169']"
   Path="/Values/ProductStorageList/ProductList/Item[Product='1010245']">
     <Item>
@@ -50,12 +54,182 @@
     </Item>
   </ModOp>
 
-  <!-- Camera: add to Engineers Lists -->
-  <ModOp Type="addNextSibling" GUID="502006,501998,502020"
-  Condition="!~/Values/ProductList/List/Item[Product='1555000169']"
-  Path="/Values/ProductList/List">
-    <Item>
-      <Product>1555000169</Product>
-    </Item>
-  </ModOp>
+  <!-- Fake ismainfactory -->
+    <ModOp Type="addNextSibling" GUID="1010266">
+      <Asset>
+        <Template>Multifactory</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000685</GUID>
+            <Name>Artisan's Workshop: Camera</Name>
+            <IconFilename>data/ui/Drakkam/icons/icon_camera.png</IconFilename>
+            <InfoDescription>132783</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildingCategoryName>132773</BuildingCategoryName>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/ui/Drakkam/buildings/production/Artisan_workshop_Cameras/Artisan_workshop_camera.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>35000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Mesh />
+          <Selection>
+            <GUIType>Production</GUIType>
+            <StaticHelpEntryPoint>HighLifeArtisanWorkshops</StaticHelpEntryPoint>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Artisan's Workshop: Camera</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+          </Text>
+          <Constructable />
+          <Locked>
+            <DLCDependency>410085</DLCDependency>
+          </Locked>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>280042</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>Multifactory</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </ActiveSounds>
+          </SoundEmitter>
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010242</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1555000171</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>135150</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1555000169</Product>
+                <Amount>1</Amount>
+                <StorageAmount>3</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>90</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>600</Amount>
+                <InactiveAmount>300</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>350</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Industrializable />
+          <IncidentInfectable>
+            <Infectable>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <DamageExplosionChance>0</DamageExplosionChance>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Explosion>
+                <BaseChance>4</BaseChance>
+              </Explosion>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Electrifiable />
+          <AmbientMoodProvider>
+            <Murmur>Factory</Murmur>
+          </AmbientMoodProvider>
+          <Attackable>
+            <MaximumHitPoints>5000</MaximumHitPoints>
+          </Attackable>
+          <UpgradeList />
+          <Pausable />
+          <FeedbackController />
+          <Infolayer />
+          <RecipeBuilding>
+            <RecipeList>135415</RecipeList>
+          </RecipeBuilding>
+          <Culture>
+            <Attractiveness>0</Attractiveness>
+            <HasPollution>1</HasPollution>
+          </Culture>
+        </Values>
+      </Asset>
+    </ModOp>
 </ModOps>

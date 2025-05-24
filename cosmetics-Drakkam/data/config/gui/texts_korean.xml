@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000274</GUID>
+      <Text>화장품</Text>
+    </Text>
+    <Text>
+      <GUID>1555000275</GUID>
+      <Text>로션, 크림, 파우더 등이 담긴 상자.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

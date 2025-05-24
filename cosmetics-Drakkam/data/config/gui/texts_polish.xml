@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000274</GUID>
+      <Text>Kosmetyka</Text>
+    </Text>
+    <Text>
+      <GUID>1555000275</GUID>
+      <Text>Pudełko balsamów, kremów, pudrów i tak dalej.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

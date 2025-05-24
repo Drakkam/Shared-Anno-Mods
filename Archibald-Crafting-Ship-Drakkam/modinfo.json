@@ -1,0 +1,26 @@
+{
+	"ModID": "Archie_crafting",
+	"Version": "1.2",
+	"Category": {
+		"English": "Shared",
+		"Chinese": "插件",
+		"French": "Complément",
+		"German": "Zusatz",
+		"Italian": "Componente aggiuntivo",
+		"Japanese": "アドオン",
+		"Korean": "애드온",
+		"Polish": "Dodatek",
+		"Russian": "Дополнение",
+		"Spanish": "Complemento",
+		"Taiwanese": "外掛程式"
+	},
+	"ModName": {
+		"English": "Archibald Crafting Ship"
+	},
+	"Description": {
+		"English": "This modification alters Archibald's clipper into a crafting station, enabling modders to introduce new items that can be crafted there."
+	},
+	"KnownIssues": [],
+	"DLCDependencies": [],
+	"CreatorName": "Drakkam"
+}

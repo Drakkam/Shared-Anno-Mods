@@ -60,7 +60,7 @@
               <IsAgriculture>0</IsAgriculture>
             </Factory7>
             <FactoryBase>
-          <IsMainFactory>0</IsMainFactory>
+            <IsMainFactory>0</IsMainFactory>
             <FactoryOutputs>
               <Item>
                 <Product>1555000100</Product>
