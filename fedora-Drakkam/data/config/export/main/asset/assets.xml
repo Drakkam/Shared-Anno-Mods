@@ -95,7 +95,7 @@
             <Object>
               <Variations>
                 <Item>
-                  <Filename>data/ui/Drakkam/buildings/production/Fedora_manufacturer/Fedora_manufacturer.cfg</Filename>
+                  <Filename>data/graphics/buildings/production/factory_05/factory_05.cfg</Filename>
                 </Item>
               </Variations>
             </Object>
@@ -201,7 +201,7 @@
                         <InactiveAmount>250</InactiveAmount>
                     </Item>
                     <Item>
-                        <Product>1555000001</Product>
+                        <Product>1010116</Product>
                         <Amount>175</Amount>
                     </Item>
                 </Maintenances>

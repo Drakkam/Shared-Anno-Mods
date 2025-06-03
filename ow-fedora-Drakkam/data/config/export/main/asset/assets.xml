@@ -36,10 +36,6 @@
                       <Ingredient>1010207</Ingredient>
                       <Amount>8</Amount>
                     </Item>
-                    <Item>
-                      <Ingredient>1555000093</Ingredient>
-                      <Amount>6</Amount>
-                    </Item>
                 </Costs>
             </Cost>
             <Object>
@@ -151,14 +147,11 @@
                         <InactiveAmount>250</InactiveAmount>
                     </Item>
                     <Item>
-                        <Product>1555000001</Product>
+                        <Product>1010116</Product>
                         <Amount>175</Amount>
                     </Item>
                 </Maintenances>
             </Maintenance>
-            <Heated>
-              <RequiresHeat>0</RequiresHeat>
-            </Heated>
             <IncidentInfectable>
               <IncidentInfectionChanceFactors>
                 <Fire>
@@ -253,12 +246,7 @@
                     </Tier2>
                 </Item>
                 <Item>
-                  <Building>1500302153</Building>
-                  <Tier2>
-                    <Item>
-                      <Building>1500011458</Building>
-                    </Item>
-                  </Tier2>
+                  <Building>1010267</Building>
                 </Item>
               </Tier1>
           </ProductionChain>

@@ -1,8 +1,10 @@
 {
 	"Version": "1.2.1",
-	"ModID": "ow-bottles-Drakkam",
+	"ModID": "ow-ink-Drakkam",
 	"ModDependencies": [
-		"bottles-Drakkam"
+		"ink-Drakkam",
+		"shared_goods_lead",
+		"shared_goods_galena"
 	],
 	"LoadAfterIds": [],
 	"Category": {
@@ -19,17 +21,17 @@
 		"Taiwanese": "生產"
 	},
 	"ModName": {
-		"English": "OW Bottles (Drakkam)",
-		"Chinese": "OW瓶（Drakkam）",
-		"French": "Bouteilles OW (Drakkam)",
-		"German": "OW-Flaschen (Drakkam)",
-		"Italian": "Bottiglie OW (Drakkam)",
-		"Japanese": "OWボトル(ドラッカム)",
-		"Korean": "OW 병 (Drakkam)",
-		"Polish": "Butelki OW (Drakkam)",
-		"Russian": "Бутылки OW (Драккам)",
-		"Spanish": "Botellas OW (Drakkam)",
-		"Taiwanese": "OW瓶（Drakkam）"
+		"English": "OW Ink (Drakkam)",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
 	},
 	"CreatorName": "Drakkam",
 	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
