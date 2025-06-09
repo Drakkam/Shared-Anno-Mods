@@ -41,7 +41,7 @@
             <Object>
               <Variations>
                 <Item>
-                  <Filename>data/ui/Drakkam/buildings/production/Fedora_manufacturer/Fedora_manufacturer.cfg</Filename>
+                  <Filename>data/drakkam/ow-fedora/fedora-workshop.cfg</Filename>
                 </Item>
               </Variations>
             </Object>
