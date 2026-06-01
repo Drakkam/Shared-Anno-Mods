@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Cogwheels</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>The literal teeth of progress. Brilliant for automation, terrible for anyone who forgets to tuck in their tie.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,46 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-tomatoes-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\Tomatoes_farm\\maps\\production_fields_tomatoes_diff.png": {
+      "sha": "a9ff03f3131105b1ebb3cf704278cd690ba1118fe5523bf20fa6eda34f85f573",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Tomatoes_farm\\maps\\production_fields_tomatoes_diff_0.dds": {
+          "sha": "9cd104897f05197590f472dbd4e9e7e7d8274721c3d63bd0551027c3351fe280"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Tomatoes_farm\\maps\\production_fields_tomatoes_diff_1.dds": {
+          "sha": "2ae5e7d65afbac977eec1262dd19f5956ee9e5e0f3e7e51dac31887408a1d0ed"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Tomatoes_farm\\maps\\production_fields_tomatoes_diff_2.dds": {
+          "sha": "9c4be92a58b81406b7e2b2100d361deee6a65d1f21c4d5f331a77a14c3aa81f3"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-tomatoes-Drakkam\\data\\ui\\Drakkam\\icons\\icon_tomatoes_seeds.png": {
+      "sha": "80ac927a367ea3e187b9a9c05e4060bf15f3f109ba9ad8df3997c32036f7c868",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_seeds_0.dds": {
+          "sha": "bdf89acd7365360c2ab051e99bed0c9339bae51088291c9d837ad14c01affdc9"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_seeds_1.dds": {
+          "sha": "44ae086a9b501f22d3ea21d1e9f49f07c51938f751969ee5012ad82c785093dd"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_seeds_2.dds": {
+          "sha": "b05b0d38ec1c540798ac4b722b27eb327467b683b3c78cdfe548a9cbfe8b09f2"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-tomatoes-Drakkam\\data\\ui\\Drakkam\\icons\\icon_tomatoes.png": {
+      "sha": "6b891b867f14e9ecfb28aae2179e009c6c7bcd810fb50b2515e25cb097225198",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_0.dds": {
+          "sha": "198cad664f9989b5cefc333e608417d4cbe87470f23ec23dc619999985aeb25f"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_1.dds": {
+          "sha": "bd4373bdb9d01f13e230e91d950319192281c240a0027eaf1a10c7060b5ecd12"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_2.dds": {
+          "sha": "892b04c70caa405f66ec9a9e32b8791bb6ab812bbbcb1bf4e992d0667d24f671"
+        }
+      }
+    }
+  }
+}

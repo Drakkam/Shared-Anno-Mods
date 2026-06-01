@@ -45,10 +45,19 @@
     </Asset>
   </ModOp>
 
-  <!-- Camera: after High Wheeler -->
-  <ModOp Type="addNextSibling" GUID="120055"
+  <!-- Cameras: after High Wheeler -->
+  <ModOp Type="addNextSibling" GUID="120055,120057"
   Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000169']"
   Path="/Values/ProductStorageList/ProductList/Item[Product='1010245']">
+    <Item>
+      <Product>1555000169</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Bottles: add to Worker Unlock Goods and worker workforce list-->
+  <ModOp Type="add" GUID="502006,502020,501998,501999"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000169']"
+    Path="/Values/ProductList/List">
     <Item>
       <Product>1555000169</Product>
     </Item>
@@ -74,7 +83,7 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/ui/Drakkam/buildings/production/Artisan_workshop_Cameras/Artisan_workshop_camera.cfg</Filename>
+                <Filename>data/dlc09/graphics/buildings/production/manufactory_01/manufactory_02.cfg</Filename>
               </Item>
             </Variations>
           </Object>

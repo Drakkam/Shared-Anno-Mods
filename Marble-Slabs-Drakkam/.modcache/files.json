@@ -1,0 +1,32 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\Marble-Slabs-Drakkam\\data\\ui\\Drakkam\\icons\\icon_marble_slabs.png": {
+      "sha": "afcd2956c17ff231cc67c98ee27f59835259d015ad187b8baf65b3a1446d4061",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] Marble Slabs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_marble_slabs_0.dds": {
+          "sha": "40ba6575f038aa5db58f705b8f48683ee240d8b18513437616fc81469b9a16e6"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] Marble Slabs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_marble_slabs_1.dds": {
+          "sha": "ba70321937d8d157c09ff3f1accf6a56c6e719ae435e44d5f724e5f95900efe6"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] Marble Slabs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_marble_slabs_2.dds": {
+          "sha": "c2615ffca960438d337b9ed488e0ace7a23f99f24ea1d942cc84bbdb404fa6d5"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\Marble-Slabs-Drakkam\\data\\ui\\Drakkam\\icons\\icon_marble_stone.png": {
+      "sha": "5b2950c8d384415919905e77178b04939e697986e9669d2bf51b3c701b80a818",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] Marble Slabs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_marble_stone_0.dds": {
+          "sha": "d5b7ab0ad762efa940948b83969d6a6f8d40498740565045e903c7385c309e14"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] Marble Slabs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_marble_stone_1.dds": {
+          "sha": "fcc7ef6b826f10627f0ab994d344484587860cee018031b1762e4e66a83c3680"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] Marble Slabs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_marble_stone_2.dds": {
+          "sha": "77658faca2efd0fb62b9aed929b257e24f7b48bcedb81af270d5edae898df45e"
+        }
+      }
+    }
+  }
+}

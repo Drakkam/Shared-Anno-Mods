@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\utensils-Drakkam\\data\\ui\\Drakkam\\icons\\icon_utensils.png": {
+      "sha": "e4108c2ac821be460fe799e5881b058a45ba36be58d8a9b515ae13eb059c8d58",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Utensils (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_utensils_0.dds": {
+          "sha": "75d6095ba35c098fc4eb31d90564242de2a2fe52ec338c540cf4fcf79dc5ba75"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Utensils (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_utensils_1.dds": {
+          "sha": "bfde21990288f33e16c68c070177f3511c99ca27073de780979252ab7ddb7778"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Utensils (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_utensils_2.dds": {
+          "sha": "58ffde2abe5ded3eb09f9b421a074db89b0bafb5ce2d92e5c863cc4bde88b902"
+        }
+      }
+    }
+  }
+}

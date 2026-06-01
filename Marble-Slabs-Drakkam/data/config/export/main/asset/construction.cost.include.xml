@@ -78,7 +78,7 @@
     </Item>
   </ModOp>
   <!--Oil Harbor, Glasses Factory, Brass Factory, High Wheeler, Fuel Station, Pocket Watch Factory, Gold Workshop, Light Bulb Factory, Filament Factory, Scholar Residence-->
-  <ModOp Type="addNextSibling" GUID="101331,101250,1010282,1010323,118571,1010324,1010327,1010286,1010321,114445" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
+  <ModOp Type="addNextSibling" GUID="101331,101250,1010323,118571,1010324,1010327,1010286,1010321,114445" Path="/Values/Cost/Costs/Item[Ingredient='1010207']">
     <Item>
       <Ingredient>1555000093</Ingredient>
       <!--Marble slabs-->

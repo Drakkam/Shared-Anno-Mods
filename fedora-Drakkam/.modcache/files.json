@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\fedora-Drakkam\\data\\ui\\Drakkam\\icons\\icon_fedora_hat.png": {
+      "sha": "0165565f19a92910085d6fdc765bc331093dffe83c6f59404e08e826cb50fd1d",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Fedora\\data\\ui\\Drakkam\\icons\\icon_fedora_hat_0.dds": {
+          "sha": "79572c8cce536e62b41920cba7d9023bfc02f8e1e199a04cc8630e87392542d5"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Fedora\\data\\ui\\Drakkam\\icons\\icon_fedora_hat_1.dds": {
+          "sha": "bdbd9fe5a7726a06fd23d3133a221d8bdc3a1556e62b1f28d1d5a42a34c2c6a8"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Fedora\\data\\ui\\Drakkam\\icons\\icon_fedora_hat_2.dds": {
+          "sha": "cb0ea27669de1b7690c18cf206c69c4d4678c5f3e9016f3adeb10fe72b777f66"
+        }
+      }
+    }
+  }
+}

@@ -54,6 +54,22 @@
     </Item>
   </ModOp>
 
+  <!-- Lenses: After Malt -->
+  <ModOp Type="addNextSibling" GUID="502043"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000171']"
+    Path="/Values/ProductList/List/Item[Product='1010204']">
+    <Item>
+      <Product>1555000171</Product>
+    </Item>
+  </ModOp>
+  <!-- Lenses: add to Worker Unlock Goods and worker workforce list-->
+  <ModOp Type="add" GUID="502007,502020"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000171']"
+    Path="/Values/ProductList/List">
+    <Item>
+      <Product>1555000171</Product>
+    </Item>
+  </ModOp>
   <!-- Lenses Manufacturer -->
   <ModOp Type="addNextSibling" GUID="1010266">
     <Asset>
@@ -176,7 +192,7 @@
             </Item>
           </FactoryOutputs>
           <CycleTime>60</CycleTime>
-          <IsMainFactory>0</IsMainFactory>
+          <IsMainFactory>1</IsMainFactory>
         </FactoryBase>
         <LogisticNode />
         <AmbientMoodProvider>

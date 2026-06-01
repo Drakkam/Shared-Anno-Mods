@@ -5,6 +5,23 @@
   </ModOp>
 
 <!-- Adding Crafting UI and properties to Archibalds Clipper-->
+
+  <ModOp Type="addNextSibling" GUID='500477'>
+    <Asset>
+		<Template>InfoLayerIcon</Template>
+		<Values>
+			<Standard>
+				<GUID>1555000752</GUID>
+				<Name>Craft</Name>
+			</Standard>
+			<InfoLayerIcon>
+				<Config>data/graphics/ui/infolayer3d/exclamation_mark_blue.cfg</Config>
+				<PopupDelay>0</PopupDelay>
+				<ShowInCreativeMode>1</ShowInCreativeMode>
+			</InfoLayerIcon>
+		</Values>
+	</Asset>
+  </ModOp>
   <ModOp Type="merge" GUID='101152' Path="/Values">
     <Selection>
 			<GUIType>TraderOldNate</GUIType>
@@ -21,6 +38,9 @@
 				<WeakSelectionColorType>NoColor</WeakSelectionColorType>
 			</Colors>
 		</Selection>
+		<Infolayer>
+			<DefaultInfoLayer>1555000752</DefaultInfoLayer>
+		</Infolayer>
   </ModOp>
   <ModOp Type="merge" GUID='101152'>
     <Template>ItemCrafterBuilding</Template>

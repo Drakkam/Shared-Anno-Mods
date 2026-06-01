@@ -1,0 +1,46 @@
+{
+  "Version": "1.0",
+  "ModID": "Shared_Pickles",
+  "LoadAfterIds": [],
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Shared_Pickles",
+    "Chinese": "Shared_Pickles",
+    "French": "Shared_Pickles",
+    "German": "Shared_Pickles",
+    "Italian": "Shared_Pickles",
+    "Japanese": "Shared_Pickles",
+    "Korean": "Shared_Pickles",
+    "Polish": "Shared_Pickles",
+    "Russian": "Shared_Pickles",
+    "Spanish": "Shared_Pickles",
+    "Taiwanese": "Shared_Pickles"
+  },
+  "CreatorName": "Satanoy",
+  
+  "Description": {
+    "English": "Shared Product Pickles",
+    "Chinese": "Shared Product Pickles",
+    "French": "Shared Product Pickles",
+    "German": "Shared Product Pickles",
+    "Italian": "Shared Product Pickles",
+    "Japanese": "Shared Product Pickles",
+    "Korean": "Shared Product Pickles",
+    "Polish": "Shared Product Pickles",
+    "Russian": "Shared Product Pickles",
+    "Spanish": "Shared Product Pickles",
+    "Taiwanese": "Shared Product Pickles"
+  }
+}

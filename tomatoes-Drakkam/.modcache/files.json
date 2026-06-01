@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\tomatoes-Drakkam\\data\\ui\\Drakkam\\icons\\icon_tomatoes.png": {
+      "sha": "6b891b867f14e9ecfb28aae2179e009c6c7bcd810fb50b2515e25cb097225198",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_0.dds": {
+          "sha": "198cad664f9989b5cefc333e608417d4cbe87470f23ec23dc619999985aeb25f"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_1.dds": {
+          "sha": "bd4373bdb9d01f13e230e91d950319192281c240a0027eaf1a10c7060b5ecd12"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Tomatoes (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_tomatoes_2.dds": {
+          "sha": "892b04c70caa405f66ec9a9e32b8791bb6ab812bbbcb1bf4e992d0667d24f671"
+        }
+      }
+    }
+  }
+}

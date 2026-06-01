@@ -1,0 +1,88 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-fedora-Drakkam\\data\\drakkam\\ow-fedora\\maps\\fedora_diff.png": {
+      "sha": "83ff441350187d8cfda99520ad923d149b3e8e29280cece4d91864eccd498af3",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_diff_0.dds": {
+          "sha": "1b5037f6374a3192ac314643e5d91fe1fc96cd61689a4fa76382e70a9aac94f3"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_diff_1.dds": {
+          "sha": "7a8995e4ecd10031339ed1011d691ebef53efb659d82f9c1c21bba100b5e8483"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_diff_2.dds": {
+          "sha": "23410ffd161e299ab95c33afd5bc12feeff2975d3faf18ea14672384a0df9be8"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-fedora-Drakkam\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_diff.png": {
+      "sha": "003971a72b8c12c211299fb5d44d86211768338645d75be80d16a4bd813c82b6",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_diff_0.dds": {
+          "sha": "bb49a4aefb3fccfaa95bd16b55ff918e028668ed3a07c95fa25004c9283e8b98"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_diff_1.dds": {
+          "sha": "33318bc00482d3b457fc428eaf9efb0cbadf2ea26610526052b5e58c2ca137b8"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_diff_2.dds": {
+          "sha": "96ee794f8ad345335b2c021e212fcd862894f7c99e82329552125ea2f525dba4"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-fedora-Drakkam\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_metal.png": {
+      "sha": "9ba5e4b10936fb135e48e3c81d06f556558f9cb582b53ce24f987c080ac76f1b",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_metal_0.dds": {
+          "sha": "1c559feb3be105015f627cd573ab1ae96937a4730ab25a9c405aef063fba6fc4"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_metal_1.dds": {
+          "sha": "1939982c4eb3bd34d5fb4b0e9bf02ea65cf3f6472e47371e06a6a83a698f58b7"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_metal_2.dds": {
+          "sha": "fe0a356373948eb98509fd21189a175532921e1d00fc5e195f2b0e6980ac7026"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-fedora-Drakkam\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_norm.png": {
+      "sha": "d9329e6750cec38d00dd6b137a981eb176b4137509914322f22ff3187d9cf6ca",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_norm_0.dds": {
+          "sha": "a722a9e85ecd730d7605814682bf550ccee89e19f89c9d38b2f5cb830669286d"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_norm_1.dds": {
+          "sha": "65feb2a7ac69b5f1e7707e654c110c5167d4ab409965b5079f60b752f8ba4048"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\drakkam\\ow-fedora\\maps\\fedora_workshop_norm_2.dds": {
+          "sha": "348b4eaa57235f7d8d29f7e9fd2ce29fb06e653e8011247cac86b28f6194dd12"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-fedora-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\Fedora_manufacturer\\maps\\Fedora_diff.png": {
+      "sha": "83ff441350187d8cfda99520ad923d149b3e8e29280cece4d91864eccd498af3",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Fedora_manufacturer\\maps\\Fedora_diff_0.dds": {
+          "sha": "1b5037f6374a3192ac314643e5d91fe1fc96cd61689a4fa76382e70a9aac94f3"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Fedora_manufacturer\\maps\\Fedora_diff_1.dds": {
+          "sha": "7a8995e4ecd10031339ed1011d691ebef53efb659d82f9c1c21bba100b5e8483"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Fedora_manufacturer\\maps\\Fedora_diff_2.dds": {
+          "sha": "23410ffd161e299ab95c33afd5bc12feeff2975d3faf18ea14672384a0df9be8"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-fedora-Drakkam\\data\\ui\\Drakkam\\icons\\icon_fedora_hat.png": {
+      "sha": "0165565f19a92910085d6fdc765bc331093dffe83c6f59404e08e826cb50fd1d",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_fedora_hat_0.dds": {
+          "sha": "79572c8cce536e62b41920cba7d9023bfc02f8e1e199a04cc8630e87392542d5"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_fedora_hat_1.dds": {
+          "sha": "bdbd9fe5a7726a06fd23d3133a221d8bdc3a1556e62b1f28d1d5a42a34c2c6a8"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Fedora (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_fedora_hat_2.dds": {
+          "sha": "cb0ea27669de1b7690c18cf206c69c4d4678c5f3e9016f3adeb10fe72b777f66"
+        }
+      }
+    }
+  }
+}

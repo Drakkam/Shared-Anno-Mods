@@ -49,6 +49,15 @@
     </Item>
   </ModOp>
 
+<!-- Fedoras: After Fur Coats -->
+  <ModOp Type="addNextSibling" GUID="502019,502006,501997"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000124']"
+    Path="/Values/ProductList/List/Item[Product='1010247']">
+    <Item>
+      <Product>1555000124</Product>
+    </Item>
+  </ModOp>
+
 <!-- Fake Ismainfactory -->
   <ModOp Type="addPrevSibling" GUID="1010315">
     <Asset>

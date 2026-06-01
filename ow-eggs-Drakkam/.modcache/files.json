@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-eggs-Drakkam\\data\\ui\\Drakkam\\icons\\icon_Eggs.png": {
+      "sha": "d5cd951466e76dc64a030ad636cb3df89a40d091e02fb3038d1fd25051dc4d01",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Eggs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_Eggs_0.dds": {
+          "sha": "79d5bac48e3d234a2b1aec0ba3be0c5c7ed68a21f43fe21458c0f8b9822da7b8"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Eggs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_Eggs_1.dds": {
+          "sha": "13c5f3882fbb26255a2bd052602fea7ba33b98839542f688051dfe457db25b1b"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Eggs (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_Eggs_2.dds": {
+          "sha": "6f2a14c8eb63c27123ba5030bb65106dc5c49a70d02579d556288e938f3effe7"
+        }
+      }
+    }
+  }
+}

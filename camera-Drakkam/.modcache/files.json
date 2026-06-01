@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\camera-Drakkam\\data\\ui\\Drakkam\\icons\\icon_camera.png": {
+      "sha": "ad45a41609ba82ffd65bb4dcde0d38194c1e5ac362278a6035a5dc9f9f27603c",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_camera_0.dds": {
+          "sha": "cc527e6d511065b6d7e7d345fd09223070b90117813766761a63c8fc1598dad9"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_camera_1.dds": {
+          "sha": "0375b980a09ecaeec26fd06daf928bf4b8180fba06b0a517e590e85b2a37c908"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_camera_2.dds": {
+          "sha": "9c9b837951361418ccb5b3276abd190ef68ae7f0df4f0809b01d539d6a4b6b7a"
+        }
+      }
+    }
+  }
+}

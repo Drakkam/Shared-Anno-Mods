@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000723</GUID>
+      <Text>Besteck</Text>
+    </Text>
+    <Text>
+      <GUID>1555000724</GUID>
+      <Text>Alltägliches Utensilien, das im Haus verwendet wird.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-ink-Drakkam\\data\\ui\\Drakkam\\icons\\icon_ink.png": {
+      "sha": "124a04120651280b19ee6e0aafd1442cb209d62258b64c18861b9ecb0315d49d",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Ink (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_ink_0.dds": {
+          "sha": "a63f6b344522efe9047cf23ee06f2d92912d504e69dfe753e0c36ac6ff59535e"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Ink (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_ink_1.dds": {
+          "sha": "01958e2518aa19803e81165b6f6222b7c2ca2d9655d706a9e6307d26441293c9"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Ink (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_ink_2.dds": {
+          "sha": "d4ea90448edc80d33239c484e9cd6be2dab321bd3dd80b81889e657164a69f33"
+        }
+      }
+    }
+  }
+}

@@ -54,6 +54,23 @@
     </Item>
   </ModOp>
 
+  <!-- Bottles: After Malt -->
+  <ModOp Type="addNextSibling" GUID="502043"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000142']"
+    Path="/Values/ProductList/List/Item[Product='1010236']">
+    <Item>
+      <Product>1555000142</Product>
+    </Item>
+  </ModOp>
+  <!-- Bottles: add to Worker Unlock Goods and worker workforce list-->
+  <ModOp Type="add" GUID="502005,502018"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000142']"
+    Path="/Values/ProductList/List">
+    <Item>
+      <Product>1555000142</Product>
+    </Item>
+  </ModOp>
+  
  <!-- Fake IsMainFactory -->
   <ModOp Type="addNextSibling" GUID="1010319">
     <Asset>

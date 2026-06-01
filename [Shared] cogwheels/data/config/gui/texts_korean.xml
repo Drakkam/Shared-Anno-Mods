@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>톱니바퀴</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>진보의 진짜 이빨. 자동화에는 훌륭하지만, 넥타이를 매는 걸 잊은 사람에게는 최악이죠.</Text>
+    </Text>
+    <Text>
+      <GUID>1416000147</GUID>
+      <Text>정밀 주조소</Text>
+    </Text>
+  </ModOp>
+</ModOps>

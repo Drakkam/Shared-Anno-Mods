@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Ruedas dentadas</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>Los dientes literales del progreso. Brillante para la automatización, terrible para cualquiera que se olvide de meter la corbata por dentro.</Text>
+    </Text>
+    <Text>
+      <GUID>1416000147</GUID>
+      <Text>Fundición de Precisión</Text>
+    </Text>
+  </ModOp>
+</ModOps>

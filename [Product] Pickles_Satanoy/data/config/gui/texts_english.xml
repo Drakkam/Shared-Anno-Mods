@@ -1,0 +1,18 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+     <!-- START Pickles-->   
+    <Text>
+      <GUID>1888999757</GUID>
+      <Text>Pickles</Text>
+    </Text>
+    <Text>
+      <GUID>1888999758</GUID>
+      <Text>Vegetables preserved in brine.</Text>
+    </Text>
+    <!-- END Pickles-->
+    <Text>
+      <GUID>1888999426</GUID>
+      <Text>Pickle Workshop</Text>
+    </Text>
+  </ModOp>
+</ModOps>

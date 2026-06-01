@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\cosmetics-Drakkam\\data\\ui\\Drakkam\\icons\\icon_Cosmetics.png": {
+      "sha": "0e87fb64675356634c410a41fec03f5db40bb79ab207a12018adcdaf8c84cc43",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Cosmetics\\data\\ui\\Drakkam\\icons\\icon_Cosmetics_0.dds": {
+          "sha": "49417f371534f93bd70ae92d88d32ba26f17b0a1fdbb21f8218dace0071ba93d"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Cosmetics\\data\\ui\\Drakkam\\icons\\icon_Cosmetics_1.dds": {
+          "sha": "9d404bfd220b39fa23bad738c5e42f3961faecf1e3573fb6af149145d854cfb3"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Cosmetics\\data\\ui\\Drakkam\\icons\\icon_Cosmetics_2.dds": {
+          "sha": "777a9b1f1040c941d201b237c92d5b8511a41b8851f5cc3b0909d5ce46bda197"
+        }
+      }
+    }
+  }
+}

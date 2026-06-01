@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000723</GUID>
+      <Text>식기</Text>
+    </Text>
+    <Text>
+      <GUID>1555000724</GUID>
+      <Text>집에서 일상적으로 쓰는 식기들.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

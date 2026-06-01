@@ -1,0 +1,32 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-utensils-Drakkam\\data\\drakkam\\buildings\\production\\utensils_factory\\maps\\utensils_diff.png": {
+      "sha": "c384880f0121f8ed8762323ca6e06671b9bf0ef0a2701caa207c2a4969b2dd74",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Utensils (Drakkam)\\data\\drakkam\\buildings\\production\\utensils_factory\\maps\\utensils_diff_0.dds": {
+          "sha": "265f3a77ae0bbb3a72c4d545f33b9bf4a380d66659ccbea297582e6471d26042"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Utensils (Drakkam)\\data\\drakkam\\buildings\\production\\utensils_factory\\maps\\utensils_diff_1.dds": {
+          "sha": "fa16f5baaef4d17119b37888725bce107641051e75828d64d741b49a4b7fb0e6"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Utensils (Drakkam)\\data\\drakkam\\buildings\\production\\utensils_factory\\maps\\utensils_diff_2.dds": {
+          "sha": "25723eddb3cfa6eda252b637cf25b22b8bfb76fbcca20a8cf6c2581998972a5a"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-utensils-Drakkam\\data\\ui\\Drakkam\\icons\\icon_utensils.png": {
+      "sha": "e4108c2ac821be460fe799e5881b058a45ba36be58d8a9b515ae13eb059c8d58",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Utensils (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_utensils_0.dds": {
+          "sha": "75d6095ba35c098fc4eb31d90564242de2a2fe52ec338c540cf4fcf79dc5ba75"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Utensils (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_utensils_1.dds": {
+          "sha": "bfde21990288f33e16c68c070177f3511c99ca27073de780979252ab7ddb7778"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Utensils (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_utensils_2.dds": {
+          "sha": "58ffde2abe5ded3eb09f9b421a074db89b0bafb5ce2d92e5c863cc4bde88b902"
+        }
+      }
+    }
+  }
+}

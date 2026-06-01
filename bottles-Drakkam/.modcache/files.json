@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\bottles-Drakkam\\data\\ui\\Drakkam\\icons\\icon_bottles.png": {
+      "sha": "0b3a2f3e3c3eea22fa34872fc3eaa9cbd25c807f606bd647105e45dc444776a9",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Bottle (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_bottles_0.dds": {
+          "sha": "7a3d0740e9f6a62dac6b81c27530d7d69cc9adda00babcd17ed6980640b9d492"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Bottle (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_bottles_1.dds": {
+          "sha": "5559fae715c4ec8815a259dee0cbd29f063538c4c4da3661e391b0a7d815c2c2"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Bottle (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_bottles_2.dds": {
+          "sha": "e5331459cc8fe0af21e127502436d8ac9f8954872ba300d9fb73f31cf3f91024"
+        }
+      }
+    }
+  }
+}

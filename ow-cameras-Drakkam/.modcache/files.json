@@ -1,0 +1,60 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-cameras-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\Artisan_workshop_Cameras\\maps\\Cameras_01_diff.png": {
+      "sha": "920e5dd686f336f4a0d22c62fd3cd623ba4277f409c38fc546d949bf3dde1fc8",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Artisan_workshop_Cameras\\maps\\Cameras_01_diff_0.dds": {
+          "sha": "2f5a75144fd76d01e3c9f20869086dbc81b217d6a94741a73944e51a6fb0a736"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Artisan_workshop_Cameras\\maps\\Cameras_01_diff_1.dds": {
+          "sha": "57a465b10cf06c2e227f3a78041a1d471e4332fc99ba4a27c7f357b6a99f6c4c"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\Artisan_workshop_Cameras\\maps\\Cameras_01_diff_2.dds": {
+          "sha": "4cf1ae9444ecb252fdb272d830f7d10016c4a246f09fdf211c0de439ea31aa13"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-cameras-Drakkam\\data\\ui\\Drakkam\\icons\\icon_camera.png": {
+      "sha": "ad45a41609ba82ffd65bb4dcde0d38194c1e5ac362278a6035a5dc9f9f27603c",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_camera_0.dds": {
+          "sha": "cc527e6d511065b6d7e7d345fd09223070b90117813766761a63c8fc1598dad9"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_camera_1.dds": {
+          "sha": "0375b980a09ecaeec26fd06daf928bf4b8180fba06b0a517e590e85b2a37c908"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_camera_2.dds": {
+          "sha": "9c9b837951361418ccb5b3276abd190ef68ae7f0df4f0809b01d539d6a4b6b7a"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-cameras-Drakkam\\data\\ui\\Drakkam\\icons\\icon_photo_lense.png": {
+      "sha": "c85b06cadcc59fbc024bb5ad48a538307f38fe8a87395dc48e18c70062f21323",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_photo_lense_0.dds": {
+          "sha": "2b00180191e322249d7eba0d38de1752516b703a71f4910a3b6a505e24d8732c"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_photo_lense_1.dds": {
+          "sha": "57cb26d03e036eb7a757ce248797f75df38c71a43fcd25e2fd18f6a35b56f67c"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_photo_lense_2.dds": {
+          "sha": "04298689aa11e76c41938c898a535e429f00943d1f3896025a40680fce852ba3"
+        }
+      }
+    },
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-cameras-Drakkam\\data\\ui\\Drakkam\\icons\\Recipe_Image\\icon_recipe_Camera.png": {
+      "sha": "d1868a82515d12e520cbcf503a5225c2c462303fe07afffce469c6602f191660",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\Recipe_Image\\icon_recipe_Camera_0.dds": {
+          "sha": "f822c7b0e3b6066a97d0de84f9625493192dd16fbac33ffd94f610d247b5689c"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\Recipe_Image\\icon_recipe_Camera_1.dds": {
+          "sha": "5c48d1a24e3d9622530c3959495cbfdee1594548d779cbf3425a0c27173b15f9"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cameras (Drakkam)\\data\\ui\\Drakkam\\icons\\Recipe_Image\\icon_recipe_Camera_2.dds": {
+          "sha": "79782cb5ebd8fd5b6f30a53c26c706fb55e09dc82045d91d1e6fbfec08d659cd"
+        }
+      }
+    }
+  }
+}

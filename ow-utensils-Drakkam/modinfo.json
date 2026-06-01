@@ -1,0 +1,39 @@
+{
+	"Version": "1.0",
+	"ModID": "ow-utensils-Drakkam",
+	"ModDependencies": [
+		"bottles-Drakkam"
+	],
+	"LoadAfterIds": [],
+	"Category": {
+		"English": "Production",
+		"Chinese": "生产",
+		"French": "Production",
+		"German": "Produktion",
+		"Italian": "Produzione",
+		"Japanese": "生産",
+		"Korean": "생산",
+		"Polish": "Produkcja",
+		"Russian": "Производство",
+		"Spanish": "Producción",
+		"Taiwanese": "生產"
+	},
+	"ModName": {
+		"English": "OW Utensils (Drakkam)"
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md",
+		"Chinese": null,
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	}
+}

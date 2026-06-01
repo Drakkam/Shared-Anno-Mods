@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>齿轮</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>进步的牙齿。自动化方面很棒，但对忘了系领带的人来说可不行。</Text>
+    </Text>
+    <Text>
+      <GUID>1416000147</GUID>
+      <Text>精密铸造厂</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Zahnräder</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>Die buchstäblichen Zähne des Fortschritts. Brillant für Automatisierung, schrecklich für jeden, der vergisst, seine Krawatte einzustecken.</Text>
+    </Text>
+    <Text>
+      <GUID>1416000147</GUID>
+      <Text>Präzisionsgießerei</Text>
+    </Text>
+  </ModOp>
+</ModOps>

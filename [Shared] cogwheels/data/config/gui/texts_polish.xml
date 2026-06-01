@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Koła zębate</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>Dosłownie zęby postępu. Genialne do automatyzacji, fatalne dla każdego, kto zapomni wsunąć krawat.</Text>
+    </Text>
+    <Text>
+      <GUID>1416000147</GUID>
+      <Text>Precyzyjna odlewnia</Text>
+    </Text>
+  </ModOp>
+</ModOps>

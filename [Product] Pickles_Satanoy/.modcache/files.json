@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\[Product] Pickles_Satanoy\\data\\ui\\Icons\\icon_pickles.png": {
+      "sha": "2bf72efe25a1f7fc653688385f07ecabfa6a7630259803be16c506e602d6943d",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Shared_Pickles\\data\\ui\\Icons\\icon_pickles_0.dds": {
+          "sha": "ef7f2935c865b30e01c6bdaee40d3d2ca54702448bd18bcb87df62bee362d46f"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Shared_Pickles\\data\\ui\\Icons\\icon_pickles_1.dds": {
+          "sha": "8369d702c039176fd8e4f48be8b505e743b162cc0b50040ce3ec33f28ef33af7"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Shared_Pickles\\data\\ui\\Icons\\icon_pickles_2.dds": {
+          "sha": "74142a139ec37355485a4a23fc58949950f76d821ce7b427cac078f8d8766b99"
+        }
+      }
+    }
+  }
+}
