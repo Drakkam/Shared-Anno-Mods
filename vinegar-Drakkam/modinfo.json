@@ -1,0 +1,29 @@
+{
+	"Version": "1.0",
+	"ModID": "vinegar-Drakkam",
+	"Anno": 7,
+	"Category": {
+		"English": "Product",
+		"Chinese": "产品",
+		"French": "Produit",
+		"German": "Produkt",
+		"Italian": "Prodotto",
+		"Japanese": "積",
+		"Korean": "제품",
+		"Polish": "Produkt",
+		"Russian": "Продукт",
+		"Spanish": "Producto",
+		"Taiwanese": "產品"
+
+	},
+	"ModName": {
+		"English": "Vinegar"
+
+
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md"
+	}
+}

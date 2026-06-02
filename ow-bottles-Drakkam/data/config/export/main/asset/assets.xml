@@ -55,15 +55,6 @@
             <WeakSelectionColorType>NoColor</WeakSelectionColorType>
           </Colors>
         </Selection>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Bottle Manufacturer</Text>
-              <Status>Exported</Status>
-            </English>
-          </LocaText>
-          <LineID>3729</LineID>
-        </Text>
         <Constructable />
         <Locked />
         <SoundEmitter>

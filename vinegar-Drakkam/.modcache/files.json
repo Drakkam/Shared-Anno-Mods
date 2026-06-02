@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\vinegar-Drakkam\\data\\ui\\Drakkam\\icons\\icon_vinegar.png": {
+      "sha": "da11e4409e7b61b800de16fa61613062e538c35c095e0b3d7cd0676638bff835",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar_0.dds": {
+          "sha": "0bbc25535100431bf329e5144e0b6fd2ce9359aac19690cec3da3ac230fae288"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar_1.dds": {
+          "sha": "89b254edac8700ebe6b3c4201e2c0dc166895fea80baef617df5dfc954e061c2"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar_2.dds": {
+          "sha": "cbbb9edaaa853b43618d8ef079a4f9722ab0f6fc601ffb71545ee0c4e352010b"
+        }
+      }
+    }
+  }
+}

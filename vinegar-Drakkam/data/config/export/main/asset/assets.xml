@@ -1,20 +1,20 @@
 <ModOps>
 <!-- # Product -->
-<!-- Cosmetics (1555000274)-->
+<!-- Vinegar (1555000991)-->
   <ModOp Type="addNextSibling" GUID="1010216">
     <Asset>
       <Template>Product</Template>
       <Values>
         <Standard>
-          <GUID>1555000274</GUID>
-          <Name>Cosmetics</Name>
-          <IconFilename>data/ui/Drakkam/icons/icon_Cosmetics.png</IconFilename>
-          <InfoDescription>1555000275</InfoDescription>
+          <GUID>1555000991</GUID>
+          <Name>Vinegar</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_vinegar.png</IconFilename>
+          <InfoDescription>1555000992</InfoDescription>
         </Standard>
         <Product>
           <ProductCategory>11705</ProductCategory> <!-- Luxury Need -->
-          <BasePrice>60</BasePrice>
-          <CivLevel>3</CivLevel>
+          <BasePrice>25</BasePrice>
+          <CivLevel>1</CivLevel>
           <AssociatedRegion>Moderate</AssociatedRegion>
           <StorageLevel>Building</StorageLevel>
           <ProductionRegions>
@@ -26,27 +26,31 @@
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>15</Amount>
+            </Item>
           </ExpeditionAttributes>
         </ExpeditionAttribute>
       </Values>
     </Asset>
   </ModOp>
 
-<!-- Cosmetics: after Fur Coats -->
+<!-- Vinegar: after Schnapps -->
   <ModOp Type="addNextSibling" GUID="120055,120057"
     Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000274']"
-    Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+    Path="/Values/ProductStorageList/ProductList/Item[Product='1010216']">
     <Item>
-      <Product>1555000274</Product>
+      <Product>1555000991</Product>
     </Item>
   </ModOp>
 
 <!-- Cosmetics: After Fur Coats -->
-  <ModOp Type="addNextSibling" GUID="502019,502006,501997"
-    Condition="!~/Values/ProductList/List/Item[Product='1555000274']"
-    Path="/Values/ProductList/List/Item[Product='1010247']">
+  <ModOp Type="addNextSibling" GUID="502017,502004,501995"
+    Condition="!~/Values/ProductList/List/Item[Product='1555000991']"
+    Path="/Values/ProductList/List/Item[Product='1010216']">
     <Item>
-      <Product>1555000274</Product>
+      <Product>1555000991</Product>
     </Item>
   </ModOp>
   
@@ -56,125 +60,117 @@
     <Template>FactoryBuilding7</Template>
     <Values>
       <Standard>
-        <GUID>1555000716</GUID>
-        <Name>Cosmetics Manufacturer</Name>
-        <IconFilename>data/ui/Drakkam/icons/icon_Cosmetics.png</IconFilename>
+        <GUID>1555000993</GUID>
+        <Name>Vinegar_Fake_Factory</Name>
+        <IconFilename>data/ui/Drakkam/icons/icon_vinegar.png</IconFilename>
       </Standard>
       <Building>
         <BuildModeRandomRotation>180</BuildModeRandomRotation>
         <AssociatedRegions>Moderate</AssociatedRegions>
       </Building>
-      <Blocking />
+      <Blocking/>
       <Cost>
         <Costs>
           <Item>
             <Ingredient>1010017</Ingredient>
-            <Amount>21500</Amount>
+            <!--Money-->
+            <Amount>100</Amount>
           </Item>
           <Item>
             <Ingredient>1010196</Ingredient>
-            <Amount>10</Amount>
+            <!--timber-->
+            <Amount>2</Amount>
           </Item>
           <Item>
             <Ingredient>1010205</Ingredient>
-            <Amount>20</Amount>
+            <!--bricks-->
           </Item>
           <Item>
             <Ingredient>1010218</Ingredient>
-            <Amount>16</Amount>
+            <!--beams-->
           </Item>
           <Item>
             <Ingredient>1010207</Ingredient>
-            <Amount>16</Amount>
+            <!--window-->
+          </Item>
+          <Item>
+            <Ingredient>1010202</Ingredient>
+            <!--concrete-->
           </Item>
         </Costs>
       </Cost>
       <Object>
         <Variations>
           <Item>
-            <Filename>data/dlc06/graphics/buildings/production/production_colony02_31/production_colony02_31.cfg</Filename>
+            <Filename>data/graphics/buildings/production/food_06/food_06.cfg</Filename>
           </Item>
         </Variations>
+        <Skins>
+          <DefaultSkinName>1010294</DefaultSkinName>
+          <DefaultSkinDescription>23853</DefaultSkinDescription>
+          <!--ChangeBuildingSkin_toDefaultSkinDesc-->
+          <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          <!--Classic-->
+        </Skins>
       </Object>
-      <Mesh />
+      <Mesh/>
       <Selection>
         <OnSelection>
           <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
           <Values>
-            <ActionList />
+            <ActionList/>
           </Values>
         </OnSelection>
-        <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+        <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
         <Colors>
           <WeakSelectionColorType>NoColor</WeakSelectionColorType>
         </Colors>
       </Selection>
-      <Text>
-        <LocaText>
-          <English>
-            <Text>Cosmetics Manufacturer</Text>
-            <Status>Exported</Status>
-          </English>
-        </LocaText>
-        <LineID>5263</LineID>
-      </Text>
-      <Constructable />
-      <Locked />
+      <Constructable/>
+      <Locked/>
       <SoundEmitter>
         <ActiveSounds>
           <Item>
             <Sound>216877</Sound>
+            <!--wwe_sfx_bld_food_typeCluster_tag-->
           </Item>
           <Item>
-            <Sound>239844</Sound>
+            <Sound>206335</Sound>
+            <!--wwe_sfx_bld_food_06_lp-->
           </Item>
         </ActiveSounds>
         <IncidentSounds>
           <InfectedFire>
             <Item>
               <Sound>214659</Sound>
+              <!--wwe_sfx_bld_inc_burn-->
             </Item>
           </InfectedFire>
         </IncidentSounds>
+        <MaterialType>MetalChamber</MaterialType>
       </SoundEmitter>
-      <FeedbackController />
-      <Infolayer />
-      <UpgradeList />
-      <Factory7 />
+      <FeedbackController/>
+      <Infolayer/>
+      <UpgradeList/>
+      <Factory7/>
       <FactoryBase>
         <FactoryInputs>
           <Item>
-            <Product>5398</Product>
-            <Amount>2</Amount>
-            <StorageAmount>12</StorageAmount>
-          </Item>
-          <Item>
-            <Product>5383</Product>
-            <Amount>2</Amount>
-            <StorageAmount>12</StorageAmount>
-          </Item>
-          <Item>
-            <Product>114368</Product>
-            <Amount>2</Amount>
-            <StorageAmount>12</StorageAmount>
-          </Item>
-          <Item>
-            <Product>1010242</Product>
+            <Product>120014</Product>
             <Amount>1</Amount>
             <StorageAmount>6</StorageAmount>
           </Item>
         </FactoryInputs>
         <FactoryOutputs>
           <Item>
-            <Product>1555000274</Product>
-            <Amount>2</Amount>
-            <StorageAmount>8</StorageAmount>
+            <Product>1555000991</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
           </Item>
         </FactoryOutputs>
-        <CycleTime>90</CycleTime>
         <IsMainFactory>1</IsMainFactory>
       </FactoryBase>
-      <LogisticNode />
+      <LogisticNode/>
       <AmbientMoodProvider>
         <Murmur>Factory</Murmur>
         <DynamicEnvironmentType>None</DynamicEnvironmentType>
@@ -183,25 +179,27 @@
         <Maintenances>
           <Item>
             <Product>1010017</Product>
-            <Amount>250</Amount>
-            <InactiveAmount>125</InactiveAmount>
+            <!--Money-->
+            <Amount>40</Amount>
+            <InactiveAmount>20</InactiveAmount>
           </Item>
           <Item>
-            <Product>1010116</Product>
-            <Amount>125</Amount>
+            <Product>1010052</Product>
+            <!--moderate workforce 1-->
+            <Amount>50</Amount>
           </Item>
         </Maintenances>
       </Maintenance>
-      <Pausable />
+      <Attackable>
+        <AttackableType>IslandBuilding</AttackableType>
+        <MaximumHitPoints>1500</MaximumHitPoints>
+        <SelfHealPerHealTick>4</SelfHealPerHealTick>
+      </Attackable>
+      <Pausable/>
       <IncidentInfectable>
-        <Infectable>
-          <Explosion>
-            <Base>0</Base>
-            <Escalated>0</Escalated>
-          </Explosion>
-        </Infectable>
         <Explosion>
           <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          <DamageExplosionChance>30</DamageExplosionChance>
         </Explosion>
         <IncidentInfectionChanceFactors>
           <Fire>
@@ -215,14 +213,21 @@
             <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
             <HappinessThreshold>20</HappinessThreshold>
           </Riot>
+          <Explosion>
+            <BaseChance>4</BaseChance>
+            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+            <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+          </Explosion>
         </IncidentInfectionChanceFactors>
       </IncidentInfectable>
-      <Industrializable />
+      <Industrializable/>
       <Culture>
         <CultureType>Culture</CultureType>
       </Culture>
-      <Electrifiable />
-      <EcoSystemProvider />
+      <QuestObject/>
+      <Electrifiable/>
+      <EcoSystemProvider/>
     </Values>
   </Asset>
 </ModOp>
