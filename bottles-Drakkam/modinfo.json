@@ -1,6 +1,7 @@
 {
-	"Version": "1.2.2",
+	"Version": "1.2.3",
 	"ModID": "bottles-Drakkam",
+	"Anno": 7,
 	"Category": {
 		"English": "Product",
 		"Chinese": "产品",
@@ -30,16 +31,6 @@
 	"CreatorName": "Drakkam",
 	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
 	"Description": {
-		"English": "README.md",
-		"Chinese": null,
-		"French": null,
-		"German": null,
-		"Italian": null,
-		"Japanese": null,
-		"Korean": null,
-		"Polish": null,
-		"Russian": null,
-		"Spanish": null,
-		"Taiwanese": null
+		"English": "README.md"
 	}
 }

@@ -1,6 +1,7 @@
 {
 	"Version": "1.2.1",
 	"ModID": "ow-cameras-Drakkam",
+	"Anno": 7,
 	"ModDependencies": [
 		"cameras-Drakkam",
 		"lenses-Drakkam"

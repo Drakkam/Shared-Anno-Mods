@@ -1,6 +1,7 @@
 {
-	"Version": "1.2.1",
+	"Version": "1.2.2",
 	"ModID": "ow-bottles-Drakkam",
+	"Anno": 7,
 	"ModDependencies": [
 		"bottles-Drakkam"
 	],

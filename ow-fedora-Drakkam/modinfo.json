@@ -1,6 +1,7 @@
 {
 	"Version": "1.3.0",
 	"ModID": "ow-fedora-Drakkam",
+	"Anno": 7,
 	"ModDependencies": [
 		"fedora-Drakkam",
 		"decals-industry-jakob",

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-vinegar-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\vinegar\\maps\\vinegar_diff.png": {
+      "sha": "04e04266d6005cfb6dbc2ff84ba67c6784b8cfa5e031f5310b707adb2fec2a71",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Vinegar (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\vinegar\\maps\\vinegar_diff_0.dds": {
+          "sha": "8df2dba5fe7a094ee0c6bc39db4908f43c7f2bad097393b5d4a0b0ae5411575d"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Vinegar (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\vinegar\\maps\\vinegar_diff_1.dds": {
+          "sha": "6b05c3e5da24ad10c1a09d33a66e201e2e83c2296658d197e6a91597b3e8d0b6"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Vinegar (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\vinegar\\maps\\vinegar_diff_2.dds": {
+          "sha": "72fc44519780dc94c2117d675a487d858e8d878dca3f68ef58683d8f1d1576b5"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-vinegar-Drakkam\\data\\ui\\Drakkam\\icons\\icon_vinegar.png": {
+      "sha": "a17e427a678381bbf11baaf30240d88ef78b4275539adc8cb470b258301d85d3",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Vinegar (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_vinegar_0.dds": {
+          "sha": "6adeb50b7e632e30d2cc0e2254f46768bc78eef9beabe0b1da68359bc243dc40"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Vinegar (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_vinegar_1.dds": {
+          "sha": "047c673407fe604e5196dd7935641b8d6c3ee6667eeaf5d0127b5dca813b8b5c"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Vinegar (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_vinegar_2.dds": {
+          "sha": "38bc077091b7a6becdc26b4d87e194270fd3d2f8452988fad0357363b638a8f7"
+        }
+      }
+    }
+  }
+}

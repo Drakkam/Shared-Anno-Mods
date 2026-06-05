@@ -1,6 +1,7 @@
 {
 	"Version": "2.0.2",
 	"ModID": "Marble-Slabs-Drakkam",
+	"Anno": 7,
 	"ModDependencies": [
 		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.4/shared-ground-textures-industry-jakob.zip",
 		"https://github.com/jakobharder/anno1800-shared-mods/releases/download/v4.1/ow-tools-jakob.zip",

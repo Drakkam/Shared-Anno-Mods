@@ -1,8 +1,9 @@
 {
 	"Version": "1.0",
 	"ModID": "ow-utensils-Drakkam",
+	"Anno": 7,
 	"ModDependencies": [
-		"bottles-Drakkam"
+		"utensils-Drakkam"
 	],
 	"LoadAfterIds": [],
 	"Category": {

@@ -1,6 +1,7 @@
 {
 	"Version": "1.2.1",
 	"ModID": "ow-tomatoes-Drakkam",
+	"Anno": 7,
 	"ModDependencies": [
 		"tomatoes-Drakkam"
 	],

@@ -1,11 +1,11 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>1555000274</GUID>
+      <GUID>1555000991</GUID>
       <Text>Ocet</Text>
     </Text>
     <Text>
-      <GUID>1555000275</GUID>
+      <GUID>1555000992</GUID>
       <Text>Uniwersalny ocet do gotowania, sprzątania domu, ogrodnictwa i zdrowia.</Text>
     </Text>
   </ModOp>

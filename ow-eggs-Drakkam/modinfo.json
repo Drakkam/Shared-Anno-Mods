@@ -1,6 +1,7 @@
 {
 	"Version": "1.2.1",
 	"ModID": "ow-Eggs-Drakkam",
+	"Anno": 7,
 	"ModDependencies": [
 		"eggs-Drakkam"
 	],

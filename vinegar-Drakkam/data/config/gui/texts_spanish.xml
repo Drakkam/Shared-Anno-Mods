@@ -1,11 +1,11 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>1555000274</GUID>
+      <GUID>1555000991</GUID>
       <Text>Vinagre</Text>
     </Text>
     <Text>
-      <GUID>1555000275</GUID>
+      <GUID>1555000992</GUID>
       <Text>Un vinagre versátil para cocinar, limpiar el hogar, jardinería y salud.</Text>
     </Text>
   </ModOp>

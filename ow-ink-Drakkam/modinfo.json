@@ -1,6 +1,7 @@
 {
-	"Version": "1.2.1",
+	"Version": "1.2.2",
 	"ModID": "ow-ink-Drakkam",
+	"Anno": 7,
 	"ModDependencies": [
 		"ink-Drakkam",
 		"shared_goods_lead",

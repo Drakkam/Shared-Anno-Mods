@@ -1,11 +1,11 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <GUID>1555000274</GUID>
+      <GUID>1555000991</GUID>
       <Text>Essig</Text>
     </Text>
     <Text>
-      <GUID>1555000275</GUID>
+      <GUID>1555000992</GUID>
       <Text>Ein vielseitiger Essig zum Kochen, zur Hausreinigung, zum Gärtnern und zur Gesundheit.</Text>
     </Text>
   </ModOp>

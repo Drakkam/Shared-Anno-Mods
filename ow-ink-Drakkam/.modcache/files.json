@@ -1,16 +1,16 @@
 {
   "files": {
-    "d:\\jogos\\Mods Creation\\Shared-Anno-Mods\\ow-ink-Drakkam\\data\\ui\\Drakkam\\icons\\icon_ink.png": {
-      "sha": "124a04120651280b19ee6e0aafd1442cb209d62258b64c18861b9ecb0315d49d",
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-ink-Drakkam\\data\\ui\\Drakkam\\icons\\icon_ink.png": {
+      "sha": "426a9bc33c0b9a9406a148a0041699c2b3ceef0cce387fe1cd95f73f3d8c79cb",
       "output": {
         "D:\\jogos\\Anno 1800\\mods\\[Production] OW Ink (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_ink_0.dds": {
-          "sha": "a63f6b344522efe9047cf23ee06f2d92912d504e69dfe753e0c36ac6ff59535e"
+          "sha": "421540c60ca87f177729b30da30b8ee47ecec7f1141f8e6160787bb8e211647c"
         },
         "D:\\jogos\\Anno 1800\\mods\\[Production] OW Ink (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_ink_1.dds": {
-          "sha": "01958e2518aa19803e81165b6f6222b7c2ca2d9655d706a9e6307d26441293c9"
+          "sha": "c5dfbe2291eaa8a59f7418794447081f3dd89bf873b93b4427c094ab08e1be94"
         },
         "D:\\jogos\\Anno 1800\\mods\\[Production] OW Ink (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_ink_2.dds": {
-          "sha": "d4ea90448edc80d33239c484e9cd6be2dab321bd3dd80b81889e657164a69f33"
+          "sha": "fd0cefa4edf5186607837235579ac05c56e36eecebc7e9b9129e5dcf020146f4"
         }
       }
     }
