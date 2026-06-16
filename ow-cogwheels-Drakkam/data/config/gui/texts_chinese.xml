@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>机械部件</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>机械部件工厂</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>一套关键精密硬件——包括齿轮、弹簧和紧固件——旨在实现复杂组件中的流体运动、结构完整性和机械力。</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>相机是一个密封的盒子，一侧有一个小孔或光圈。它通过让光线穿过针孔并投射到摄影纸上来生成图像。</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>相机</Text>
+    </Text>
+  </ModOp>
+</ModOps>

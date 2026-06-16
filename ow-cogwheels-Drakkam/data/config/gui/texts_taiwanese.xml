@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>機械零件</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>機械零件工廠</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>一系列必要的精密硬體——包括齒輪、彈簧與緊固件——旨在實現複雜組件中的流體運動、結構完整性及機械力。</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>相機是一個密封的盒子，一側有一個小孔或光圈。它透過讓光線穿過針孔並投射到相紙上來產生影像。</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>相機</Text>
+    </Text>
+  </ModOp>
+</ModOps>

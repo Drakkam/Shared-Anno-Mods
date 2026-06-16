@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>Componenti meccanici</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>Fabbrica di Componenti Meccanici</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>Una raccolta di hardware di precisione essenziali—inclusi ingranaggi, molle e fissaggi—progettata per consentire il movimento dei fluidi, l'integrità strutturale e la forza meccanica all'interno di assemblaggi complessi.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>Una fotocamera è una scatola sigillata con un piccolo foro o apertura su un lato. Crea immagini permettendo alla luce di passare attraverso il foro stenopeico e proiettandola sulla carta fotografica.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>Fotocamera</Text>
+    </Text>
+  </ModOp>
+</ModOps>

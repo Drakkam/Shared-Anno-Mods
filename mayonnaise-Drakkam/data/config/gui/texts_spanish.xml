@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001060</GUID>
+      <Text>Mayonesa</Text>
+    </Text>
+    <Text>
+      <GUID>1555001061</GUID>
+      <Text>Una emulsión espesa y cremosa de yemas de huevo, aceite y un toque de ácido. Aunque sus méritos culinarios son muy debatidos en todo el país, su utilidad es innegable.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

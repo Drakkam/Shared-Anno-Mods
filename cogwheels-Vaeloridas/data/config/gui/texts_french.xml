@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Composants mécaniques</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>Une collection de matériel de précision essentiel — incluant engrenages, ressorts, boulons et fixations — a été conçue.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

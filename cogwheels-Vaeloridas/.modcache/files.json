@@ -1,0 +1,46 @@
+{
+  "files": {
+    "d:\\Mods Creation\\Shared-Anno-Mods\\cogwheels-Vaeloridas\\data\\modgraphics\\icons\\icon_cogswheel.png": {
+      "sha": "49f6526b8408bf85c55d5a327fc1304f46b6d2c613dfdf54f6af189a24e25e98",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel_0.dds": {
+          "sha": "12c8902b263c8c43a9524b37349fd8f4729368d295802f9a8b87482054a3fbc4"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel_1.dds": {
+          "sha": "12c8902b263c8c43a9524b37349fd8f4729368d295802f9a8b87482054a3fbc4"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel_2.dds": {
+          "sha": "12c8902b263c8c43a9524b37349fd8f4729368d295802f9a8b87482054a3fbc4"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\cogwheels-Vaeloridas\\data\\modgraphics\\icons\\icon_cogswheel2.png": {
+      "sha": "f647f013d14aaeade78955b6cc7067f8adcdc329dc852ed1e26db31d1a185d15",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel2_0.dds": {
+          "sha": "001b7b78bee1fe8ac576f9545d5837da019d85375573f3476f3d33be26618fac"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel2_1.dds": {
+          "sha": "001b7b78bee1fe8ac576f9545d5837da019d85375573f3476f3d33be26618fac"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel2_2.dds": {
+          "sha": "001b7b78bee1fe8ac576f9545d5837da019d85375573f3476f3d33be26618fac"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\cogwheels-Vaeloridas\\data\\modgraphics\\icons\\icon_cogswheel3.png": {
+      "sha": "f7b76c56722a9c90039eadb63395dc9a6979f5044d7f44bcc31a37f771cbd1df",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel3_0.dds": {
+          "sha": "dcbd6efbd2c7c9b1a819c93d4a8827aaba29035e482c0510f61c7cf7bda6164d"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel3_1.dds": {
+          "sha": "dcbd6efbd2c7c9b1a819c93d4a8827aaba29035e482c0510f61c7cf7bda6164d"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] [Shared] cogwheels\\data\\modgraphics\\icons\\icon_cogswheel3_2.dds": {
+          "sha": "dcbd6efbd2c7c9b1a819c93d4a8827aaba29035e482c0510f61c7cf7bda6164d"
+        }
+      }
+    }
+  }
+}

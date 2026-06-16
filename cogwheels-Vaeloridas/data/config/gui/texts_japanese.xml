@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>機械部品</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>ギア、スプリング、ボルト、ファスナーなど、重要な精密ハードウェアのコレクションを設計しました。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

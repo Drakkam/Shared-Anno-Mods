@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>기계 부품</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>기계 부품 공장</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>복잡한 조립체 내에서 유체 운동, 구조적 완전성, 기계적 힘을 가능하게 하도록 설계된 필수 정밀 하드웨어 모음입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>카메라는 한쪽에 작은 구멍이나 조리개가 있는 밀폐된 상자입니다. 이 장치는 빛이 핀홀을 통과해 사진용지에 투사되도록 하여 이미지를 만듭니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>카메라</Text>
+    </Text>
+  </ModOp>
+</ModOps>

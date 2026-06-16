@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>機械零件</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>一系列重要的精密硬體——包括齒輪、彈簧、螺栓和緊固件——由工程設計完成。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

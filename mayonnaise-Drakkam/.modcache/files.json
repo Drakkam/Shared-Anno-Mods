@@ -1,0 +1,18 @@
+{
+  "files": {
+    "d:\\Mods Creation\\Shared-Anno-Mods\\mayonnaise-Drakkam\\data\\ui\\Drakkam\\icons\\icon_mayonnaise.png": {
+      "sha": "511552514b778bad7ac02936c2cc26500896211fd7e88fc7433b6e6d60e57aaa",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Mayonnaise\\data\\ui\\Drakkam\\icons\\icon_mayonnaise_0.dds": {
+          "sha": "6428827427f8b29c5d5d8a8af6f5bd2cd0fea7c001b11f3d99ca052664313c34"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Mayonnaise\\data\\ui\\Drakkam\\icons\\icon_mayonnaise_1.dds": {
+          "sha": "c8354a80163378333eed198f0bb9f79a1ced6027ee1eb7e6fcec45257952207f"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Mayonnaise\\data\\ui\\Drakkam\\icons\\icon_mayonnaise_2.dds": {
+          "sha": "5ac944872497f28a06369ac386e40ec9aff122947a2386ce936d6bdee202dde7"
+        }
+      }
+    }
+  }
+}

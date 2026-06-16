@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001060</GUID>
+      <Text>마요네즈</Text>
+    </Text>
+    <Text>
+      <GUID>1555001061</GUID>
+      <Text>달걀 노른자, 오일, 약간의 산미가 섞인 두껍고 크리미한 유화입니다. 그 요리적 가치는 전국적으로 치열하게 논쟁되고 있지만, 그 유용성은 부인할 수 없습니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

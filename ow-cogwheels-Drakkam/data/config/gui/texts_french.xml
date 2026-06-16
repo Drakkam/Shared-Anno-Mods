@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>Composants mécaniques</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>Usine de composants mécaniques</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>Un ensemble de matériel de précision essentiel — incluant engrenages, ressorts et fixations — conçu pour permettre le mouvement des fluides, l’intégrité structurelle et la force mécanique au sein d’ensembles complexes.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>Un appareil photo est une boîte scellée avec un minuscule trou ou ouverture d’un côté. Il crée des images en laissant passer la lumière par le trou d’épingle et en la projetant sur le papier photographique.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>Caméra</Text>
+    </Text>
+  </ModOp>
+</ModOps>

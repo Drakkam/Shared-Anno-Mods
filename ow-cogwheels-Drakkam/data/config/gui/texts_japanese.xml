@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>機械部品</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>機械部品工場</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>複雑なアセンブリ内で流体運動、構造の強度、力を可能にするために設計された、ギア、スプリング、ファスナーなどの重要な精密ハードウェアのコレクションです。</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>カメラは、片側に小さな穴や開口部が開いた密閉された箱です。ピンホールを通って光を写真用紙に投影することで画像を作り出します。</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>カメラ</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Komponenty mechaniczne</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>Zbiór niezbędnego precyzyjnego sprzętu — w tym kół zębatych, sprężyn, śrub i elementów mocujących — zaprojektowanych przez inżynierię.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

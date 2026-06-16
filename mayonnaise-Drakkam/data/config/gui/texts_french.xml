@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001060</GUID>
+      <Text>Mayonnaise</Text>
+    </Text>
+    <Text>
+      <GUID>1555001061</GUID>
+      <Text>Une émulsion épaisse et crémeuse de jaunes d’œufs, d’huile et une touche d’acidité. Bien que ses mérites culinaires soient vivement débattus à travers le pays, son utilité est indéniable.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

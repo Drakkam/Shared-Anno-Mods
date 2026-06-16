@@ -1,16 +1,30 @@
 {
   "files": {
     "d:\\Mods Creation\\Shared-Anno-Mods\\vinegar-Drakkam\\data\\ui\\Drakkam\\icons\\icon_vinegar.png": {
-      "sha": "a17e427a678381bbf11baaf30240d88ef78b4275539adc8cb470b258301d85d3",
+      "sha": "0c0197c985e54536eddbe7c3b9d70b7038842ea88f310b3688bdc60a1ce5a433",
       "output": {
         "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar_0.dds": {
-          "sha": "6adeb50b7e632e30d2cc0e2254f46768bc78eef9beabe0b1da68359bc243dc40"
+          "sha": "28fa2826ed63fd3a825fe70d1fa7374696eace5a1e320024a69eaf7a7de3f83d"
         },
         "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar_1.dds": {
-          "sha": "047c673407fe604e5196dd7935641b8d6c3ee6667eeaf5d0127b5dca813b8b5c"
+          "sha": "005fa2ad564ca65350b56e398f111f6496d5a9061b3dd3237ec35027a4c12863"
         },
         "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar_2.dds": {
-          "sha": "38bc077091b7a6becdc26b4d87e194270fd3d2f8452988fad0357363b638a8f7"
+          "sha": "45f61b19417cb170ee50bea3ed75076dcacc0c4e731be2f30eab014a303d54d6"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\vinegar-Drakkam\\data\\ui\\Drakkam\\icons\\icon_vinegar2.png": {
+      "sha": "7a9643c46fd088dd8b762ed7820c88fa27a0a2f05c72406eb82e5b11dd419636",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar2_0.dds": {
+          "sha": "159650a31a37ffdaf3e7706c0a64755c4e6c3915d71fe18b80b5b056730d06f6"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar2_1.dds": {
+          "sha": "49e09d1518168ddb0750452d9a9454c701be1d5901f5f9eb2ee254445bb80535"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Product] Vinegar\\data\\ui\\Drakkam\\icons\\icon_vinegar2_2.dds": {
+          "sha": "ab236321e255580623f8a9e7410d94656ca031676639c69df2424751b618da64"
         }
       }
     }

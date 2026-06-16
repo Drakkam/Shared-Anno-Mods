@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>Mechanical Components</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>Mechanical Components Factory</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>A collection of essential precision hardware—including gears, springs, and fasteners—engineered to enable fluid motion, structural integrity, and mechanical force within complex assemblies.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

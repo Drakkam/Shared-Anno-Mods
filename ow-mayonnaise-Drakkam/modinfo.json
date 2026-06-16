@@ -1,0 +1,36 @@
+{
+	"Version": "1.2.2",
+	"ModID": "ow-mayonnaise-Drakkam",
+	"Anno": 7,
+	"ModDependencies": [
+		"vinegar-Drakkam",
+		"ow-vinegar-Drakkam",
+		"eggs-Drakkam",
+		"ow-Eggs-Drakkam",
+		"mayonnaise-Drakkam",
+		"ow-olive-oil-jakob",
+		"olive-oil"
+	],
+	"LoadAfterIds": [],
+	"Category": {
+		"English": "Production",
+		"Chinese": "生产",
+		"French": "Production",
+		"German": "Produktion",
+		"Italian": "Produzione",
+		"Japanese": "生産",
+		"Korean": "생산",
+		"Polish": "Produkcja",
+		"Russian": "Производство",
+		"Spanish": "Producción",
+		"Taiwanese": "生產"
+	},
+	"ModName": {
+		"English": "OW Mayonnaise (Drakkam)"
+	},
+	"CreatorName": "Drakkam",
+	"CreatorContact": "https://github.com/Drakkam/Anno-Mods",
+	"Description": {
+		"English": "README.md"
+	}
+}

@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>Komponenty mechaniczne</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>Fabryka Komponentów Mechanicznych</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>Zbiór niezbędnego precyzyjnego sprzętu — w tym kół zębatych, sprężyn i elementów mocujących — zaprojektowanych tak, aby umożliwić ruch płynny, integralność konstrukcyjną i siłę mechaniczną w złożonych zespołach.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>Aparat to zamknięte pudełko z małym otworem lub przysłoną po jednej stronie. Tworzy obrazy, przepuszczając światło przez otwór i rzutując na papier fotograficzny.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>Kamera</Text>
+    </Text>
+  </ModOp>
+</ModOps>

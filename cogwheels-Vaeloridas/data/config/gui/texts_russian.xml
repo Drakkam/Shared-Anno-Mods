@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Механические компоненты</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>Коллекция необходимой прецизионной фурнитуры — включая шестерни, пружины, болты и крепежные элементы — спроектирована.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

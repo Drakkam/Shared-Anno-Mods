@@ -38,7 +38,7 @@
 
 <!-- Vinegar: after Schnapps -->
   <ModOp Type="addNextSibling" GUID="120055,120057"
-    Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000274']"
+    Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000991']"
     Path="/Values/ProductStorageList/ProductList/Item[Product='1010216']">
     <Item>
       <Product>1555000991</Product>

@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>Mechanische Komponenten</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>Mechanische Bauteilfabrik</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>Eine Sammlung essenzieller Präzisionshardware – darunter Zahnräder, Federn und Befestigungselemente –, die so konstruiert wurden, dass sie flüssige Bewegungen, strukturelle Integrität und mechanische Kraft innerhalb komplexer Baugruppen ermöglichen.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>Eine Kamera ist eine versiegelte Box mit einem winzigen Loch oder einer Blende auf einer Seite. Es erzeugt Bilder, indem Licht durch das Nadelloch fällt und auf das fotografische Papier projiziert wird.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>Kamera</Text>
+    </Text>
+  </ModOp>
+</ModOps>

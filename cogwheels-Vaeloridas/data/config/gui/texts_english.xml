@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Mechanical Components</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>A collection of essential precision hardware—including gears, springs, bolts, and fasteners—engineered.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

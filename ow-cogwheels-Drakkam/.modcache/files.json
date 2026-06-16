@@ -1,0 +1,214 @@
+{
+  "files": {
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_diff.png": {
+      "sha": "82ef3ed18cf79db3fdf4aeb19c9a71167f0657aecfeb880406a66d44bd296ddf",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_diff_0.dds": {
+          "sha": "68a6494bc201b6f2feefe47e0666963093f6559d86effbeabe18f48017f7be32"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_diff_1.dds": {
+          "sha": "7d879372ff0aa0e294ee4313da8508f68f9e9ad7b709344c7a002b5a73611a95"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_diff_2.dds": {
+          "sha": "7168f6bf8922cac0fef402ca7664093f2d19c833c66e8d5eb2f80e0ba77c47eb"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_height.png": {
+      "sha": "d25b8e0a4ada5d22cf947306bacff38f17c5d7fb106680dbe3cd9b4141ce3182",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_height_0.dds": {
+          "sha": "4c357b1d12bc5d02bee4aaf754af9c4b6a8388e62e285ca7cc733366f38ec192"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_height_1.dds": {
+          "sha": "438b41dc1654186095f3080daf0c7f108d9eb14d7e7b3258dee62a3a85bfb3d4"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_height_2.dds": {
+          "sha": "676ab0ad06ae4da8761b489b154a9c7041ecb09e7372de0f86752d772123de9d"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_metal.png": {
+      "sha": "16fe3aac74cad897ecc3ab2bca51d968dd869b3295a14a0ed56acb1a52f19a02",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_metal_0.dds": {
+          "sha": "2a41d6e8aa74df6ff1ffc3049230b4437bce8671d6c2b8f8cff760d53051bc7d"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_metal_1.dds": {
+          "sha": "6e01e4d9d03a12599462afa6072be72f313a13d34c7c9d0ad76873d26ec96516"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_metal_2.dds": {
+          "sha": "b86684490763e6a10f770e934cb6eaa057de11c0eaca9fdffb12b1bb2e0049a3"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_norm.png": {
+      "sha": "080d3f134baa99594f6bcb4216dc0d3767694a4d850cae8773b0517e3c689e00",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_norm_0.dds": {
+          "sha": "aac736e42c8fe4cf090e3f8c58daed4b97561671dea762c3a8ab90752275fef9"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_norm_1.dds": {
+          "sha": "7e8c13ff57ca2ad141f75c70e72e6f4da64ec709d698169aa4cc6f744cc0774e"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_ground_norm_2.dds": {
+          "sha": "4e206ca7e97191f4f54e1bd037c12b42d86f257a9519ac713a2c5cdb7ef934a4"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_mask.png": {
+      "sha": "87e1f4c4cbf68589aabdce7f6ea55456357e5c29efd28e6a01afce367b308dd3",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_mask_0.dds": {
+          "sha": "cbb5358865a7f4177cd05e9b5cc623f473dd2222e3e9dac05c8f975938fdf1a4"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_mask_1.dds": {
+          "sha": "db8dd208ffe35aafa50206793598224f038f8af7408c0eec1f2f1c5250597b83"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\detector_mask_2.dds": {
+          "sha": "34c7d5c3d1a475891cc1d6a5f9857bd8d3c38f6089f3b61e602d9bf042c6b0a2"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_diff.png": {
+      "sha": "2bd821eaa66d63233df9f16a3717a3e70de06c734302a45a2b2fd2e8ca5ea6d5",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_diff_0.dds": {
+          "sha": "3182747dbbd90d3e1650767482d1aeb1c429d105de93537934c78a8bee150b3f"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_diff_1.dds": {
+          "sha": "6290beee5038c280c08a8f437a258615db1bb31b9ac36d7a7c298035d2880105"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_diff_2.dds": {
+          "sha": "fd259b56554feee950fda38f0aeeced3522d62dad08cb34adf1a8f70eb7fbd40"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_metal.png": {
+      "sha": "3b45f06805d306f492a2071915ea981162403539dd1857a0223ce2a88da21c1b",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_metal_0.dds": {
+          "sha": "34511d3a6d730175f8cabfd436b74fcb975671a8fc6eaf71c51baa854c5c7dc6"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_metal_1.dds": {
+          "sha": "4492f5d8758dcdf41f38e06f65a26af647fe2c8728863c731e21b82c993affad"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_metal_2.dds": {
+          "sha": "2caa2d730885e832e52f8747497aefa7259174c586c8601e189cb2443dd0b498"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_norm.png": {
+      "sha": "7f8f50d8d0b4215ea4cd08cafd62fa5b1e4c26aa443714992063bf13b4c305a9",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_norm_0.dds": {
+          "sha": "62fd27984da9aa8e4f04ccf9f9e50924c5acd799b533a0900dd79438bb292e50"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_norm_1.dds": {
+          "sha": "33e0b125504c471b733d2979ea4f40e0aa8c025ca0f755aac3995845b1805a07"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\multifactory_signs_norm_2.dds": {
+          "sha": "d50aadd25e39f6937792ee41efa18ce0d106582220b254822abe57f2fc9fa303"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_diff.png": {
+      "sha": "aed6b41d05cb6577b407b940a85a4249f2dfe4b997f0482c1f11623b33a8ec1e",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_diff_0.dds": {
+          "sha": "fb39f12956895d5d1cea448f017e313329753932bfbe59f8d1fbb3747556d43f"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_diff_1.dds": {
+          "sha": "f9b10ce716b801db7b5fbe57f568a241bca4bc0d447c7742a131040eeedec291"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_diff_2.dds": {
+          "sha": "95c84a7f5a35f810974badd31e5b6d2972e4e4e70daaa0481db1346eed534989"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_metal.png": {
+      "sha": "2f8d85b1bb50ffb380d9f078a9af488ab574dea59de08df0c7502b55a25d87ff",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_metal_0.dds": {
+          "sha": "d2aab6168c4d80ada6e8aeaeffdc0962964df44e3940552f84c3aeb697a61deb"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_metal_1.dds": {
+          "sha": "32e9812fd36d5c99728342ef07e3409f6cf3f124b9806d619b99935e27eea3ca"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_metal_2.dds": {
+          "sha": "2584a322b90f319661baa45aec5ff1a4d2143235914854253e464276f19aa470"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_norm.png": {
+      "sha": "ac1a712621509717f93094494d60f1a570957aa1e7f58e8b69e3d3d4562eb739",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_norm_0.dds": {
+          "sha": "d8ff6ee4ff48bc8b834d59a4feb344aaa27ee3e9589824b96b7e5a31cef967f1"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_norm_1.dds": {
+          "sha": "90b3a6d5b838746d07a3e17129cb261dfb8dffa22be3a7c6426256f152056985"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\buildings\\production\\multifactory_nh\\maps\\phials_norm_2.dds": {
+          "sha": "af709b1a616c97da21ba991516019ab5f30790aca38591a7253cff580b14166b"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\icons\\icon_cogswheel.png": {
+      "sha": "49f6526b8408bf85c55d5a327fc1304f46b6d2c613dfdf54f6af189a24e25e98",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel_0.dds": {
+          "sha": "12c8902b263c8c43a9524b37349fd8f4729368d295802f9a8b87482054a3fbc4"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel_1.dds": {
+          "sha": "3eca85335dffedcba640f34da94a8126022c24d8cd0f7d019fcb1200bef6229a"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel_2.dds": {
+          "sha": "2dba71d5ccdee341dd1d27c9cd72d84935fc0769a8a8d2dc9744bb222987e8eb"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\icons\\icon_cogswheel2.png": {
+      "sha": "f647f013d14aaeade78955b6cc7067f8adcdc329dc852ed1e26db31d1a185d15",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel2_0.dds": {
+          "sha": "001b7b78bee1fe8ac576f9545d5837da019d85375573f3476f3d33be26618fac"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel2_1.dds": {
+          "sha": "3fe342d5da60ec57f82668e4f3eecfa23bb3f54513bb2e3e208145b4228eada2"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel2_2.dds": {
+          "sha": "e4f559bc06fff3a90fdbf6ac4ffda5e87cae4fb9e5a17f353d3b605abd5a7edf"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\icons\\icon_cogswheel3.png": {
+      "sha": "f7b76c56722a9c90039eadb63395dc9a6979f5044d7f44bcc31a37f771cbd1df",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel3_0.dds": {
+          "sha": "dcbd6efbd2c7c9b1a819c93d4a8827aaba29035e482c0510f61c7cf7bda6164d"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel3_1.dds": {
+          "sha": "f669dd0525db944876e5b32f5d1134b097cbc73f86d670b3336037c18e6acd8a"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\icon_cogswheel3_2.dds": {
+          "sha": "d61cbeb444a637c6d051d7cbe0c305bfbf71e6525a6571f6d5fd178ec56208e1"
+        }
+      }
+    },
+    "d:\\Mods Creation\\Shared-Anno-Mods\\ow-cogwheels-Drakkam\\data\\ui\\Drakkam\\icons\\Recipe_Image\\icon_recipe_Cogwheels.png": {
+      "sha": "5d9727060b8cc9eaf1513811c28bf3fab1d8bfca6daa78cb974527b50b625d97",
+      "output": {
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\Recipe_Image\\icon_recipe_Cogwheels_0.dds": {
+          "sha": "32cd01e7e576371daaae316d26a18afa67dcc6279a11fcb23ee8774222cef6c9"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\Recipe_Image\\icon_recipe_Cogwheels_1.dds": {
+          "sha": "4da55c7c697018ee1a0ee2444de03859a6b4068f119fe69bb2ce59d30db0953c"
+        },
+        "D:\\jogos\\Anno 1800\\mods\\[Production] OW Cogwheels (Drakkam)\\data\\ui\\Drakkam\\icons\\Recipe_Image\\icon_recipe_Cogwheels_2.dds": {
+          "sha": "af57a8bce16b55fc2c5667374b5c000b1075a155acfa18a717131ed66d5f76d4"
+        }
+      }
+    }
+  }
+}

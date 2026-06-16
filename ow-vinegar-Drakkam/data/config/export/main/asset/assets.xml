@@ -108,10 +108,11 @@
           <FactoryOutputs>
             <Item>
               <Product>1555000991</Product>
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
+              <Amount>2</Amount>
+              <StorageAmount>6</StorageAmount>
             </Item>
           </FactoryOutputs>
+          <CycleTime>120</CycleTime>
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode/>
@@ -124,13 +125,13 @@
             <Item>
               <Product>1010017</Product>
               <!--Money-->
-              <Amount>40</Amount>
-              <InactiveAmount>20</InactiveAmount>
+              <Amount>200</Amount>
+              <InactiveAmount>100</InactiveAmount>
             </Item>
             <Item>
               <Product>1010052</Product>
               <!--moderate workforce 1-->
-              <Amount>50</Amount>
+              <Amount>60</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
@@ -218,4 +219,33 @@
       <GUID>1555000994</GUID>
     </Item>
   </ModOp>
+
+  <!-- START PRODUCTION CHAIN -->
+  <!-- Vinegar -->
+  <ModOp Type="addNextSibling" GUID='500002'>
+    <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000995</GUID>
+                <Name>Vinegar</Name>
+                <IconFilename>data/ui/drakkam/icons/icon_vinegar.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1555000994</Building>
+                <Tier1>
+                  <Item>
+                    <Building>100655</Building>
+                  </Item>
+                  <Item>
+                    <Building>1404420046</Building>
+                  </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked />
+        </Values>
+    </Asset>
+  </ModOp>
+<!-- END PRODUCTION CHAIN -->
+ 
 </ModOps>

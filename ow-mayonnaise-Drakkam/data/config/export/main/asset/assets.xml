@@ -1,0 +1,249 @@
+<ModOps>
+<!-- # Assets -->
+ <!-- Bottle Manufacturer - 1555000146 -->
+  <ModOp Type="addNextSibling" GUID="1010319">
+    <Asset>
+      <Template>FactoryBuilding7_BuildPermit</Template>
+      <Values>
+        <Standard>
+          <GUID>1555001063</GUID>
+          <Name>Mayonnaise Factory</Name>
+          <IconFilename>data\ui\Drakkam\icons\icon_mayonnaise.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking/>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <!--Money-->
+              <Amount>2000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <!--timber-->
+              <Amount>6</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <!--bricks-->
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <!--beams-->
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <!--window-->
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <!--concrete-->
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/production/production_colony02_36/production_colony02_36.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable/>
+        <Locked>
+          <DLCDependency>410071</DLCDependency>
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200662</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController/>
+        <Infolayer/>
+        <UpgradeList/>
+        <Factory7/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1555000991</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1555000100</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1500011326</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1555001060</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <IsMainFactory>0</IsMainFactory>
+          <CycleTime>60</CycleTime>
+        </FactoryBase>
+        <LogisticNode/>
+        <AmbientMoodProvider>
+          <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <!--Money-->
+              <Amount>3500</Amount>
+              <InactiveAmount>1750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010116</Product>
+              <!--moderate workforce 4-->
+              <Amount>150</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>3750</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable/>
+        <IncidentInfectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject/>
+        <Electrifiable/>
+        <EcoSystemProvider/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Feedback -->
+  <ModOp Type="add" GUID="142312" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555001063</Building>
+    </Item>
+  </ModOp>
+
+  <!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1555001063</Factory>
+    </Item>
+  </ModOp>
+
+  <!-- # Targets -->
+  <!-- All Productions -->
+  <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555001063</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Productions Boosted by electricity -->
+  <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555001063</GUID>
+    </Item>
+  </ModOp>
+
+<!-- All Productions Boosted by electricity -->
+<ModOp Type="add" GUID="193778,190901" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <Item>
+    <GUID>1555001063</GUID>
+  </Item>
+</ModOp>
+
+<!-- START PRODUCTION CHAIN -->
+<!-- Mayonnaise -->
+  <ModOp Type="addNextSibling" GUID='118738'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1555001064</GUID>
+          <Name>Mayonnaise</Name>
+          <IconFilename>data\ui\Drakkam\icons\icon_mayonnaise.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>1555001060</TextOverride>
+        </Text>
+        <ProductionChain>
+          <Building>1555001063</Building>
+          <Tier1>
+            <Item>
+              <Building>1500011325</Building>
+              <Tier2>
+                <Item>
+                  <Building>1500010107</Building>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>1555000994</Building>
+              <Tier2>
+                <Item>
+                  <Building>100655</Building>
+                </Item>
+                <Item>
+                  <Building>1404420046</Building>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>1555000102</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

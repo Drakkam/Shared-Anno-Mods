@@ -1,0 +1,219 @@
+<ModOps>
+
+    <!-- START - RECIPE - Strings (Cotton) -->
+    <ModOp Type="addNextSibling" GUID='132743'>
+      <Asset>
+        <Template>Recipe</Template>
+        <Values>
+          <Standard>
+            <GUID>1555001052</GUID>
+            <Name>Small Parts and Components</Name>
+            <IconFilename>data\ui\Drakkam\icons\icon_cogswheel.png</IconFilename>
+          </Standard>
+          <Text />
+          <Recipe>
+            <RecipeBuilding>1555001053</RecipeBuilding>
+            <RecipeDescriptionText>1555001054</RecipeDescriptionText>
+            <RecipeImage>data\ui\Drakkam\icons\Recipe_Image\icon_recipe_Cogwheels.png</RecipeImage>
+            <RecipeIngredientUIData>
+              <Item>
+                <PosX>70</PosX>
+                <PosY>10</PosY>
+                <UICirclePointer>SouthEast</UICirclePointer>
+              </Item>
+              <Item>
+                <PosX>360</PosX>
+                <PosY>300</PosY>
+                <UICirclePointer>NorthWest</UICirclePointer>
+              </Item>
+              <Item>
+                <PosX>220</PosX>
+                <PosY>220</PosY>
+                <UICirclePointer>SouthEast</UICirclePointer>
+              </Item>
+            </RecipeIngredientUIData>
+          </Recipe>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+        </Values>
+      </Asset>
+      <!-- END - RECIPE - Strings (Cotton) -->
+    </ModOp>
+  
+    <ModOp GUID='1441286' Type="add" Path="/Values/RecipeList/Recipes">
+      <Item>
+        <Recipe>1555001052</Recipe>
+      </Item>
+    </ModOp>
+
+  <!-- START - BUILDING - COGWHEELS - MULTIFACTORY -->
+  <ModOp GUID='135224' Type="addNextSibling">
+    <Asset>
+      <Template>Multifactory</Template>
+      <Values>
+        <Standard>
+          <GUID>1555001053</GUID>
+          <Name>Cogwheels Factory</Name>
+          <InfoDescription>1742200005</InfoDescription>
+          <IconFilename>data\ui\Drakkam\icons\icon_cogswheel.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>132773</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\ui\Drakkam\buildings\production\multifactory_nh\cogswheels.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>120000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text />
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>5398</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>836</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1416000129</Product>
+              <!-- Cogwheels - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <IsMainFactory>0</IsMainFactory>
+          <CycleTime>30</CycleTime>
+        </FactoryBase>
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>125</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriority>1</ConsumerPriority>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>0</MandatoryIndustrialization>
+        </Industrializable>
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+            <Explosion>
+              <BaseChance>4</BaseChance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Electrifiable />
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <RecipeBuilding>
+          <RecipeList>1441286</RecipeList>
+        </RecipeBuilding>
+        <Culture>
+          <HasPollution>1</HasPollution>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - BUILDING - STRINGS - MULTIFACTORY -->
+
+ <!-- START - ADD PRODUCTION BUILDINGS TO WORKFORCE MENU -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1555001053</Factory>
+    </Item>
+  </ModOp>
+<!-- END - ADD PRODUCTION BUILDINGS TO WORKFORCE MENU -->
+ 
+<!-- START - ADD BUILDING TO ALL ENGINEERS,HEAVY,ALL,BOOSTED BY ELECTRICITY,ALL EXCEPT POWER PLANT PRODUCTION -->
+  <ModOp GUID='192423,193771,6000018,193875,193856,25599,368' Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1555001053</GUID>
+    </Item>
+  </ModOp>
+<!-- END - ADD BUILDING TO ALL ENGINEERS PRODUCTION -->
+</ModOps>

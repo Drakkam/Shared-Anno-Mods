@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001060</GUID>
+      <Text>Majonez</Text>
+    </Text>
+    <Text>
+      <GUID>1555001061</GUID>
+      <Text>Gęsta, kremowa emulsja żółtek, oleju i odrobiny kwasu. Choć jego kulinarne zalety są gorąco dyskutowane w całym kraju, jego użyteczność jest niezaprzeczalna.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

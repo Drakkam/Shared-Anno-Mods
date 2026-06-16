@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555000994</GUID>
+      <Text>Aceto Factory</Text>
+    </Text>
+  </ModOp>
+</ModOps>

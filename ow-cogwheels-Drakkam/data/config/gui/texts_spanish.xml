@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1555001052</GUID>
+      <Text>Componentes mecánicos</Text>
+    </Text>
+    <Text>
+      <GUID>1555001053</GUID>
+      <Text>Fábrica de Componentes Mecánicos</Text>
+    </Text>
+    <Text>
+      <GUID>1555001054</GUID>
+      <Text>Un conjunto de hardware esencial de precisión —incluyendo engranajes, muelles y sujetadores— diseñados para permitir el movimiento de fluidos, la integridad estructural y la fuerza mecánica dentro de conjuntos complejos.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>Una cámara es una caja sellada con un pequeño agujero o apertura en un lado. Crea imágenes permitiendo que la luz pase a través del orificio y proyectándose sobre el papel fotográfico.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>Cámara</Text>
+    </Text>
+  </ModOp>
+</ModOps>

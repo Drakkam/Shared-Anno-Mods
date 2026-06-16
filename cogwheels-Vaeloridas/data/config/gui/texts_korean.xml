@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>기계 부품</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>기어, 스프링, 볼트, 패스너 등 필수 정밀 하드웨어 모음을 설계했습니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

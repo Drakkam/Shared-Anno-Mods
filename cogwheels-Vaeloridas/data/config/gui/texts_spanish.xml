@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1416000129</GUID>
+      <Text>Componentes mecánicos</Text>
+    </Text>
+    <Text>
+      <GUID>1416000146</GUID>
+      <Text>Una colección de herrajes de precisión esenciales —incluyendo engranajes, muelles, tornillos y sujetadores— diseñados.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
