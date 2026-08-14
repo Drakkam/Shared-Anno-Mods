@@ -1,9 +1,10 @@
 {
-	"Version": "1.2.2",
+	"Version": "1.2.4",
 	"ModID": "ow-cogwheels-Drakkam",
 	"Anno": 7,
 	"ModDependencies": [
-		"[Shared]_cogwheels"
+		"[Shared]_cogwheels",
+		"shared_recipe_milling_workshop"
 	],
 	
 	"LoadAfterIds": [

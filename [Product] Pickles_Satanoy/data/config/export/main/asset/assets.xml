@@ -89,15 +89,6 @@
           <WeakSelectionColorType>NoColor</WeakSelectionColorType>
         </Colors>
       </Selection>
-      <Text>
-        <LocaText>
-          <English>
-            <Text>Pickle Workshop</Text>
-            <Status>Exported</Status>
-            <ExportCount>2</ExportCount>
-          </English>
-        </LocaText>
-      </Text>
 	    <SoundEmitter>
 				<ActiveSounds>
 					<Item>
@@ -205,7 +196,7 @@
 
   <!-- ADD PRODUCT TO PRODUCTSTORAGELISTS -->
 
-  <!-- Pickles: after Sausages -->
+<!-- Pickles: after Sausages -->
   <ModOp Type="addNextSibling" GUID="120055"
     Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1888999757']"
     Path="/Values/ProductStorageList/ProductList/Item[Product='1010238']">
@@ -214,11 +205,13 @@
     </Item>
   </ModOp>
 
-  <!-- START ADD GOOD TO ARTISIANS-->
-  <ModOp Type="addNextSibling" GUID='501993,502019,502006,501997' Path="/Values/ProductList/List">
-      <Item>
-        <Product>1888999757</Product>
-      </Item>
+<!-- Pickles: After Beer -->
+  <ModOp Type="addNextSibling" GUID="502018,502005,501996"
+  Condition="!~/Values/ProductList/List/Item[Product='1888999757']"
+  Path="/Values/ProductList/List/Item[Product='1010214']">
+    <Item>
+      <Product>1888999757</Product>
+    </Item>
   </ModOp>
 
   <!-- Expedition -->

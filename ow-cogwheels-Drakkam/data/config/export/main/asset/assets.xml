@@ -99,7 +99,7 @@
         <Mesh />
         <Selection>
           <GUIType>Production</GUIType>
-          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
           <Colors>
             <WeakSelectionColorType>NoColor</WeakSelectionColorType>
           </Colors>
@@ -142,7 +142,7 @@
               <InactiveAmount>500</InactiveAmount>
             </Item>
             <Item>
-              <Product>1010115</Product>
+              <Product>1010117</Product>
               <Amount>125</Amount>
             </Item>
           </Maintenances>

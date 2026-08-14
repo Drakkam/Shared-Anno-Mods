@@ -11,14 +11,6 @@
           <IconFilename>data/ui/Drakkam/icons/icon_fedora_hat.png</IconFilename>
           <InfoDescription>1555000125</InfoDescription>
         </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Fedora</Text>
-              <Status>Exported</Status>
-            </English>
-          </LocaText>
-        </Text>
         <Product>
           <ProductCategory>11704</ProductCategory> <!-- Supply -->
           <BasePrice>50</BasePrice>
